@@ -1,3 +1,4 @@
+<?php include("php/config.php"); ?>
 <!DOCTYPE html>
 <html lang="ca">
   <head>
@@ -6,11 +7,11 @@
     <title>Home</title>
 
     <!-- Paginas CSS-->
-    <link rel="stylesheet" href="/EBWOLF/css/nav_home.css">
+    <link rel="stylesheet" href="/ArcticW/css/nav_home.css">
 
     <!-- links anidados -->
     <!-- Font Awesome Icon -->
-    <link rel="stylesheet" href="/EBWOLF/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/ArcticW/css/font-awesome.min.css" />
     <!-- Navbar icon-->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
@@ -23,7 +24,7 @@
         <div class="nav__data">
           <a href="#" class="nav__logo">
             <img
-              src="/EBWOLF/img/SELLO (CIRCULAR).png"
+              src="/ArcticW/img/SELLO (CIRCULAR).png"
               alt="Logo"
               width="50px"
             />Artic Wolves
@@ -36,12 +37,12 @@
         <!--=============== NAV MENU ===============-->
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
-            <li><a href="/index.html" class="nav__link">Home</a></li>
-            <li><a href="#" class="nav__link">Sobre nosaltres</a></li>
+            <li><a href="index.php" class="nav__link">Home</a></li>
+            <li><a href="index.php" class="nav__link">Sobre nosaltres</a></li>
             <!--=============== DROPDOWN 1 TIENDA ===============-->
             <li class="dropdown__item">
               <div class="nav__link">
-                <a href="/EBWOLF/html/tienda.html"></a>Botiga
+              <a href="php/product.php" class="nav__link">Botiga</a>
               </div>
             </li>
             <!--=============== DROPDOWN MENU CUENTA ===============-->
@@ -52,12 +53,12 @@
               </div>
               <ul class="dropdown__menu">
                 <li>
-                  <a href="/EBWOLF/php/login.php" class="dropdown__link">
+                  <a href="php/login.php" class="dropdown__link">
                     <i class="ri-user-2-line"></i> Inici Sessió
                   </a>
                 </li>
                 <li>
-                  <a href="/EBWOLF/html/register.html" class="dropdown__link">
+                  <a href="/ArcticW/html/register.html" class="dropdown__link">
                     <i class="ri-user-shared-fill"></i> Registrar-se
                   </a>
                 </li>
@@ -80,7 +81,7 @@
     <main class="main-home">
       <div class="video-bg">
         <video autoplay loop muted>
-          <source src="/EBWOLF/video/libro.mp4" type="video/mp4" />
+          <source src="/ArcticW/video/libro.mp4" type="video/mp4" />
         </video>
       </div>
       <div class="pag-princ">
@@ -104,24 +105,24 @@
           <div class="social-icons">
             <a href="#" target="_blank"
               ><img
-                src="/EBWOLF/img/Iconos/tiktok.png"
+                src="/ArcticW/img/Iconos/tiktok.png"
                 alt="tik-tok"
                 height="30px"
             /></a>
             <a href="#" target="_blank"
               ><img
-                src="/EBWOLF/img/Iconos/facebook.png"
+                src="/ArcticW/img/Iconos/facebook.png"
                 alt="facebook"
                 height="30px"
             /></a>
             <a href="#" target="_blank"
               ><img
-                src="/EBWOLF/img/Iconos/instagram.png"
+                src="/ArcticW/img/Iconos/instagram.png"
                 alt="instagram"
                 height="30px"
             /></a>
             <a href="#" target="_blank"
-              ><img src="/EBWOLF/img/Iconos/x.png" alt="x" height="30px">
+              ><img src="/ArcticW/img/Iconos/x.png" alt="x" height="30px">
             </a>
           </div>
         </div>
@@ -129,56 +130,56 @@
       <article>
         <h2>prueba
         </h2>
-        <img src="/EBWOLF/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
+        <img src="/ArcticW/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
       </article>
       <article>
         <h2>prueba
         </h2>
-        <img src="/EBWOLF/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
+        <img src="/ArcticW/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
       </article>
       <article>
         <h2>prueba
         </h2>
-        <img src="/EBWOLF/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
+        <img src="/ArcticW/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
       </article>
       <article>
         <h2>prueba
         </h2>
-        <img src="/EBWOLF/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
+        <img src="/ArcticW/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
       </article>
       <article>
         <h2>prueba
         </h2>
-        <img src="/EBWOLF/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
-      </article>
-
-      <article>
-        <h2>prueba
-        </h2>
-        <img src="/EBWOLF/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
+        <img src="/ArcticW/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
       </article>
 
       <article>
         <h2>prueba
         </h2>
-        <img src="/EBWOLF/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
+        <img src="/ArcticW/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
+      </article>
+
+      <article>
+        <h2>prueba
+        </h2>
+        <img src="/ArcticW/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
       </article>
       <article>
         <h2>prueba
         </h2>
-        <img src="/EBWOLF/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
+        <img src="/ArcticW/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
       </article>
       <article>
         <h2>prueba
         </h2>
-        <img src="/EBWOLF/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
+        <img src="/ArcticW/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
       </article>
       v
       v
       <article>
         <h2>prueba
         </h2>
-        <img src="/EBWOLF/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
+        <img src="/ArcticW/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
       </article>
       
 
@@ -187,6 +188,6 @@
     </main>
 
     <!-- jQuery Plugins -->
-    <script src="/EBWOLF/js/navbar.js"></script>
+    <script src="/ArcticW/js/navbar.js"></script>
   </body>
 </html>

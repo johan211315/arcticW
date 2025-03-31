@@ -1,10 +1,10 @@
+<?php include("../php/config.php"); ?>
 <!DOCTYPE html>
 <html lang="ca">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <title>Electro - HTML Ecommerce Template</title>
 
@@ -13,7 +13,6 @@
       href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700"
       rel="stylesheet"
     />
-
     <!-- Navbar icon-->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
@@ -21,37 +20,35 @@
     />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      <link
+      rel="stylesheet"
     />
-
     <!-- Bootstrap -->
     <link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css" />
-
     <!-- Slick -->
     <link type="text/css" rel="stylesheet" href="../css/slick.css" />
     <link type="text/css" rel="stylesheet" href="../css/slick-theme.css" />
-
     <!-- nouislider -->
     <link type="text/css" rel="stylesheet" href="../css/nouislider.min.css" />
-
     <!-- Font Awesome Icon -->
     <link rel="stylesheet" href="../css/font-awesome.min.css" />
-
     <!-- Custom stlylesheet -->
     <link type="text/css" rel="stylesheet" href="../css/style.css" />
 
+
     <!-- Navbar style -->
     <link rel="stylesheet" href="../css/navbar.css" />
-
+    <!-- CSS-libros -->
     <link rel="stylesheet" href="../css/libros-orden.css" />
+    <!-- CSS-Boton -->
     <link rel="stylesheet" href="../css/button.css" />
-    <link rel="stylesheet" href="../css/checkout.css" />
+    <!-- CSS-Asistente -->
+    <link rel="stylesheet" href="../css/asistente.css" />
+    <!-- CSS-merch -->
+    <link rel="stylesheet" href="../css/merch.css" />
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Tienda Merch -->
+    <link rel="stylesheet" href="../css/destacados_merch.css" />
   </head>
   <body>
     <!-- HEADER -->
@@ -63,7 +60,7 @@
               src="../img/SELLO (CIRCULAR).png"
               alt="Logo"
               width="50px"
-            />Arctic Wolves
+            />Artic Wolves
           </a>
           <div class="nav__toggle" id="nav-toggle">
             <i class="ri-menu-line nav__burger"></i>
@@ -73,13 +70,13 @@
         <!--=============== NAV MENU ===============-->
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
-            <li><a href="../../home.html" class="nav__link">Home</a></li>
+            <li><a href="../index.php" class="nav__link">Home</a></li>
             <li><a href="#" class="nav__link">Nens</a></li>
             <!--=============== DROPDOWN 1 TIENDA ===============-->
             <li class="dropdown__item">
               <div class="nav__link">
-                <a href="../html/product.html" style="color: white">Botiga</a
-                ><i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                <a href="../html/tienda.html"></a>Botiga
+                <i class="ri-arrow-down-s-line dropdown__arrow"></i>
               </div>
               <ul class="dropdown__menu">
                 <!--=============== DROPDOWN LLIBRES  ===============-->
@@ -90,52 +87,13 @@
                       >Categories</a
                     ><i class="ri-add-line dropdown__add"></i>
                   </div>
-                  <!--<ul class="dropdown__submenu">
-						  <li>
-							<a href="#" class="dropdown__sublink">
-							  <i class="ri-ghost-2-line"></i> Terror
-							</a>
-						  </li>
-						  <li>
-							<a href="#" class="dropdown__sublink">
-								<i class="ri-hearts-line"></i> Romanç
-							</a>
-						  </li>
-						  <li>
-							<a href="#" class="dropdown__sublink">
-								<i class="ri-emotion-laugh-line"></i>Comèdia
-							</a>
-						  </li>
-						  <li>
-							<a href="#" class="dropdown__sublink">
-								<i class="ri-book-read-line"></i> Història
-							</a>
-						  </li>
-						  <li>
-							<a href="#" class="dropdown__sublink">
-								<i class="ri-zhihu-line"></i> Manga
-							</a>
-						  </li>
-						  <li>
-							<a href="#" class="dropdown__sublink">
-								<i class="ri-fire-line"></i>Ciencia ficció
-							</a>
-						  </li>
-						  <li>
-							<a href="#" class="dropdown__sublink">
-								<i class="ri-brain-line"></i> Filosofia
-							</a>
-						  </li>
-						  <li>
-							<a href="#" class="dropdown__sublink">
-								<i class="ri-quill-pen-ai-line"></i> Espiritualitat
-							</a>
-						  </li>
-						</ul>-->
+                  <ul class="dropdown__submenu"></ul>
                 </li>
                 <li class="dropdown__subitem">
                   <div class="dropdown__link">
-                    <i class="ri-refund-2-line"></i> Merchandising
+                    <a href="merch.php" style="color: white"
+                      >Merchandising</a
+                    >
                     <i class="ri-add-line dropdown__add"></i>
                   </div>
                   <ul class="dropdown__submenu">
@@ -171,12 +129,12 @@
               </div>
               <ul class="dropdown__menu">
                 <li>
-                  <a href="../html/login.html" class="dropdown__link">
+                  <a href="login.php" class="dropdown__link">
                     <i class="ri-user-2-line"></i> Inici Sessió
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="dropdown__link">
+                  <a href="register.php" class="dropdown__link">
                     <i class="ri-user-shared-fill"></i> Registrar-se
                   </a>
                 </li>
@@ -194,7 +152,7 @@
             </li>
             <!--=============== APARTADO CARRITO ===============-->
             <li>
-              <a href="#" class="nav__link"
+              <a href="checkout.php" class="nav__link"
                 ><i class="ri-shopping-cart-2-line"></i
               ></a>
             </li>
@@ -212,280 +170,90 @@
       </nav>
     </header>
     <!-- /NAVIGATION -->
+    <!-- NAVIGATION -->
 
-    <!-- BREADCRUMB -->
+
+    <!-- BREADCRUMB
     <div id="breadcrumb" class="section">
       <!-- container -->
-      <div class="container">
+    <!-- <div class="container">
         <!-- row -->
-        <div class="row">
+    <!-- <div class="row">
           <div class="col-md-12">
             <ul class="breadcrumb-tree">
               <li><a href="#">Botiga</a></li>
               <li><a href="#">Llibres</a></li>
               <li><a href="#">Novela</a></li>
-              <li class="active">100 años de soledad</li>
-            </ul>
+              <li class="active">100 años de soledad</li> -->
+    <!-- </ul>
           </div>
-        </div>
-        <!-- /row -->
-      </div>
-      <!-- /container -->
-    </div>
+        </div> -->
+    <!-- /row -->
+    <!-- </div> -->
+    <!-- /container -->
+    <!-- </div> -->
+    --> -->
     <!-- /BREADCRUMB -->
 
-    <!-- SECTION -->
-    <div class="section">
-      <!-- container -->
-      <div class="container">
-        <!-- row -->
-        <div class="row">
-          <div class="col-md-7">
-            <!-- Billing Details -->
-            <div class="container2">
-              <form action="">
-                <div class="row2">
-                  <div class="column2">
-                    <h3 class="title2">Direccion d'enviament</h3>
-                    <div class="input-box2">
-                      <span>Nom complet: </span>
-                      <input type="text" placeholder="Nom exemple" />
-                    </div>
-                    <div class="input-box2">
-                      <span>Email: </span>
-                      <input type="email" placeholder="exemple@exemple.com" />
-                    </div>
-                    <div class="input-box2">
-                      <span>Direcció: </span>
-                      <input
-                        type="text"
-                        placeholder="S/N - Carrer - Localitat"
-                      />
-                    </div>
-                    <div class="input-box2">
-                      <span>Ciutat: </span>
-                      <input type="text" placeholder="Barcelona" />
-                    </div>
-                    <div class="flex2">
-                      <div class="input-box2">
-                        <span>País: </span>
-                        <input type="text" placeholder="Espanya" />
-                      </div>
-                      <div class="input-box2">
-                        <span>Codic postal: </span>
-                        <input type="number" placeholder="123 456" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="column2">
-                  <h3 class="title2">Pagament</h3>
-                  <div class="input-box2">
-                    <span>Tarjetes aceptades: </span>
-                    <img src="../img/img/imgcards.png" alt="tipos de tarjeta" />
-                  </div>
-                  <div class="input-box2">
-                    <span>Nom en la tarjeta: </span>
-                    <input type="text" placeholder="Juan Manolo Fernandez" />
-                  </div>
-                  <div class="input-box2">
-                    <span>Numero tarjeta: </span>
-                    <input type="number" placeholder="1111 2222 3333 4444" />
-                  </div>
-                  <div class="input-box2">
-                    <span>Mes caducitat: </span>
-                    <input type="text" placeholder="Gener" />
-                  </div>
-                  <div class="input-box2">
-                    <span>Any caducitat: </span>
-                    <input type="text" placeholder="2025" />
-                  </div>
-                  <div class="input-box2">
-                    <span>CVV: </span>
-                    <input type="number" placeholder="123" />
-                  </div>
-                </div>
-              </form>
+    <!-- Apartado Merch -->
+    <main>
+      <div class="marcel1">
+        <p id="destacados"><b>DESTACADOS</b></p>
+        <div class="autores2">
+          <div class="clase1">
+            <div class="container-carousel">
+              <img src="../img/merch/camiseta.png" />
             </div>
-            <!-- /Billing Details -->
-
-            <!-- Shiping Details -->
-            <div class="shiping-details">
-              <div class="section-title">
-                <h3 class="title">Shiping address</h3>
-              </div>
-              <div class="input-checkbox">
-                <input type="checkbox" id="shiping-address" />
-                <label for="shiping-address">
-                  <span></span>
-                  Ship to a diffrent address?
-                </label>
-                <div class="caption">
-                  <div class="form-group">
-                    <input
-                      class="input"
-                      type="text"
-                      name="first-name"
-                      placeholder="First Name"
-                    />
-                  </div>
-                  <div class="form-group">
-                    <input
-                      class="input"
-                      type="text"
-                      name="last-name"
-                      placeholder="Last Name"
-                    />
-                  </div>
-                  <div class="form-group">
-                    <input
-                      class="input"
-                      type="email"
-                      name="email"
-                      placeholder="Email"
-                    />
-                  </div>
-                  <div class="form-group">
-                    <input
-                      class="input"
-                      type="text"
-                      name="address"
-                      placeholder="Address"
-                    />
-                  </div>
-                  <div class="form-group">
-                    <input
-                      class="input"
-                      type="text"
-                      name="city"
-                      placeholder="City"
-                    />
-                  </div>
-                  <div class="form-group">
-                    <input
-                      class="input"
-                      type="text"
-                      name="country"
-                      placeholder="Country"
-                    />
-                  </div>
-                  <div class="form-group">
-                    <input
-                      class="input"
-                      type="text"
-                      name="zip-code"
-                      placeholder="ZIP Code"
-                    />
-                  </div>
-                  <div class="form-group">
-                    <input
-                      class="input"
-                      type="tel"
-                      name="tel"
-                      placeholder="Telephone"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- /Shiping Details -->
-
-            <!-- Order notes -->
-            <div class="order-notes">
-              <textarea class="input" placeholder="Order Notes"></textarea>
-            </div>
-            <!-- /Order notes -->
+            <div class="marcel"></div>
+            <p>Camiseta</p>
           </div>
-
-          <!-- Order Details -->
-          <div class="col-md-5 order-details">
-            <div class="section-title text-center">
-              <h3 class="title">Your Order</h3>
+          <div class="clase1">
+            <div class="container-carousel">
+              <img src="../img/merch/sudadera.png" />
             </div>
-            <div class="order-summary">
-              <div class="order-col">
-                <div><strong>PRODUCT</strong></div>
-                <div><strong>TOTAL</strong></div>
-              </div>
-              <div class="order-products">
-                <div class="order-col">
-                  <div>1x Product Name Goes Here</div>
-                  <div>€980.00</div>
-                </div>
-                <div class="order-col">
-                  <div>2x Product Name Goes Here</div>
-                  <div>€980.00</div>
-                </div>
-              </div>
-              <div class="order-col">
-                <div>Shiping</div>
-                <div><strong>FREE</strong></div>
-              </div>
-              <div class="order-col">
-                <div><strong>TOTAL</strong></div>
-                <div><strong class="order-total">€2940.00</strong></div>
-              </div>
-            </div>
-            <div class="payment-method">
-              <div class="input-radio">
-                <input type="radio" name="payment" id="payment-1" />
-                <label for="payment-1">
-                  <span></span>
-                  Direct Bank Transfer
-                </label>
-                <div class="caption">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </div>
-              </div>
-              <div class="input-radio">
-                <input type="radio" name="payment" id="payment-2" />
-                <label for="payment-2">
-                  <span></span>
-                  Cheque Payment
-                </label>
-                <div class="caption">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </div>
-              </div>
-              <div class="input-radio">
-                <input type="radio" name="payment" id="payment-3" />
-                <label for="payment-3">
-                  <span></span>
-                  Paypal System
-                </label>
-                <div class="caption">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="input-checkbox">
-              <input type="checkbox" id="terms" />
-              <label for="terms">
-                <span></span>
-                I've read and accept the <a href="#">terms and conditions</a>
-              </label>
-            </div>
-            <a href="#" class="primary-btn order-submit">Place order</a>
+            <div class="marcel"></div>
+            <p>Sudadera</p>
           </div>
-          <!-- /Order Details -->
+          <div class="clase1">
+            <div class="container-carousel">
+              <img src="../img/merch/gorra.png" />
+            </div>
+            <div class="marcel"></div>
+            <p>Gorra</p>
+          </div>
+          <div class="clase1">
+            <div class="container-carousel">
+              <img src="../img/merch/pin.png" />
+            </div>
+            <div class="marcel"></div>
+            <p>Pin</p>
+          </div>
+          <div class="clase1">
+            <div class="container-carousel">
+              <img src="../img/merch/peluche.png" />
+            </div>
+            <div class="marcel"></div>
+            <p>Peluche</p>
+          </div>
+          <div class="clase1">
+            <div class="container-carousel">
+              <img src="../img/merch/bolsa.png" />
+            </div>
+            <div class="marcel"></div>
+            <p>Bolsa + Marcapaginas</p>
+          </div>
         </div>
-        <!-- /row -->
       </div>
-      <!-- /container -->
+    </main>
+    <!-- Imagen Merch -->
+    <div id="merch">
+      <img src="../img/merch/framegradedesktop.png" alt="Promocion" />
+      <p>Mas articulos añadidos</p>
+      <h3>Rebajas</h3>
+      <h2>Hasta -60%</h2>
+      <button>Ver todo</button>
     </div>
-    <!-- /SECTION -->
+
     <!-- NEWSLETTER -->
     <div id="newsletter" class="section">
       <!-- container -->
@@ -551,7 +319,8 @@
                   </li>
                   <li>
                     <a href="#"
-                      ><i class="fa fa-envelope-o"></i>arcticwolves@gmail.com</a
+                      ><i class="fa fa-envelope-o"></i
+                      >ArcticWeditorial@gmail.com</a
                     >
                   </li>
                 </ul>
@@ -612,6 +381,49 @@
       </div>
       <!-- /top footer -->
 
+      <!-- Boton de asistente iniicio -->
+      <button
+        class="assistant-btn"
+        onclick="toggleAssistant()"
+        style="z-index: 999"
+      >
+        🐺
+      </button>
+
+      <div class="assistant-container" id="assistant">
+        <div class="tope">
+          <span>🐺 Tic the Arctic</span>
+          <button class="close-btn" onclick="toggleAssistant()">✖</button>
+        </div>
+        <div class="chat-box" id="chatBox">
+          <div class="message bot">
+            Hola! Sóc l'assistent de Arctic, pregunta'm el que necessitis, estic
+            per servir-te!.
+          </div>
+        </div>
+        <div class="faq-buttons">
+          <button onclick="sendFAQ('Com et dius?')">Com et dius?</button>
+          <button onclick="sendFAQ('Què pots fer?')">Què pots fer?</button>
+          <button onclick="sendFAQ('Quina hora és?')">Quina hora és?</button>
+          <button onclick="sendFAQ('Com funciona el procés de devolucions?')">
+            Com funciona el procés de devolucions?
+          </button>
+          <button onclick="sendFAQ('Quins son els mètodes de pagament?')">
+            Quins son els mètodes de pagament?
+          </button>
+          <button
+            onclick="sendFAQ('En quin idioma están disponibles els llibres?')"
+          >
+            En quin idioma están disponibles els llibres?
+          </button>
+          <button onclick="sendFAQ('Digues els best-sellers del mes')">
+            Digues els best-sellers del mes
+          </button>
+        </div>
+      </div>
+
+      <!-- Final boton asistente  -->
+
       <!-- bottom footer -->
       <div id="bottom-footer" class="section">
         <div class="container">
@@ -671,5 +483,6 @@
     <script src="../js/navbar.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="../js/button.js"></script>
+    <script src="../js/asistente.js"></script>
   </body>
 </html>
