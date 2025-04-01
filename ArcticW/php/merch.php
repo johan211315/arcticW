@@ -98,10 +98,10 @@
                   </div>
                   <ul class="dropdown__submenu">
                     <li>
-                      <a href="" class="dropdown__sublink">
-                        <i class="ri-shirt-line"></i> Samarretas
+                      <a href="../php/todomerch.php" class="dropdown__sublink">
+                        <i class="ri-shirt-line"></i> Ver Todo
                       </a>
-                    </li>
+                    <!-- </li>
                     <li>
                       <a href="" class="dropdown__sublink">
                         <i class="ri-shirt-line"></i> Tases
@@ -116,7 +116,7 @@
                       <a href="#" class="dropdown__sublink">
                         <i class="ri-shirt-line"></i> Posters
                       </a>
-                    </li>
+                    </li> -->
                   </ul>
                 </li>
               </ul>
