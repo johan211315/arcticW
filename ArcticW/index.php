@@ -8,6 +8,7 @@
 
     <!-- Paginas CSS-->
     <link rel="stylesheet" href="/ArcticW/css/nav_home.css">
+    <link rel="stylesheet" href="/ArcticW/css/extension_home.css" />
 
     <!-- links anidados -->
     <!-- Font Awesome Icon -->
@@ -17,6 +18,7 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    
   </head>
   <body>
     <header class="header">
@@ -127,60 +129,31 @@
           </div>
         </div>
       </div>
-      <article>
-        <h2>prueba
-        </h2>
-        <img src="/ArcticW/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
-      </article>
-      <article>
-        <h2>prueba
-        </h2>
-        <img src="/ArcticW/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
-      </article>
-      <article>
-        <h2>prueba
-        </h2>
-        <img src="/ArcticW/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
-      </article>
-      <article>
-        <h2>prueba
-        </h2>
-        <img src="/ArcticW/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
-      </article>
-      <article>
-        <h2>prueba
-        </h2>
-        <img src="/ArcticW/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
-      </article>
-
-      <article>
-        <h2>prueba
-        </h2>
-        <img src="/ArcticW/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
-      </article>
-
-      <article>
-        <h2>prueba
-        </h2>
-        <img src="/ArcticW/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
-      </article>
-      <article>
-        <h2>prueba
-        </h2>
-        <img src="/ArcticW/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
-      </article>
-      <article>
-        <h2>prueba
-        </h2>
-        <img src="/ArcticW/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
-      </article>
-      v
-      v
-      <article>
-        <h2>prueba
-        </h2>
-        <img src="/ArcticW/img/Hojas_libro/100años/100años(1).png" width="200px" alt="">
-      </article>
+      <div id="SEPARARMIERDADELJOHANGRACIAS"></div>
+<br>
+<br>
+    <div class="atribhome">
+      <div class="pershom">
+        <img src="./EBWOLF/img/img/plantillafotojojan.jpg" alt="Johan Aricapa">
+        <h4>Johan Aricapa</h4>
+        <p>Administrador servicio web</p>
+      </div>
+      <div class="pershom">
+        <img src="./EBWOLF/img/img/plantillafotojojan.jpg" alt="Josep Codina">
+        <h4>Josep Codina</h4>
+        <p>Director creativo y soporte IT</p>
+      </div>
+      <div class="pershonm">
+        <img src="./EBWOLF/img/img/plantillafotojojan.jpg" alt="Izan Barrasa">
+        <h4>Izan Barrasa</h4>
+        <p>Administrador IT</p>
+      </div>
+    </div>
+    <div class="pershom">
+      <img src="./EBWOLF/img/img/plantillafotojojan.jpg" alt="Marcel Collell">
+      <h4>Marcel Collell</h4>
+      <p>Administrador servidor</p>
+    </div>
       
 
 
