@@ -42,6 +42,7 @@
     <link rel="stylesheet" href="../css/button.css" />
     <!-- CSS-Asistente -->
     <link rel="stylesheet" href="../css/asistente.css" />
+    <link rel="stylesheet" href="../css/todomerch.css">
 </head>
 <body>
     <!-- HEADER -->
@@ -163,7 +164,23 @@
       </nav>
     </header>
 
-    <!-- SECCIÓN DE PRODUCTOS -->
+    <main class="merch-container">
+        <h1 class="section-title">Tienda de Merchandising</h1>
+        <div class="products-grid">
+            <div class="product-item"><img src="..\img\merch/AW-CAMISETANEGRA-CARA01.PNG" alt="Camiseta" /><p>AW-01</p></div>
+            <div class="product-item"><img src="..\img\merch\camiblanca.png" alt="Camiseta" /><p>AW-02</p></div>
+            <div class="product-item"><img src="../img/merch/AW-SUDADERANEGRA-CARA01.png" alt="Camiseta" /><p>AW-03</p></div>
+            <div class="product-item"><img src="../img/merch/AW-SUDADERA-VAINILLA-CARA01.png" alt="Sudadera" /><p>AW-04</p></div>
+            <div class="product-item"><img src="../img/merch/AW-SUDADERAROSA-CARA01.png" alt="Sudadera" /><p>AW-05</p></div>
+            <div class="product-item"><img src="../img/merch/AW-GORRABLANCA-FRONTAL.png" alt="Sudadera" /><p>AW-06</p></div>
+            <div class="product-item"><img src="../img/merch/AW-GORRANEGRA-FRONTAL.png" alt="Gorra" /><p>AW-07</p></div>
+            <div class="product-item"><img src="../img/merch/pin.png" alt="Pin" /><p>AW-08</p></div>
+            <div class="product-item"><img src="../img/merch/peluche.png" alt="Peluche" /><p>AW-09</p></div>
+            <div class="product-item"><img src="../img/merch/bolsa.png" alt="Bolsa de Tela" /><p>AW-10</p></div>
+        </div>
+    </main>
+
+    <!-- SECCIÓN DE PRODUCTOS
     <main class="merch-section">
         <h1 class="section-title">Tienda de Merchandising</h1>
         <div class="merch-grid">
@@ -198,7 +215,7 @@
                 <button class="buy-btn">Comprar</button>
             </div>
         </div>
-    </main>
+    </main> -->
     <!-- NEWSLETTER -->
     <div id="newsletter" class="section">
       <!-- container -->
