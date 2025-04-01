@@ -98,17 +98,17 @@
                   </div>
                   <ul class="dropdown__submenu">
                     <li>
-                      <a href="#" class="dropdown__sublink">
+                      <a href="" class="dropdown__sublink">
                         <i class="ri-shirt-line"></i> Samarretas
                       </a>
                     </li>
                     <li>
-                      <a href="#" class="dropdown__sublink">
+                      <a href="" class="dropdown__sublink">
                         <i class="ri-shirt-line"></i> Tases
                       </a>
                     </li>
                     <li>
-                      <a href="#" class="dropdown__sublink">
+                      <a href="" class="dropdown__sublink">
                         <i class="ri-shirt-line"></i> Stickers
                       </a>
                     </li>
