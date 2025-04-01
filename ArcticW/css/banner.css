@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
   }
 
   .slider {
@@ -15,7 +14,7 @@
 
   /* Este contenedor ahora tiene 300% de ancho para contener las 3 diapositivas */
   .slides {
-    width: 300%;
+    width: 300%; 
     height: 100%;
     display: flex;
   }

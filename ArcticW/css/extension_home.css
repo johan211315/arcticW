@@ -1,0 +1,26 @@
+.atribhome {
+    margin: 5%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.pershom {
+    display: flex;
+    flex: 22%;
+    margin: 1em;
+    justify-content: center;
+    padding-bottom: 0.5em;
+}
+
+.pershom h4 {
+    justify-content: center;
+}
+
+.pershom p {
+    color: gray;
+}
+
+.pershom img{
+    display: flex;
+    width: 100%;
+}
