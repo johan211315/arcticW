@@ -215,21 +215,23 @@
       </div>
     </div>
     <main>
+      <div class="fondomov">
       <article class="autores2">
-        <section>
+        <section class="section7">
           <div class="container-carousel">
             <div class="carruseles slider2">
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
+                
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
             </div>
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
@@ -237,20 +239,21 @@
           </div>
           <p>Titulo libro</p>
         </section>
-        <section>
+        <section class="section7">
           <div class="container-carousel">
             <div class="carruseles slider2">
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
+                
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
             </div>
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
@@ -258,20 +261,20 @@
           </div>
           <p>Titulo libro</p>
         </section>
-        <section>
+        <section class="section7">
           <div class="container-carousel">
             <div class="carruseles slider2">
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">	
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
             </div>
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
@@ -280,20 +283,21 @@
           <p>Titulo libro</p>
           <script src="../js/carrusel-tienda.js"></script>
         </section>
-        <section>
+        <section class="section7">
           <div class="container-carousel">
             <div class="carruseles slider2">
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
+                
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
             </div>
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
@@ -301,20 +305,21 @@
           </div>
           <p>Titulo libro</p>
         </section>
-        <section>
+        <section class="section7">
           <div class="container-carousel">
             <div class="carruseles slider2">
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
+                
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
             </div>
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
@@ -322,20 +327,20 @@
           </div>
           <p>Titulo libro</p>
         </section>
-        <section>
+        <section class="section7">
           <div class="container-carousel">
             <div class="carruseles slider2">
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">	
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
             </div>
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
@@ -345,6 +350,7 @@
           <script src="../js/carrusel-tienda.js"></script>
         </section>
       </article>
+    </div>
     </main>
 
     <!-- VITRINA DE LIBROS -->
