@@ -1,10 +1,10 @@
+<?php include("../php/config.php"); ?>
 <!DOCTYPE html>
 <html lang="ca">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <title>Electro - HTML Ecommerce Template</title>
 
@@ -22,19 +22,16 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
     />
     <link rel="stylesheet" href="../css/banner.css" />
-
     <!-- Bootstrap -->
     <link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css" />
-
     <!-- Slick -->
     <link type="text/css" rel="stylesheet" href="../css/slick.css" />
     <link type="text/css" rel="stylesheet" href="../css/slick-theme.css" />
-
     <!-- nouislider -->
     <link type="text/css" rel="stylesheet" href="../css/nouislider.min.css" />
-
     <!-- Font Awesome Icon -->
     <link rel="stylesheet" href="../css/font-awesome.min.css" />
+
 
     <!-- Custom stlylesheet -->
     <link type="text/css" rel="stylesheet" href="../css/style.css" />
@@ -56,12 +53,6 @@
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
     />
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
   <body>
     <!-- HEADER -->
@@ -83,7 +74,7 @@
         <!--=============== NAV MENU ===============-->
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
-            <li><a href="../../home.html" class="nav__link">Home</a></li>
+            <li><a href="../index.php" class="nav__link">Home</a></li>
             <li><a href="#" class="nav__link">Nens</a></li>
             <!--=============== DROPDOWN 1 TIENDA ===============-->
             <li class="dropdown__item">
@@ -104,7 +95,7 @@
                 </li>
                 <li class="dropdown__subitem">
                   <div class="dropdown__link">
-                    <a href="../html/merch.html" style="color: white"
+                    <a href="merch.php" style="color: white"
                       >Merchandising</a
                     >
                     <i class="ri-add-line dropdown__add"></i>
@@ -165,7 +156,7 @@
             </li>
             <!--=============== APARTADO CARRITO ===============-->
             <li>
-              <a href="../html/checkout.html" class="nav__link"
+              <a href="checkout.php" class="nav__link"
                 ><i class="ri-shopping-cart-2-line"></i
               ></a>
             </li>
@@ -224,21 +215,23 @@
       </div>
     </div>
     <main>
+      <div class="fondomov">
       <article class="autores2">
-        <section>
+        <section class="section7">
           <div class="container-carousel">
             <div class="carruseles slider2">
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
+                
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
             </div>
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
@@ -246,20 +239,21 @@
           </div>
           <p>Titulo libro</p>
         </section>
-        <section>
+        <section class="section7">
           <div class="container-carousel">
             <div class="carruseles slider2">
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
+                
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
             </div>
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
@@ -267,20 +261,20 @@
           </div>
           <p>Titulo libro</p>
         </section>
-        <section>
+        <section class="section7">
           <div class="container-carousel">
             <div class="carruseles slider2">
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">	
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
             </div>
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
@@ -289,20 +283,21 @@
           <p>Titulo libro</p>
           <script src="../js/carrusel-tienda.js"></script>
         </section>
-        <section>
+        <section class="section7">
           <div class="container-carousel">
             <div class="carruseles slider2">
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
+                
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
             </div>
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
@@ -310,20 +305,21 @@
           </div>
           <p>Titulo libro</p>
         </section>
-        <section>
+        <section class="section7">
           <div class="container-carousel">
             <div class="carruseles slider2">
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
+                
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
             </div>
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
@@ -331,20 +327,20 @@
           </div>
           <p>Titulo libro</p>
         </section>
-        <section>
+        <section class="section7">
           <div class="container-carousel">
             <div class="carruseles slider2">
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">	
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png" />
+                <img src="../img/Portadas/plantilladesta.png">
               </div>
             </div>
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
@@ -354,6 +350,7 @@
           <script src="../js/carrusel-tienda.js"></script>
         </section>
       </article>
+    </div>
     </main>
 
     <!-- VITRINA DE LIBROS -->
@@ -1717,7 +1714,7 @@
                   <li>
                     <a href="#"
                       ><i class="fa fa-envelope-o"></i
-                      >ebwolfeditorial@gmail.com</a
+                      >ArcticWeditorial@gmail.com</a
                     >
                   </li>
                 </ul>
