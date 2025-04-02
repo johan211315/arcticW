@@ -60,7 +60,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="/ArcticW/html/register.html" class="dropdown__link">
+                  <a href="php/register.php" class="dropdown__link">
                     <i class="ri-user-shared-fill"></i> Registrar-se
                   </a>
                 </li>
