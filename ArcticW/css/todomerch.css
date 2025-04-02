@@ -25,8 +25,21 @@
     width: 100%;
     max-width: 200px;
     border-radius: 10px;
+    /* transition: 0.75s ease; */
 }
 .product-item p {
     margin-top: 10px;
     font-weight: bold;
+}
+
+/* .product-item img:hover{
+    transform: scale(1.03);
+} */
+
+.products-grid img{
+    transition: 0.75s ease;
+}
+
+.products-grid img:hover{
+    transform: scale(1.03);
 }
