@@ -19,7 +19,7 @@
             <div class="logo-form">
                 <img src="../img/icono-logo/LETRASLOGO.png" alt="logo Arctic Wolves"> 
             </div>
-            <form class="form" action="../php/configuracionphp/registro_usuario.php" method="post" class="prueba">
+            <form class="form" action="./configuracionphp/registro_usuario.php" method="post" class="prueba">
                 <input type="text" placeholder="Nom d'usuari" name="user">
                 <input type="text" placeholder="Correu electronic" name="correo">
                 <input type="password" id="confirm-password" placeholder="Contrasenya" name="pass">
