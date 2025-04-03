@@ -23,13 +23,13 @@
                 <input type="text" placeholder="Nom d'usuari" name="user">
                 <input type="text" placeholder="Correu electronic" name="correo">
                 <input type="password" id="confirm-password" placeholder="Contrasenya" name="pass">
-                <button type="submit" value="Crear un compte nou" name="ingresar" style="background-color: bluef;">
-                <!--<span><a href="#">¿Has oblidat la teva contrasenya?</a></span>
+                <input type="submit" value="Crear un compte nou" name="ingresar" style="background-color: bluef;">
+                <span><a href="#">¿Has oblidat la teva contrasenya?</a></span>
                 <div class="border"></div>
-                <button><a href="#">Tens compte? Inicia Sessió</a></button>!-->
+                <button><a href="#">Tens compte? Inicia Sessió</a></button>
             </form>
-           <!-- <p class="create-page">
-                <a href="#"></a> Termes i condicions de Arctic Wolves®, drets reservats. Visita els nostres termes<br> -->
+            <p class="create-page">
+                <a href="#"></a> Termes i condicions de Arctic Wolves®, drets reservats. Visita els nostres termes<br>
             </p>
         </div>
     </div>
