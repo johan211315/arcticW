@@ -1,26 +1,62 @@
+#SEPARAMIERDEDELJOHANGRACIAS {
+    clear: both;
+    margin: 10em;
+    width: 100%;
+}
+
 .atribhome {
-    margin: 5%;
     display: flex;
-    flex-flow: row wrap;
+    margin: 1em;
+    justify-content: space-between;
+    margin-top: 4em;
 }
 
 .pershom {
-    display: flex;
     flex: 22%;
-    margin: 1em;
+    margin: 0.5em;
     justify-content: center;
-    padding-bottom: 0.5em;
+    text-align: center;
+    background-color: rgba(34, 34, 35, 0.199);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 1em;
+    border: 3px rgba(108, 108, 108, 0.728);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s ease;
+}
+
+.pershom:hover {
+    margin: 0.5em;
+    justify-content: center;
+    background-color: rgb(33, 32, 32);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 1em;
+    
+}
+
+.pershom img {
+    width: 100%;
+    opacity: 50%;
+    transition: 1s ease;
+    border-radius: 5px;
+}
+
+.pershom img:hover {
+    width: 100%;
+    opacity: 100%;
+    transform: scale(1.03);
+    border-radius: 5px;
 }
 
 .pershom h4 {
-    justify-content: center;
+    color: rgb(215, 215, 215);
+    font-size: large;
+    margin: 0.5em;
 }
 
 .pershom p {
-    color: gray;
-}
-
-.pershom img{
-    display: flex;
-    width: 100%;
+    justify-content: center;
+    margin: 0.3em;
+    color: aliceblue;
 }
