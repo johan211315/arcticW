@@ -33,7 +33,7 @@
           </a>
           <div class="nav__toggle" id="nav-toggle">
             <i class="ri-menu-line nav__burger"></i>
-            <i class="ri-close-line nav__close"></i>
+                        <i class="ri-close-line nav__close"></i>
           </div>
         </div>
         <!--=============== NAV MENU ===============-->
@@ -41,6 +41,7 @@
           <ul class="nav__list">
             <li><a href="index.php" class="nav__link">Home</a></li>
             <li><a href="index.php" class="nav__link">Sobre nosaltres</a></li>
+            <li><a href="/ArcticW/kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
             <!--=============== DROPDOWN 1 TIENDA ===============-->
             <li class="dropdown__item">
               <div class="nav__link">
