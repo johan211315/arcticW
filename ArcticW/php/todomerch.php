@@ -1,13 +1,11 @@
-<?php include("../php/config.php"); ?>
 <!DOCTYPE html>
 <html lang="ca">
-  <head>
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <title>Electro - HTML Ecommerce Template</title>
-
+    <title>Merchandising - Artic Wolves</title>
+    <link type="text/css" rel="stylesheet" href="../css/style.css" />
     <!-- Google font -->
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700"
@@ -44,13 +42,9 @@
     <link rel="stylesheet" href="../css/button.css" />
     <!-- CSS-Asistente -->
     <link rel="stylesheet" href="../css/asistente.css" />
-    <!-- CSS-merch -->
-    <link rel="stylesheet" href="../css/merch.css" />
-
-    <!-- Tienda Merch -->
-    <link rel="stylesheet" href="../css/destacados_merch.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="../css/todomerch.css">
+</head>
+<body>
     <!-- HEADER -->
     <header class="header">
       <nav class="nav container">
@@ -169,91 +163,59 @@
         </div>
       </nav>
     </header>
-    <!-- /NAVIGATION -->
-    <!-- NAVIGATION -->
 
-
-    <!-- BREADCRUMB
-    <div id="breadcrumb" class="section">
-      <!-- container -->
-    <!-- <div class="container">
-        <!-- row -->
-    <!-- <div class="row">
-          <div class="col-md-12">
-            <ul class="breadcrumb-tree">
-              <li><a href="#">Botiga</a></li>
-              <li><a href="#">Llibres</a></li>
-              <li><a href="#">Novela</a></li>
-              <li class="active">100 años de soledad</li> -->
-    <!-- </ul>
-          </div>
-        </div> -->
-    <!-- /row -->
-    <!-- </div> -->
-    <!-- /container -->
-    <!-- </div> -->
-    --> -->
-    <!-- /BREADCRUMB -->
-
-    <!-- Apartado Merch -->
-    <main>
-      <div class="marcel1">
-        <p id="destacados"><b>DESTACADOS</b></p>
-        <div class="autores2">
-          <div class="clase1">
-            <div class="container-carousel">
-              <img src="../img/merch/camiseta.png" />
-            </div>
-            <div class="marcel"></div>
-            <p>Camiseta</p>
-          </div>
-          <div class="clase1">
-            <div class="container-carousel">
-              <img src="../img/merch/sudadera.png" />
-            </div>
-            <div class="marcel"></div>
-            <p>Sudadera</p>
-          </div>
-          <div class="clase1">
-            <div class="container-carousel">
-              <img src="../img/merch/gorra.png" />
-            </div>
-            <div class="marcel"></div>
-            <p>Gorra</p>
-          </div>
-          <div class="clase1">
-            <div class="container-carousel">
-              <img src="../img/merch/pin.png" />
-            </div>
-            <div class="marcel"></div>
-            <p>Pin</p>
-          </div>
-          <div class="clase1">
-            <div class="container-carousel">
-              <img src="../img/merch/peluche.png" />
-            </div>
-            <div class="marcel"></div>
-            <p>Peluche</p>
-          </div>
-          <div class="clase1">
-            <div class="container-carousel">
-              <img src="../img/merch/bolsa.png" />
-            </div>
-            <div class="marcel"></div>
-            <p>Bolsa + Marcapaginas</p>
-          </div>
+    <main class="merch-container">
+        <h1 class="section-title">Tienda de Merchandising</h1>
+        <div class="products-grid">
+            <div class="product-item"><img src="..\img\merch/AW-CAMISETANEGRA-CARA01.PNG" alt="Camiseta" /><p>AW-01</p></div>
+            <div class="product-item"><img src="..\img\merch\camiblanca.png" alt="Camiseta" /><p>AW-02</p></div>
+            <div class="product-item"><img src="../img/merch/AW-SUDADERANEGRA-CARA01.png" alt="Camiseta" /><p>AW-03</p></div>
+            <div class="product-item"><img src="../img/merch/AW-SUDADERA-VAINILLA-CARA01.png" alt="Sudadera" /><p>AW-04</p></div>
+            <div class="product-item"><img src="../img/merch/AW-SUDADERAROSA-CARA01.png" alt="Sudadera" /><p>AW-05</p></div>
+            <div class="product-item"><img src="../img/merch/AW-GORRABLANCA-FRONTAL.png" alt="Sudadera" /><p>AW-06</p></div>
+            <div class="product-item"><img src="../img/merch/AW-GORRANEGRA-FRONTAL.png" alt="Gorra" /><p>AW-07</p></div>
+            <div class="product-item"><img src="../img/merch/pin.png" alt="Pin" /><p>AW-08</p></div>
+            <div class="product-item"><img src="../img/merch/peluche.png" alt="Peluche" /><p>AW-09</p></div>
+            <div class="product-item"><img src="../img/merch/bolsa.png" alt="Bolsa de Tela" /><p>AW-10</p></div>
         </div>
-      </div>
     </main>
-    <!-- Imagen Merch -->
-    <div id="merch">
-      <img src="../img/merch/framegradedesktop.png" alt="Promocion" />
-      <p>Mas articulos añadidos</p>
-      <h3>Rebajas</h3>
-      <h2>Hasta -60%</h2>
-      <button>Ver todo</button>
-    </div>
 
+    <!-- SECCIÓN DE PRODUCTOS
+    <main class="merch-section">
+        <h1 class="section-title">Tienda de Merchandising</h1>
+        <div class="merch-grid">
+            <div class="merch-item">
+                <img src="../img/merch/camiseta.png" alt="Camiseta" />
+                <p>Camiseta</p>
+                <button class="buy-btn">Comprar</button>
+            </div>
+            <div class="merch-item">
+                <img src="../img/merch/sudadera.png" alt="Sudadera" />
+                <p>Sudadera</p>
+                <button class="buy-btn">Comprar</button>
+            </div>
+            <div class="merch-item">
+                <img src="../img/merch/gorra.png" alt="Gorra" />
+                <p>Gorra</p>
+                <button class="buy-btn">Comprar</button>
+            </div>
+            <div class="merch-item">
+                <img src="../img/merch/pin.png" alt="Pin" />
+                <p>Pin</p>
+                <button class="buy-btn">Comprar</button>
+            </div>
+            <div class="merch-item">
+                <img src="../img/merch/peluche.png" alt="Peluche" />
+                <p>Peluche</p>
+                <button class="buy-btn">Comprar</button>
+            </div>
+            <div class="merch-item">
+                <img src="../img/merch/bolsa.png" alt="Bolsa" />
+                <p>Bolsa + Marcapáginas</p>
+                <button class="buy-btn">Comprar</button>
+            </div>
+        </div>
+    </main> -->
     <!-- NEWSLETTER -->
     <div id="newsletter" class="section">
       <!-- container -->
@@ -293,10 +255,9 @@
       </div>
       <!-- /container -->
     </div>
-    <!-- /NEWSLETTER -->
 
-    <!-- FOOTER -->
-    <footer id="footer">
+   <!-- FOOTER -->
+   <footer id="footer">
       <!-- top footer -->
       <div class="section">
         <!-- container -->
@@ -484,5 +445,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="../js/button.js"></script>
     <script src="../js/asistente.js"></script>
-  </body>
+</body>
 </html>
