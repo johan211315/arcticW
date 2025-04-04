@@ -1,4 +1,4 @@
-<?php include("php/config.php"); ?>
+<?php include("/ArcticW/php/config.php"); ?>
 <!DOCTYPE html>
 <html lang="ca">
   <head>
@@ -44,7 +44,7 @@
             <!--=============== DROPDOWN 1 TIENDA ===============-->
             <li class="dropdown__item">
               <div class="nav__link">
-              <a href="php/product.php" class="nav__link">Botiga</a>
+              <a href="/ArcticW/php/product.php" class="nav__link">Botiga</a>
               </div>
             </li>
             <!--=============== DROPDOWN MENU CUENTA ===============-->
@@ -55,7 +55,7 @@
               </div>
               <ul class="dropdown__menu">
                 <li>
-                  <a href="php/login.php" class="dropdown__link">
+                  <a href="/ArcticW/php/login.php" class="dropdown__link">
                     <i class="ri-user-2-line"></i> Inici Sessió
                   </a>
                 </li>
@@ -134,27 +134,26 @@
 <br>
     <div class="atribhome">
       <div class="pershom">
-        <img src="img/img/plantillafotojojan2.jpg" alt="Johan Aricapa" >
+        <img src="./ArticW/img/img/plantillafotojojan.jpg" alt="Johan Aricapa">
         <h4>Johan Aricapa</h4>
         <p>Administrador servicio web</p>
       </div>
       <div class="pershom">
-        <img src="./img/img/plantillafotojojan2.jpg" alt="Josep Codina" >
+        <img src="./ArticW/img/img/plantillafotojojan.jpg" alt="Josep Codina">
         <h4>Josep Codina</h4>
         <p>Director creativo y soporte IT</p>
       </div>
-      <div class="pershom">
-        <img src="./img/img/plantillafotojojan2.jpg" alt="Izan Barrasa" >
+      <div class="pershonm">
+        <img src="./ArticW/img/img/plantillafotojojan.jpg" alt="Izan Barrasa">
         <h4>Izan Barrasa</h4>
         <p>Administrador IT</p>
       </div>
-        <div class="pershom">
-        <img src="./img/img/plantillafotojojan2.jpg" alt="Marcel Collell">
-        <h4>Marcel Collell</h4>
-        <p>Administrador servidor</p>
-      </div>
     </div>
-
+    <div class="pershom">
+      <img src="./ArticW/img/img/plantillafotojojan.jpg" alt="Marcel Collell">
+      <h4>Marcel Collell</h4>
+      <p>Administrador servidor</p>
+    </div>
       
 
 
