@@ -17,7 +17,7 @@ if(mysqli_num_rows($result) > 0){
     // Si se encuentra el usuario, se inicia la sesión
     $datos_usuario = mysqli_fetch_assoc($result);
     $_SESSION['usuario'] = $datos_usuario['usuario'];
-    header("location: ../../index.php");
+    header("location: ../../../index.php");
     exit;
 } else {
     // Si no coincide el usuario o la contraseña, se muestra un mensaje de error
