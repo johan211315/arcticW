@@ -70,8 +70,8 @@
         <!--=============== NAV MENU ===============-->
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
-            <li><a href="../index.php" class="nav__link">Home</a></li>
-            <li><a href="#" class="nav__link">Nens</a></li>
+            <li><a href="/index.php" class="nav__link">Home</a></li>
+            <li><a href="/ArcticW/kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
             <!--=============== DROPDOWN 1 TIENDA ===============-->
             <li class="dropdown__item">
               <div class="nav__link">
@@ -98,17 +98,17 @@
                   </div>
                   <ul class="dropdown__submenu">
                     <li>
-                      <a href="#" class="dropdown__sublink">
-                        <i class="ri-shirt-line"></i> Samarretas
+                      <a href="../php/todomerch.php" class="dropdown__sublink">
+                        <i class="ri-shirt-line"></i> Ver Todo
                       </a>
-                    </li>
+                    <!-- </li>
                     <li>
-                      <a href="#" class="dropdown__sublink">
+                      <a href="" class="dropdown__sublink">
                         <i class="ri-shirt-line"></i> Tases
                       </a>
                     </li>
                     <li>
-                      <a href="#" class="dropdown__sublink">
+                      <a href="" class="dropdown__sublink">
                         <i class="ri-shirt-line"></i> Stickers
                       </a>
                     </li>
@@ -116,7 +116,7 @@
                       <a href="#" class="dropdown__sublink">
                         <i class="ri-shirt-line"></i> Posters
                       </a>
-                    </li>
+                    </li> -->
                   </ul>
                 </li>
               </ul>

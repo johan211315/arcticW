@@ -14,7 +14,7 @@
 
 <body>
     <div class="container">
-        <form action="validar.php" method="post">
+    <form action="../php/configuracionphp/login_usuario.php" method="post">
             <label for="username">Username</label>
             <input type="text" id="username" placeholder="Enter username" name="username" /><br />
             <label for="password">Password</label>

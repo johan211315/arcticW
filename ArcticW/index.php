@@ -33,7 +33,7 @@
           </a>
           <div class="nav__toggle" id="nav-toggle">
             <i class="ri-menu-line nav__burger"></i>
-            <i class="ri-close-line nav__close"></i>
+                        <i class="ri-close-line nav__close"></i>
           </div>
         </div>
         <!--=============== NAV MENU ===============-->
@@ -41,6 +41,7 @@
           <ul class="nav__list">
             <li><a href="index.php" class="nav__link">Home</a></li>
             <li><a href="index.php" class="nav__link">Sobre nosaltres</a></li>
+            <li><a href="/ArcticW/kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
             <!--=============== DROPDOWN 1 TIENDA ===============-->
             <li class="dropdown__item">
               <div class="nav__link">
@@ -60,7 +61,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="/ArcticW/html/register.html" class="dropdown__link">
+                  <a href="php/register.php" class="dropdown__link">
                     <i class="ri-user-shared-fill"></i> Registrar-se
                   </a>
                 </li>
@@ -134,26 +135,27 @@
 <br>
     <div class="atribhome">
       <div class="pershom">
-        <img src="./EBWOLF/img/img/plantillafotojojan.jpg" alt="Johan Aricapa">
+        <img src="img/img/plantillafotojojan2.jpg" alt="Johan Aricapa" >
         <h4>Johan Aricapa</h4>
         <p>Administrador servicio web</p>
       </div>
       <div class="pershom">
-        <img src="./EBWOLF/img/img/plantillafotojojan.jpg" alt="Josep Codina">
+        <img src="./img/img/plantillafotojojan2.jpg" alt="Josep Codina" >
         <h4>Josep Codina</h4>
         <p>Director creativo y soporte IT</p>
       </div>
-      <div class="pershonm">
-        <img src="./EBWOLF/img/img/plantillafotojojan.jpg" alt="Izan Barrasa">
+      <div class="pershom">
+        <img src="./img/img/plantillafotojojan2.jpg" alt="Izan Barrasa" >
         <h4>Izan Barrasa</h4>
         <p>Administrador IT</p>
       </div>
+        <div class="pershom">
+        <img src="./img/img/plantillafotojojan2.jpg" alt="Marcel Collell">
+        <h4>Marcel Collell</h4>
+        <p>Administrador servidor</p>
+      </div>
     </div>
-    <div class="pershom">
-      <img src="./EBWOLF/img/img/plantillafotojojan.jpg" alt="Marcel Collell">
-      <h4>Marcel Collell</h4>
-      <p>Administrador servidor</p>
-    </div>
+
       
 
 

@@ -64,7 +64,7 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li><a href="../index.php" class="nav__link">Home</a></li>
-            <li><a href="#" class="nav__link">Nens</a></li>
+            <li><a href="/ArcticW//kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
             <!--=============== DROPDOWN 1 TIENDA ===============-->
             <li class="dropdown__item">
               <div class="nav__link">
@@ -236,7 +236,7 @@
             <div id="product-main-img">
               <div class="product-preview">
                 <img
-                  src="../img/Portadas/100año.jpg"
+                  src="../img/Portadas/10.jpg"
                   alt="100años-soledad"
                   height="600px"
                 />
@@ -261,7 +261,7 @@
           <div class="col-md-2 col-md-pull-5">
             <div id="product-imgs">
               <div class="product-preview">
-                <img src="../img/Portadas/100año.jpg" alt="pagina de prueba" />
+                <img src="../img/Portadas/10.jpg" alt="pagina de prueba" />
               </div>
 
               <div class="product-preview">
