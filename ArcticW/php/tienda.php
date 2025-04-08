@@ -75,7 +75,7 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li><a href="../index.php" class="nav__link">Home</a></li>
-            <li><a href="#" class="nav__link">Nens</a></li>
+            <li><a href="/ArcticW//kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
             <!--=============== DROPDOWN 1 TIENDA ===============-->
             <li class="dropdown__item">
               <div class="nav__link">
@@ -221,17 +221,17 @@
           <div class="container-carousel">
             <div class="carruseles slider2">
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">
+                <img src="../img/Portadas/1.jpg">
                 
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">
+                <img src="../img/Portadas/2.jpg">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">
+                <img src="../img/Portadas/3.jpg">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">
+                <img src="../img/Portadas/4.jpg">
               </div>
             </div>
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
@@ -243,17 +243,17 @@
           <div class="container-carousel">
             <div class="carruseles slider2">
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">
+                <img src="../img/Portadas/5.jpeg">
                 
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">
+                <img src="../img/Portadas/6.png">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">
+                <img src="../img/Portadas/7.jpg">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">
+                <img src="../img/Portadas/8.jpg">
               </div>
             </div>
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
@@ -265,16 +265,16 @@
           <div class="container-carousel">
             <div class="carruseles slider2">
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">	
+                <img src="../img/Portadas/9.jpg">	
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">
+                <img src="../img/Portadas/10.jpg">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">
+                <img src="../img/Portadas/1.jpg">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">
+                <img src="../img/Portadas/2.jpg">
               </div>
             </div>
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
@@ -287,17 +287,17 @@
           <div class="container-carousel">
             <div class="carruseles slider2">
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">
+                <img src="../img/Portadas/3.jpg">
                 
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">
+                <img src="../img/Portadas/4.jpg">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">
+                <img src="../img/Portadas/5.jpeg">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">
+                <img src="../img/Portadas/6.png">
               </div>
             </div>
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
@@ -309,17 +309,17 @@
           <div class="container-carousel">
             <div class="carruseles slider2">
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">
+                <img src="../img/Portadas/7.jpg">
                 
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">
+                <img src="../img/Portadas/8.jpg">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">
+                <img src="../img/Portadas/9.jpg">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">
+                <img src="../img/Portadas/10.jpg">
               </div>
             </div>
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
@@ -331,16 +331,16 @@
           <div class="container-carousel">
             <div class="carruseles slider2">
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">	
+                <img src="../img/Portadas/1.jpg">	
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">
+                <img src="../img/Portadas/2.jpg">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">
+                <img src="../img/Portadas/4.jpg">
               </div>
               <div class="slider-section">
-                <img src="../img/Portadas/plantilladesta.png">
+                <img src="../img/Portadas/5.jpeg">
               </div>
             </div>
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>

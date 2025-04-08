@@ -1,4 +1,4 @@
-<?php include("php/config.php"); ?>
+
 <!DOCTYPE html>
 <html lang="ca">
   <head>
@@ -39,13 +39,13 @@
         <!--=============== NAV MENU ===============-->
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
-            <li><a href="index.php" class="nav__link">Home</a></li>
-            <li><a href="index.php" class="nav__link">Sobre nosaltres</a></li>
+            <li><a href="/index.php" class="nav__link">Home</a></li>
+            <li><a href="/index.php" class="nav__link">Sobre nosaltres</a></li>
             <li><a href="/ArcticW/kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
             <!--=============== DROPDOWN 1 TIENDA ===============-->
             <li class="dropdown__item">
               <div class="nav__link">
-              <a href="php/product.php" class="nav__link">Botiga</a>
+              <a href="/ArcticW/php/product.php"  class="nav__link">Botiga</a>
               </div>
             </li>
             <!--=============== DROPDOWN MENU CUENTA ===============-->
@@ -56,12 +56,12 @@
               </div>
               <ul class="dropdown__menu">
                 <li>
-                  <a href="php/login.php" class="dropdown__link">
+                  <a href="/ArcticW/php/login.php" class="dropdown__link">
                     <i class="ri-user-2-line"></i> Inici Sessió
                   </a>
                 </li>
                 <li>
-                  <a href="php/register.php" class="dropdown__link">
+                  <a href="/ArcticW/php/register.php" class="dropdown__link">
                     <i class="ri-user-shared-fill"></i> Registrar-se
                   </a>
                 </li>
@@ -135,22 +135,22 @@
 <br>
     <div class="atribhome">
       <div class="pershom">
-        <img src="img/img/plantillafotojojan2.jpg" alt="Johan Aricapa" >
+        <img src="/ArcticW/img/img/plantillafotojojan2.jpg" alt="Johan Aricapa" >
         <h4>Johan Aricapa</h4>
         <p>Administrador servicio web</p>
       </div>
       <div class="pershom">
-        <img src="./img/img/plantillafotojojan2.jpg" alt="Josep Codina" >
+        <img src="/ArcticW/img/img/plantillafotojojan2.jpg" alt="Josep Codina" >
         <h4>Josep Codina</h4>
         <p>Director creativo y soporte IT</p>
       </div>
       <div class="pershom">
-        <img src="./img/img/plantillafotojojan2.jpg" alt="Izan Barrasa" >
+        <img src="/ArcticW/img/img/plantillafotojojan2.jpg" alt="Izan Barrasa" >
         <h4>Izan Barrasa</h4>
         <p>Administrador IT</p>
       </div>
         <div class="pershom">
-        <img src="./img/img/plantillafotojojan2.jpg" alt="Marcel Collell">
+        <img src="/ArcticW/img/img/plantillafotojojan2.jpg" alt="Marcel Collell">
         <h4>Marcel Collell</h4>
         <p>Administrador servidor</p>
       </div>
