@@ -42,9 +42,9 @@
     <link rel="stylesheet" href="../css/button.css" />
     <!-- CSS-Asistente -->
     <link rel="stylesheet" href="../css/asistente.css" />
-    <link rel="stylesheet" href="../css/todomerch.css">
+    <link rel="stylesheet" href="../css/nuevotodo.css">
 </head>
-<body>
+<body class="si"> 
     <!-- HEADER -->
     <header class="header">
       <nav class="nav container">

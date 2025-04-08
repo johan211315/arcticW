@@ -45,10 +45,12 @@
     <!-- CSS-Asistente -->
     <link rel="stylesheet" href="../css/asistente.css" />
     <!-- CSS-merch -->
-    <link rel="stylesheet" href="../css/merch.css" />
+    <!-- <link rel="stylesheet" href="../css/merch.css" /> -->
 
     <!-- Tienda Merch -->
-    <link rel="stylesheet" href="../css/destacados_merch.css" />
+    <link rel="stylesheet" href="../css/asimismo.css">
+    <link rel="stylesheet" href="../css/nuevo_merch">
+    <link rel="stylesheet" href="../css/destacados_merchand.css">
   </head>
   <body>
     <!-- HEADER -->
