@@ -41,6 +41,7 @@
     <link rel="stylesheet" href="../css/button.css" />
     <!-- CSS-Botón-->
     <link rel="stylesheet" href="../css/asistente.css" />
+    <link rel="stylesheet" href="../css/asimismo.css">
 
   </head>
   <body>

@@ -44,7 +44,7 @@
     <link rel="stylesheet" href="../css/asistente.css" />
     <link rel="stylesheet" href="../css/nuevotodo.css">
 </head>
-<body class="si"> 
+<body class="pruebas"> 
     <!-- HEADER -->
     <header class="header">
       <nav class="nav container">
@@ -177,6 +177,10 @@
             <div class="product-item"><img src="../img/merch/pin.png" alt="Pin" /><p>AW-08</p></div>
             <div class="product-item"><img src="../img/merch/peluche.png" alt="Peluche" /><p>AW-09</p></div>
             <div class="product-item"><img src="../img/merch/bolsa.png" alt="Bolsa de Tela" /><p>AW-10</p></div>
+        </div>4
+
+        <div class="jas">
+          <h2>fasdfasdffdfdfdfdfdfdfasd</h2>
         </div>
     </main>
 
