@@ -133,12 +133,12 @@
               </div>
               <ul class="dropdown__menu">
                 <li>
-                  <a href="../html/login.html" class="dropdown__link">
+                  <a href="../php/login.php" class="dropdown__link">
                     <i class="ri-user-2-line"></i> Inici Sessió
                   </a>
                 </li>
                 <li>
-                  <a href="../html/register.html" class="dropdown__link">
+                  <a href="../php/register.php" class="dropdown__link">
                     <i class="ri-user-shared-fill"></i> Registrar-se
                   </a>
                 </li>
@@ -178,6 +178,7 @@
     <!-- /NAVIGATION -->
 
     <!--Slider de imagenes-->
+   <!-- <!--Slider de imagenes-->
     <div class="marina">
       <div class="slider">
         <div class="slides">
@@ -351,7 +352,7 @@
         </section>
       </article>
     </div>
-    </main>
+    </main> 
 
     <!-- VITRINA DE LIBROS -->
     <div class="separ"></div>
@@ -368,10 +369,16 @@
         </div>
       </div>
     </div>
+
+
+
+
     <!-- Contenedor del carrusel -->
     <div class="swiper-container" style="overflow: hidden">
       <div class="swiper-wrapper">
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
+
+        
           <div class="container2">
             <div class="box-out" style="width: 100%; justify-content: center">
               <div class="book books-1"></div>
@@ -389,10 +396,9 @@
               height: 10px;
             "
           >
-            Nombre autor
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            <del>$7.00</del
+            <del>Є20</del
             ><button
               class="product-old-price"
               style="
@@ -416,6 +422,8 @@
           >
             21,75Є
           </p>
+
+
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
             <button
@@ -440,6 +448,8 @@
             </button>
           </div>
         </div>
+
+
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
           <div class="container2">
             <div class="box-out" style="width: 100%; justify-content: center">

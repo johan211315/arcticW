@@ -49,8 +49,9 @@
 
     <!-- Tienda Merch -->
     <link rel="stylesheet" href="../css/asimismo.css">
-    <link rel="stylesheet" href="../css/nuevo_merch">
+    
     <link rel="stylesheet" href="../css/destacados_merchand.css">
+    <link rel="stylesheet" href="../css/nuevotodo.css">
   </head>
   <body>
     <!-- HEADER -->
@@ -100,7 +101,7 @@
                   </div>
                   <ul class="dropdown__submenu">
                     <li>
-                      <a href="../php/todomerch.php" class="dropdown__sublink">
+                      <a href="../php/todo_merch.php" class="dropdown__sublink">
                         <i class="ri-shirt-line"></i> Ver Todo
                       </a>
                     <!-- </li>
