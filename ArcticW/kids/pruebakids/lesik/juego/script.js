@@ -95,3 +95,7 @@ function endGame() {
     }, 2000);
 }
 
+const restartBtn = document.getElementById('restart-btn');
+restartBtn.addEventListener('click', () => {
+    window.location.href = 'kids.html';
+});
