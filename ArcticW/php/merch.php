@@ -49,9 +49,8 @@
 
     <!-- Tienda Merch -->
     <link rel="stylesheet" href="../css/asimismo.css">
-    
+    <link rel="stylesheet" href="../css/nuevo_merch">
     <link rel="stylesheet" href="../css/destacados_merchand.css">
-    <link rel="stylesheet" href="../css/nuevotodo.css">
   </head>
   <body>
     <!-- HEADER -->
@@ -78,7 +77,7 @@
             <!--=============== DROPDOWN 1 TIENDA ===============-->
             <li class="dropdown__item">
               <div class="nav__link">
-                <a href="../php/tienda.php"></a>Botiga
+                <a href="../html/tienda.html"></a>Botiga
                 <i class="ri-arrow-down-s-line dropdown__arrow"></i>
               </div>
               <ul class="dropdown__menu">
@@ -250,9 +249,6 @@
     </main>
     <!-- Imagen Merch -->
     <div id="merch">
-      <img src="../img/merch/gif atardecer.jpg" alt="">
-
-
       <img src="../img/merch/framegradedesktop.png" alt="Promocion" />
       <p>Mas articulos añadidos</p>
       <h3>Rebajas</h3>
