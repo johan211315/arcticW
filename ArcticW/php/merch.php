@@ -49,7 +49,7 @@
 
     <!-- Tienda Merch -->
     <link rel="stylesheet" href="../css/asimismo.css">
-    <link rel="stylesheet" href="../css/nuevo_merch">
+    <link rel="stylesheet" href="../css/nuevo_merch.css">
     <link rel="stylesheet" href="../css/destacados_merchand.css">
   </head>
   <body>
@@ -100,7 +100,7 @@
                   </div>
                   <ul class="dropdown__submenu">
                     <li>
-                      <a href="../php/todo_merch.php" class="dropdown__sublink">
+                      <a href="../php/todomerch.php" class="dropdown__sublink">
                         <i class="ri-shirt-line"></i> Ver Todo
                       </a>
                     <!-- </li>
@@ -249,11 +249,11 @@
     </main>
     <!-- Imagen Merch -->
     <div id="merch">
-      <img src="../img/merch/framegradedesktop.png" alt="Promocion" />
+      <img src="../img/merch/gif atardecer.jpg" alt="Promocion"/>
       <p>Mas articulos añadidos</p>
       <h3>Rebajas</h3>
       <h2>Hasta -60%</h2>
-      <button>Ver todo</button>
+      <a href="../php/todomerch.php"><button><b>Ver todo</b></button></a>
     </div>
 
     <!-- NEWSLETTER -->
