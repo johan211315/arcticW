@@ -97,5 +97,5 @@ function endGame() {
 
 const restartBtn = document.getElementById('restart-btn');
 restartBtn.addEventListener('click', () => {
-    window.location.href = 'kids.html';
+    window.location.href = '../kids.html';
 });
