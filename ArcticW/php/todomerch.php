@@ -165,7 +165,7 @@
     </header>
 
     <main class="merch-container">
-        <h1 class="section-title">Tienda de Merchandising</h1>
+        <h1 class="section-title">Botiga de Merchandising</h1>
         <div class="products-grid">
             <div class="product-item"><p>AW-01</p><img src="..\img\merch/AW-CAMISETANEGRA-CARA01.PNG" alt="Camiseta" /><br><br><p>25€</p><button><a href="../macbook-cart/checkropa.html"><p>Comprar</p></a></button></div>
             <div class="product-item"><p>AW-02</p><img src="..\img\merch\camiblanca.png" alt="Camiseta" /><br><br><p>25€</p><button><a href="../macbook-cart/checkropa.html"><p>Comprar</p></a></button></div>

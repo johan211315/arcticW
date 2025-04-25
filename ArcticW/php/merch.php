@@ -200,21 +200,21 @@
     <!-- Apartado Merch -->
     <main>
       <div class="marcel1">
-        <p id="destacados"><b>DESTACADOS</b></p>
+        <p id="destacados"><b>DESTACTS</b></p>
         <div class="autores2">
           <div class="clase1">
             <div class="container-carousel">
               <img src="../img/merch/camiseta.png" />
             </div>
             <div class="marcel"></div>
-            <p>Camiseta</p>
+            <p>Samarreta</p>
           </div>
           <div class="clase1">
             <div class="container-carousel">
               <img src="../img/merch/sudadera.png" />
             </div>
             <div class="marcel"></div>
-            <p>Sudadera</p>
+            <p>Dessuadora</p>
           </div>
           <div class="clase1">
             <div class="container-carousel">
@@ -235,14 +235,14 @@
               <img src="../img/merch/peluche.png" />
             </div>
             <div class="marcel"></div>
-            <p>Peluche</p>
+            <p>Peluix</p>
           </div>
           <div class="clase1">
             <div class="container-carousel">
               <img src="../img/merch/bolsa.png" />
             </div>
             <div class="marcel"></div>
-            <p>Bolsa + Marcapaginas</p>
+            <p>Bossa + Marcapagines</p>
           </div>
         </div>
       </div>
@@ -250,10 +250,10 @@
     <!-- Imagen Merch -->
     <div id="merch">
       <img src="../img/merch/gif atardecer.jpg" alt="Promocion"/>
-      <p>Mas articulos añadidos</p>
-      <h3>Rebajas</h3>
-      <h2>Hasta -60%</h2>
-      <a href="../php/todomerch.php"><button><b>Ver todo</b></button></a>
+      <p>Més articles afegits</p>
+      <h3>Rebaixes</h3>
+      <h2>Fins a -60%</h2>
+      <a href="../php/todomerch.php"><button><b>Veure-ho tot</b></button></a>
     </div>
 
     <!-- NEWSLETTER -->
