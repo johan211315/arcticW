@@ -4,6 +4,9 @@
     padding: 20px;
     text-align: center;
 }
+body{
+    background-color: black;
+}
 .section-title {
     font-size: 2rem;
     margin-bottom: 20px;
@@ -44,6 +47,17 @@
     transform: scale(1.03);
 }
 
-.si{
+.pruebas{
     background-color: black;
+}
+
+.jas{
+    background-color: brown;
+    width: 50px;
+    height: 80px;
+}
+
+.jas h2{
+    background-color: red;
+    height: 80px ;
 }
