@@ -45,7 +45,7 @@
             <!--=============== DROPDOWN 1 TIENDA ===============-->
             <li class="dropdown__item">
               <div class="nav__link">
-              <a href="/ArcticW/php/product.php"  class="nav__link">Botiga</a>
+              <a href="/ArcticW/php/tienda.php"  class="nav__link">Botiga</a>
               </div>
             </li>
             <!--=============== DROPDOWN MENU CUENTA ===============-->

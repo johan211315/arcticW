@@ -78,7 +78,7 @@
             <!--=============== DROPDOWN 1 TIENDA ===============-->
             <li class="dropdown__item">
               <div class="nav__link">
-                <a href="../html/tienda.html"></a>Botiga
+                <a href="../php/tienda.php"></a>Botiga
                 <i class="ri-arrow-down-s-line dropdown__arrow"></i>
               </div>
               <ul class="dropdown__menu">
@@ -250,6 +250,9 @@
     </main>
     <!-- Imagen Merch -->
     <div id="merch">
+      <img src="../img/merch/gif atardecer.jpg" alt="">
+
+
       <img src="../img/merch/framegradedesktop.png" alt="Promocion" />
       <p>Mas articulos añadidos</p>
       <h3>Rebajas</h3>

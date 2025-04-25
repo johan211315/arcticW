@@ -381,7 +381,7 @@
         
           <div class="container2">
             <div class="box-out" style="width: 100%; justify-content: center">
-              <div class="book books-1"></div>
+             <a href="../php/product.php"> <div class="book books-1"></div> </a>
             </div>
           </div>
           <hr />
