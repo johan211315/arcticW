@@ -1934,7 +1934,7 @@
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
           <div class="container2">
             <div class="box-out" style="width: 100%; justify-content: center">
-              <div class="book books-18"></div>
+              <div class="book books-18 "></div>
             </div>
           </div>
           <hr />
@@ -3063,6 +3063,12 @@
                   </li>
                   <li>
                     <a href="../html/terminos.html">Termes i Condicions</a>
+                  </li>
+                  <li>
+                    <a href="##">FAQs</a>
+                  </li>
+                  <li>
+                    <a href="##">Resenyes</a>
                   </li>
                 </ul>
               </div>
