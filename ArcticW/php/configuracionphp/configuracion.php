@@ -5,4 +5,5 @@ $conexion = mysqli_connect("localhost", "root", "", "registrophp");
 }else {
     echo 'conexion incorrecta vuelva a repetir la prueba';
 }
+
 ?>

@@ -42,9 +42,9 @@
     <link rel="stylesheet" href="../css/button.css" />
     <!-- CSS-Asistente -->
     <link rel="stylesheet" href="../css/asistente.css" />
-    <link rel="stylesheet" href="../css/todomerch.css">
+    <link rel="stylesheet" href="../css/nuevotodo.css">
 </head>
-<body>
+<body class="si"> 
     <!-- HEADER -->
     <header class="header">
       <nav class="nav container">
@@ -165,21 +165,20 @@
     </header>
 
     <main class="merch-container">
-        <h1 class="section-title">Tienda de Merchandising</h1>
+        <h1 class="section-title">Botiga de Merchandising</h1>
         <div class="products-grid">
-            <div class="product-item"><img src="..\img\merch/AW-CAMISETANEGRA-CARA01.PNG" alt="Camiseta" /><p>AW-01</p></div>
-            <div class="product-item"><img src="..\img\merch\camiblanca.png" alt="Camiseta" /><p>AW-02</p></div>
-            <div class="product-item"><img src="../img/merch/AW-SUDADERANEGRA-CARA01.png" alt="Camiseta" /><p>AW-03</p></div>
-            <div class="product-item"><img src="../img/merch/AW-SUDADERA-VAINILLA-CARA01.png" alt="Sudadera" /><p>AW-04</p></div>
-            <div class="product-item"><img src="../img/merch/AW-SUDADERAROSA-CARA01.png" alt="Sudadera" /><p>AW-05</p></div>
-            <div class="product-item"><img src="../img/merch/AW-GORRABLANCA-FRONTAL.png" alt="Sudadera" /><p>AW-06</p></div>
-            <div class="product-item"><img src="../img/merch/AW-GORRANEGRA-FRONTAL.png" alt="Gorra" /><p>AW-07</p></div>
-            <div class="product-item"><img src="../img/merch/pin.png" alt="Pin" /><p>AW-08</p></div>
-            <div class="product-item"><img src="../img/merch/peluche.png" alt="Peluche" /><p>AW-09</p></div>
-            <div class="product-item"><img src="../img/merch/bolsa.png" alt="Bolsa de Tela" /><p>AW-10</p></div>
+            <div class="product-item"><p>AW-01</p><img src="..\img\merch/AW-CAMISETANEGRA-CARA01.PNG" alt="Camiseta" /><br><br><p>25€</p><button><a href="../macbook-cart/checkropa.html"><p>Comprar</p></a></button></div>
+            <div class="product-item"><p>AW-02</p><img src="..\img\merch\camiblanca.png" alt="Camiseta" /><br><br><p>25€</p><button><a href="../macbook-cart/checkropa.html"><p>Comprar</p></a></button></div>
+            <div class="product-item"><p>AW-03</p><img src="../img/merch/AW-SUDADERANEGRA-CARA01.png" alt="Camiseta" /><br><br><p>50€</p><button><a href=""><p>Comprar</p></a></button></div>
+            <div class="product-item"><p>AW-04</p><img src="../img/merch/AW-SUDADERA-VAINILLA-CARA01.png" alt="Sudadera" /><br><br><p>50€</p><button><a href=""><p>Comprar</p></a></button></div>
+            <div class="product-item"><p>AW-05</p><img src="../img/merch/AW-SUDADERAROSA-CARA01.png" alt="Sudadera" /><br><br><p>50€</p><button><a href=""><p>Comprar</p></a></button></div>
+            <div class="product-item"><p>AW-06</p><img src="../img/merch/AW-GORRABLANCA-FRONTAL.png" alt="Sudadera" /><br><br><p>15€</p><button><a href=""><p>Comprar</p></a></button></div>
+            <div class="product-item"><p>AW-07</p><img src="../img/merch/AW-GORRANEGRA-FRONTAL.png" alt="Gorra" /><br><br><p>15€</p><button><a href=""><p>Comprar</p></a></button></div>
+            <div class="product-item"><p>AW-08</p><img src="../img/merch/pin.png" alt="Pin" /><br><br><p>3€</p><button><a href=""><p>Comprar</p></a></button></div>
+            <div class="product-item"><p>AW-09</p><img src="../img/merch/peluche.png" alt="Peluche" /><br><br><p>15€</p><button><a href=""><p>Comprar</p></a></button></div>
+            <div class="product-item"><p>AW-10</p><img src="../img/merch/bolsa.png" alt="Bolsa de Tela" /><br><br><p>10€</p><button><a href=""><p>Comprar</p></a></button></div>
         </div>
     </main>
-
     <!-- SECCIÓN DE PRODUCTOS
     <main class="merch-section">
         <h1 class="section-title">Tienda de Merchandising</h1>

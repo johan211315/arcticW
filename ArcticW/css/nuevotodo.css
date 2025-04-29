@@ -13,17 +13,19 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     justify-items: center;
+    /* justify-content: space-around; */
+
 }
 .product-item {
     background: #fff;
-    padding: 15px;
+    padding: 15px;  
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 .product-item img {
     width: 100%;
-    max-width: 200px;
+    height: 60%;
     border-radius: 10px;
     /* transition: 0.75s ease; */
 }
@@ -44,6 +46,20 @@
     transform: scale(1.03);
 }
 
-.si{
-    background-color: black;
+.product-item button{
+    background-color: red;
+    border-radius: 10%;
+    padding: 5px 10px 5px 10px;
 }
+
+.product-item button p{
+    color: white;
+}
+
+/* .product-item{
+    width: 200px;
+} */
+
+/* .products-grid{
+    width: 100%;
+} */
