@@ -9,6 +9,7 @@
     <!-- Paginas CSS-->
     <link rel="stylesheet" href="/ArcticW/css/nav_home.css">
     <link rel="stylesheet" href="/ArcticW/css/extension_home.css" />
+    <link rel="stylesheet" href="./ArcticW/css/comprimible.cs.css" />
 
     <!-- links anidados -->
     <!-- Font Awesome Icon -->
@@ -18,6 +19,7 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+   
     
   </head>
   <body>
@@ -135,27 +137,47 @@
 <br>
     <div class="atribhome">
       <div class="pershom">
-        <img src="/ArcticW/img/img/plantillafotojojan2.jpg" alt="Johan Aricapa" >
+        <img src="/ArcticW/img/img/jojan.jpg" alt="Johan Aricapa" >
         <h4>Johan Aricapa</h4>
         <p>Administrador servicio web</p>
       </div>
       <div class="pershom">
-        <img src="/ArcticW/img/img/plantillafotojojan2.jpg" alt="Josep Codina" >
+        <img src="/ArcticW/img/img/xusi-merda.jpg" alt="Josep Codina" >
         <h4>Josep Codina</h4>
         <p>Director creativo y soporte IT</p>
       </div>
       <div class="pershom">
-        <img src="/ArcticW/img/img/plantillafotojojan2.jpg" alt="Izan Barrasa" >
+        <img src="/ArcticW/img/img/izan.jpg" alt="Izan Barrasa" >
         <h4>Izan Barrasa</h4>
         <p>Administrador IT</p>
       </div>
         <div class="pershom">
-        <img src="/ArcticW/img/img/plantillafotojojan2.jpg" alt="Marcel Collell">
+        <img src="/ArcticW/img/img/marcel.jpg" alt="Marcel Collell">
         <h4>Marcel Collell</h4>
         <p>Administrador servidor</p>
       </div>
     </div>
+    <div class="body2">
+    <div class="container">
+      <div class="panel active" style="background-image: url('./ArcticW/img/img/d35d4fb2-02f9-455b-aa42-c16c07559cbf.jpg')">
+        <h3>Les nostres oficines</h3>
+      </div>
+      <div class="panel" style="background-image: url('./ArcticW/img/img/421ba73f-b365-4c3d-9ce5-fda30eb7fb9f.jpg')">
+        <h3>Entrada</h3>
+      </div>
+      <div class="panel" style="background-image: url('./ArcticW/img/img/75aaffd7-7695-4ac3-93ab-673009e4f868.jpg')">
+        <h3>Passadís</h3>
+      </div>
+      <div class="panel" style="background-image: url('./ArcticW/img/img/d3642efe-1d4a-4a19-be2f-45f8641670ef.jpg')">
+        <h3>Sala reunions</h3>
+      </div>
+      <div class="panel" style="background-image: url('./ArcticW/img/img/0b26f1ed-d85a-48fd-a8fa-67ef90a79ff6.jpg')">
+        <h3>Espai de treball</h3>
+      </div>
+      </div>
+    </div>
 
+    <script src="./ArcticW/js/script-home.js"></script>
       
 
 
