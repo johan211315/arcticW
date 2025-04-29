@@ -45,10 +45,12 @@
     <!-- CSS-Asistente -->
     <link rel="stylesheet" href="../css/asistente.css" />
     <!-- CSS-merch -->
-    <link rel="stylesheet" href="../css/merch.css" />
+    <!-- <link rel="stylesheet" href="../css/merch.css" /> -->
 
     <!-- Tienda Merch -->
-    <link rel="stylesheet" href="../css/destacados_merch.css" />
+    <link rel="stylesheet" href="../css/asimismo.css">
+    <link rel="stylesheet" href="../css/nuevo_merch.css">
+    <link rel="stylesheet" href="../css/destacados_merchand.css">
   </head>
   <body>
     <!-- HEADER -->
@@ -70,8 +72,8 @@
         <!--=============== NAV MENU ===============-->
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
-            <li><a href="../index.php" class="nav__link">Home</a></li>
-            <li><a href="#" class="nav__link">Nens</a></li>
+            <li><a href="/index.php" class="nav__link">Home</a></li>
+            <li><a href="/ArcticW/kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
             <!--=============== DROPDOWN 1 TIENDA ===============-->
             <li class="dropdown__item">
               <div class="nav__link">
@@ -98,17 +100,17 @@
                   </div>
                   <ul class="dropdown__submenu">
                     <li>
-                      <a href="#" class="dropdown__sublink">
-                        <i class="ri-shirt-line"></i> Samarretas
+                      <a href="../php/todomerch.php" class="dropdown__sublink">
+                        <i class="ri-shirt-line"></i> Ver Todo
                       </a>
-                    </li>
+                    <!-- </li>
                     <li>
-                      <a href="#" class="dropdown__sublink">
+                      <a href="" class="dropdown__sublink">
                         <i class="ri-shirt-line"></i> Tases
                       </a>
                     </li>
                     <li>
-                      <a href="#" class="dropdown__sublink">
+                      <a href="" class="dropdown__sublink">
                         <i class="ri-shirt-line"></i> Stickers
                       </a>
                     </li>
@@ -116,7 +118,7 @@
                       <a href="#" class="dropdown__sublink">
                         <i class="ri-shirt-line"></i> Posters
                       </a>
-                    </li>
+                    </li> -->
                   </ul>
                 </li>
               </ul>
@@ -198,21 +200,21 @@
     <!-- Apartado Merch -->
     <main>
       <div class="marcel1">
-        <p id="destacados"><b>DESTACADOS</b></p>
+        <p id="destacados"><b>DESTACTS</b></p>
         <div class="autores2">
           <div class="clase1">
             <div class="container-carousel">
               <img src="../img/merch/camiseta.png" />
             </div>
             <div class="marcel"></div>
-            <p>Camiseta</p>
+            <p>Samarreta</p>
           </div>
           <div class="clase1">
             <div class="container-carousel">
               <img src="../img/merch/sudadera.png" />
             </div>
             <div class="marcel"></div>
-            <p>Sudadera</p>
+            <p>Dessuadora</p>
           </div>
           <div class="clase1">
             <div class="container-carousel">
@@ -233,25 +235,25 @@
               <img src="../img/merch/peluche.png" />
             </div>
             <div class="marcel"></div>
-            <p>Peluche</p>
+            <p>Peluix</p>
           </div>
           <div class="clase1">
             <div class="container-carousel">
               <img src="../img/merch/bolsa.png" />
             </div>
             <div class="marcel"></div>
-            <p>Bolsa + Marcapaginas</p>
+            <p>Bossa + Marcapagines</p>
           </div>
         </div>
       </div>
     </main>
     <!-- Imagen Merch -->
     <div id="merch">
-      <img src="../img/merch/framegradedesktop.png" alt="Promocion" />
-      <p>Mas articulos añadidos</p>
-      <h3>Rebajas</h3>
-      <h2>Hasta -60%</h2>
-      <button>Ver todo</button>
+      <img src="../img/merch/gif atardecer.jpg" alt="Promocion"/>
+      <p>Més articles afegits</p>
+      <h3>Rebaixes</h3>
+      <h2>Fins a -60%</h2>
+      <a href="../php/todomerch.php"><button><b>Veure-ho tot</b></button></a>
     </div>
 
     <!-- NEWSLETTER -->

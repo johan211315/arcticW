@@ -1,0 +1,49 @@
+.merch-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+.product-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.product-item img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+    /* transition: 0.75s ease; */
+}
+.product-item p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* .product-item img:hover{
+    transform: scale(1.03);
+} */
+
+.products-grid img{
+    transition: 0.75s ease;
+}
+
+.products-grid img:hover{
+    transform: scale(1.03);
+}
+
+.si{
+    background-color: black;
+}

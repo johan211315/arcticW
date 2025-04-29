@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Fondo */
+        body {
+            background: url('./img/fondo22.png') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        /* Forzar el color blanco dentro del checkout */
+        .container {
+            max-width: 800px;
+            background: rgba(48, 46, 46, 0.841);
+            border-radius: 15px;
+            padding: 20px;
+        }
+
+        .container * {
+            color: white !important;
+        }
+
+        /* Asegurar color blanco en el Navbar */
+        .navbar {
+            background-color: black !important;
+        }
+
+        .navbar-nav .nav-link,
+        .navbar-brand,
+        .navbar-toggler {
+            color: white !important;
+        }
+
+        /* Ícono de menú hamburguesa en blanco */
+        .navbar-toggler-icon {
+            filter: invert(1);
+        }
+
+        /* Inputs */
+        .form-control {
+            color: rgb(255, 255, 255) !important;
+            background-color: rgba(255, 255, 255, 0.1) !important;
+            border: 1px solid white !important;
+            font-weight: 600;
+        }
+
+        .form-control::placeholder {
+            color: rgba(255, 255, 255, 0.7) !important;
+        }
+
+        /* Botón Checkout */
+        .btn-danger {
+            background-color: #d60000 !important;
+            border-color: #b50000 !important;
+            color: white !important;
+        }
+
+        .btn-danger:hover {
+            background-color: #b50000 !important;
+            border-color: #900000 !important;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="kids.html">
+                <img src="LOGOKIDS.png" alt="Logo Librería Kids" width="50" class="me-2">
+                <span class="fw-bold">Arctic Wolves® Kids</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="kids.html">Inici</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="libros.html">Kids</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Teens.html">Teens</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                      <a class="nav-link" href="">Tornar a Arctic Base</a> 
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Direcció d'Enviament</h2>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Nom Complet">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Direcció">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Ciutat">
+                    </div>
+                    <div class="mb-3">
+                        <select class="form-control">
+                            <option>Espanya</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Codi Postal">
+                    </div>
+                    <h3>Pagament</h3>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Nom en la tarjeta">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Número de tarjeta">
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <h2>La teva comanda</h2>
+                <p>1x Llibre - 30.00€</p>
+                <p>2x Llibres - 60.00e</p>
+                <p>Envíament: <b>Gratuit només per a tu </b></p>
+                <p class="fw-bold fs-4 text-danger">Total: 90.00€</p>
+                <button class="btn btn-danger w-100">Acabar comanda</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
