@@ -101,9 +101,9 @@
     font-size: 24px;
     bottom: 20px;
     left: 20px;
-    margin: 0;
+    margin: 2em;
     opacity: 0;
-    padding: 1em;
+    padding: 2em;
   }
   
   .panel.active {
@@ -118,6 +118,8 @@
 
   .map {
     text-align: center;
+    border: 10px color(white);
+    border-radius: 10px;
   }
   
   @media (max-width: 480px) {
