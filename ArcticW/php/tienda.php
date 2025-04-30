@@ -359,7 +359,7 @@
     <div class="destacpunt">
       <div class="destacpunt2">
         <div class="tln">
-          <h3>LIBROS DE ACTUALIDAD</h3>
+          <h3>LIBROS DE HISTORIA/CULTURA</h3>
         </div>
         <div class="puntoboton">
           <button>
@@ -1017,7 +1017,7 @@
     <div class="destacpunt">
       <div class="destacpunt2">
         <div class="tln">
-          <h3>LIBROS DE ACTUALIDAD</h3>
+          <h3>LIBROS DE FANTASIA</h3>
         </div>
         <div class="puntoboton">
           <button>
@@ -1599,10 +1599,10 @@
         </div>
         <hr />
         <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          Nombre del libro
+          
         </p>
         <p style="font-weight: 100; font-size: 15px; text-align: left">
-          Nombre autor
+
         </p>
         <p style="font-weight: 100; font-size: 15px; text-align: left">
           <del>$7.00</del
@@ -1684,17 +1684,17 @@
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            Las Vidas Dentro de tu Cabeza
           </p>
-          <p
+          <!-- <p
             style="
               font-weight: 100;
               font-size: 15px;
               text-align: left;
               height: 10px;
             "
-          >
-            Nombre autor
+          > -->
+  
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -1753,11 +1753,10 @@
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+          La Vuelta al Mundo en 80 dias
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
-          </p>
+                      </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
             ><button
@@ -1815,10 +1814,9 @@
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            Dracula
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -1877,10 +1875,10 @@
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            Cruce de Caminos
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+            
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -1939,10 +1937,10 @@
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            Diseño de Portada
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+            
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -2002,10 +2000,10 @@
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            Mein Kampf
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -2064,10 +2062,10 @@
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            Dr. Jekyll Mr. Hyde
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -2126,10 +2124,10 @@
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            El retrato de una Dama
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+            
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -2183,15 +2181,15 @@
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
           <div class="container2">
             <div class="box-out" style="width: 100%; justify-content: center">
-              <div class="book books-9"></div>
+              <div class="book books-15"></div>
             </div>
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            La Naranja Mecanica
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+            
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -2308,7 +2306,7 @@
       <div class="swiper-button-next" style="color: rgb(0, 0, 0)"></div>
       <div class="swiper-button-prev" style="color: rgb(0, 0, 0)"></div>
     </div>
-<!-- SEPARADOR TRIPLE TIENDA -->
+<!-- SEPARADOR TRIPLE TIENDA
 <div class="separ"></div>
     <div class="destacpunt">
       <div class="destacpunt2">
@@ -2324,7 +2322,7 @@
       </div>
     </div>
     <!-- Contenedor del carrusel -->
-    <div class="swiper-container" style="overflow: hidden">
+    <!-- <div class="swiper-container" style="overflow: hidden">
       <div class="swiper-wrapper">
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
           <div class="container2">
@@ -2372,7 +2370,7 @@
             21,75Є
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-          <div class="add-to-cart" style="margin-bottom: 50px">
+          <!-- <div class="add-to-cart" style="margin-bottom: 50px">
             <button
               class="order"
               style="width: 80%; position: relative; top: -10px"
@@ -2434,7 +2432,7 @@
             21,75Є
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-          <div class="add-to-cart" style="margin-bottom: 50px">
+          <!-- <div class="add-to-cart" style="margin-bottom: 50px">
             <button
               class="order"
               style="width: 80%; position: relative; top: -10px"
@@ -2496,7 +2494,7 @@
             21,75Є
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-          <div class="add-to-cart" style="margin-bottom: 50px">
+          <!-- <div class="add-to-cart" style="margin-bottom: 50px">
             <button
               class="order"
               style="width: 80%; position: relative; top: -10px"
@@ -2557,8 +2555,8 @@
           >
             21,75Є
           </p>
-          <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-          <div class="add-to-cart" style="margin-bottom: 50px">
+          CARRITO DE COMPRAS CSS / JavaScript	 -->
+          <!-- <div class="add-to-cart" style="margin-bottom: 50px">
             <button
               class="order"
               style="width: 80%; position: relative; top: -10px"
@@ -2578,8 +2576,8 @@
                 <div class="light bottom"></div>
               </div>
               <div class="lines"></div>
-            </button>
-          </div>
+            </button> -->
+          <!-- </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
           <div class="container2">
@@ -2618,10 +2616,10 @@
             "
           >
             21,75Є
-          </p>
+          </p> -->
 
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-          <div class="add-to-cart" style="margin-bottom: 50px">
+          <!-- <div class="add-to-cart" style="margin-bottom: 50px">
             <button
               class="order"
               style="width: 80%; position: relative; top: -10px"
@@ -2669,8 +2667,9 @@
                 border-radius: 15px;
               "
             >
-              -5%
-            </button>
+              -5% -->
+            <!-- </button>
+
           </p>
           <p
             style="
@@ -2683,7 +2682,7 @@
             21,75Є
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-          <div class="add-to-cart" style="margin-bottom: 50px">
+          <!-- <div class="add-to-cart" style="margin-bottom: 50px">
             <button
               class="order"
               style="width: 80%; position: relative; top: -10px"
@@ -2730,8 +2729,8 @@
                 border: 0px;
                 border-radius: 15px;
               "
-            >
-              -5%
+            > --> 
+              <!-- -5%
             </button>
           </p>
           <p
@@ -2745,7 +2744,7 @@
             21,75Є
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-          <div class="add-to-cart" style="margin-bottom: 50px">
+          <!-- <div class="add-to-cart" style="margin-bottom: 50px">
             <button
               class="order"
               style="width: 80%; position: relative; top: -10px"
@@ -2807,7 +2806,7 @@
             21,75Є
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-          <div class="add-to-cart" style="margin-bottom: 50px">
+          <!-- <div class="add-to-cart" style="margin-bottom: 50px">
             <button
               class="order"
               style="width: 80%; position: relative; top: -10px"
@@ -2869,8 +2868,8 @@
             21,75Є
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-          <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+          <!-- <div class="add-to-cart" style="margin-bottom: 50px"> -->
+            <!-- <button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -2929,9 +2928,9 @@
           "
         >
           21,75Є
-        </p>
+        </p> 
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-        <div class="add-to-cart" style="margin-bottom: 50px">
+        <!-- <div class="add-to-cart" style="margin-bottom: 50px">
           <button
             class="order"
             style="width: 80%; position: relative; top: -10px"
@@ -2953,7 +2952,7 @@
             <div class="lines"></div>
           </button>
         </div>
-      </div>
+      </div> -->
       <!-- Flechas de navegación -->
       <div class="swiper-button-next" style="color: rgb(0, 0, 0)"></div>
       <div class="swiper-button-prev" style="color: rgb(0, 0, 0)"></div>
@@ -2981,7 +2980,7 @@
                   <a href="#"><i class="fa fa-facebook"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="ri-twitter-x-line"></i></a>
+                  <a href="#"><i class="ri-twitter-line"></i></a>
                 </li>
                 <li>
                   <a href="#"><i class="fa fa-instagram"></i></a>
@@ -3111,7 +3110,7 @@
           </div>
         </div>
         <div class="faq-buttons">
-          <button onclick="sendFAQ('Com et dius?')">Com et dius?</button>
+          <button onclick="sendFAQ('Com et dius?')">Com et dius?</button>9
           <button onclick="sendFAQ('Què pots fer?')">Què pots fer?</button>
           <button onclick="sendFAQ('Quina hora és?')">Quina hora és?</button>
           <button onclick="sendFAQ('Com funciona el procés de devolucions?')">
