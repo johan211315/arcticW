@@ -192,11 +192,12 @@
     <!-- </div> -->
     <!-- /container -->
     <!-- </div> -->
-    --> -->
+--> -->
     <!-- /BREADCRUMB -->
 
     <!-- Apartado Merch -->
     <main>
+      <div class="fondomov">
       <div class="marcel1">
         <p id="destacados"><b>DESTACADOS</b></p>
         <div class="autores2">

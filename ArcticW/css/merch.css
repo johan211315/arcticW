@@ -3,6 +3,23 @@
     padding: 0;
 }
 
+.fondomov {
+    background-image: url(../img/Fondo/Fondofijotienda.gif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.autores2 {
+    background-color: (201, 201, 201);
+    z-index: 10;
+    background-color: rgba(115, 115, 115, 0.348);
+    border-radius: 10px;
+}
+
+.clase1 {
+    background-color: rgb(241, 236, 236);
+}
+
 #merch {
     display: flex;
     justify-content: center;
@@ -22,7 +39,7 @@
 }
 
 #merch p{
-    color: red;
+    color: rgb(255, 255, 255);
     position: absolute;
     bottom: 350px;
     font-size: 15px;
