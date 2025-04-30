@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="./ArcticW/css/comprimible.cs.css" />
 
     <!-- links anidados -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+
     <!-- Font Awesome Icon -->
     <link rel="stylesheet" href="/ArcticW/css/font-awesome.min.css" />
     <!-- Navbar icon-->
@@ -135,6 +139,7 @@
       <div id="SEPARARMIERDADELJOHANGRACIAS"></div>
 <br>
 <br>
+<div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
     <div class="atribhome">
       <div class="pershom">
         <img src="/ArcticW/img/img/jojan.jpg" alt="Johan Aricapa" >
@@ -157,6 +162,8 @@
         <p>Administrador servidor</p>
       </div>
     </div>
+    </div>
+    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
     <div class="body2">
     <div class="container">
       <div class="panel active" style="background-image: url('./ArcticW/img/img/d35d4fb2-02f9-455b-aa42-c16c07559cbf.jpg')">
@@ -176,7 +183,10 @@
       </div>
       </div>
     </div>
-
+    </div>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d705.4864711646541!2d2.286196297177343!3d41.59132873882419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2ses!4v1746032934895!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+    </div>
     <script src="./ArcticW/js/script-home.js"></script>
       
 
@@ -184,7 +194,11 @@
 
     </main>
 
+
     <!-- jQuery Plugins -->
     <script src="/ArcticW/js/navbar.js"></script>
+    <script>
+    AOS.init();
+    </script>
   </body>
 </html>
