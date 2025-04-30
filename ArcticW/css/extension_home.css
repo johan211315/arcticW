@@ -87,6 +87,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: 0.5;
     height: 80vh;
     border-radius: 50px;
     color: #fff;
@@ -102,15 +103,21 @@
     left: 20px;
     margin: 0;
     opacity: 0;
+    padding: 1em;
   }
   
   .panel.active {
     flex: 5;
+    opacity: 1;
   }
   
   .panel.active h3 {
     opacity: 1;
     transition: opacity 0.3s ease-in 0.4s;
+  }
+
+  .map {
+    text-align: center;
   }
   
   @media (max-width: 480px) {
