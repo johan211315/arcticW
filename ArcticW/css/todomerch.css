@@ -43,3 +43,7 @@
 .products-grid img:hover{
     transform: scale(1.03);
 }
+
+.si{
+    background-color: black;
+}
