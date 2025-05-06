@@ -241,12 +241,14 @@
     </div>
   </main>
   <!-- Imagen Merch -->
-  <div id="merch">
-    <img src="../img/merch/gif atardecer.jpg" alt="Promocion" />
-    <p>Més articles afegits</p>
-    <h3>Rebaixes</h3>
-    <h2>Fins a -60%</h2>
-    <a href="../php/todomerch.php"><button><b>Veure-ho tot</b></button></a>
+  <div class="arreglachapuzas">
+    <div id="merch">
+      <img src="../img/merch/gif atardecer.jpg" alt="Promocion" />
+      <p>Més articles afegits</p>
+      <h3>Rebaixes</h3>
+      <h2>Fins a -60%</h2>
+      <a id="alpaca" href="../php/todomerch.php"><button><b>Veure-ho tot</b></button></a>
+    </div>
   </div>
 
   <!-- NEWSLETTER -->
