@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Arctic Wolves - Joc</title>
+  </head>
+  <body>
+    
+    <a href="../kids.html" id="logo">
+      <img src="LOGOKIDS.png" alt="Logo" id="logo-img" />
+    </a>
+
+    <div class="screen">
+      <h1>Captura l'objectiu!</h1>
+      <button class="btn" id="start-btn">Jugar ara</button>
+    </div>
+
+    <div class="screen">
+      <h1>Amb qui jugaràs?</h1>
+      <ul class="insects-list">
+        <li>
+          <button class="choose-insect-btn">
+            <p>Tic the Arctic</p>
+            <img src="tic.png" alt="tic">
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="temps" class="temps">Temps: 00:00</h3>
+      <h3 id="puntuacio" class="puntuacio">Puntuació: 0</h3>
+      <h5 id="message" class="message">
+        Game Over! Puntuació Final: 0
+      </h5>
+    </div>
+
+  
+    <button id="restart-btn">Tornar a inici</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+

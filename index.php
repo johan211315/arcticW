@@ -46,12 +46,12 @@
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li><a href="/index.php" class="nav__link">Home</a></li>
-            <li><a href="/index.php" class="nav__link">Sobre nosaltres</a></li>
+            <li><a href="/ArcticW/html/privacidad.html" class="nav__link">Sobre nosaltres</a></li>
             <li><a href="/ArcticW/kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
             <!--=============== DROPDOWN 1 TIENDA ===============-->
             <li class="dropdown__item">
               <div class="nav__link">
-              <a href="/ArcticW/php/product.php"  class="nav__link">Botiga</a>
+              <a href="/ArcticW/php/tienda.php"  class="nav__link">Botiga</a>
               </div>
             </li>
             <!--=============== DROPDOWN MENU CUENTA ===============-->
@@ -184,13 +184,10 @@
       </div>
     </div>
     </div>
-    <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
     <div class="map">
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d705.4864711646541!2d2.286196297177343!3d41.59132873882419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2ses!4v1746032934895!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
     </div>
-      </div>
     <script src="./ArcticW/js/script-home.js"></script>
-
       
 
 
