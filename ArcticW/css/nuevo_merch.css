@@ -3,18 +3,28 @@
     padding: 0;
 }
 
-
+.arreglachapuzas {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: column wrap;
+}
 
 #merch {
     display: flex;
     justify-content: center;
-    position: relative;
     background-image: url(../img/merch/gif\ atardecer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+    flex-flow: column wrap;
 
 }
 
+#alpaca {
+    justify-content: center;
+    text-align: center;
+}
 
 #merch img{
     width: 1000px;
@@ -26,7 +36,6 @@
 
 #merch p{
     color: white;
-    position: absolute;
     bottom: 350px;
     font-size: 15px;
     text-align: center;
@@ -34,7 +43,6 @@
 
 #merch h3{
     color: white;
-    position: absolute;
     bottom: 300px;
     font-size: 40px;
     text-align: center;

@@ -64,7 +64,7 @@
         <!--=============== NAV MENU ===============-->
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
-            <li><a href="../php/index.php" class="nav__link">Home</a></li>
+            <li><a href="/index.php" class="nav__link">Home</a></li>
             <li><a href="/ArcticW//kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
             <!--=============== DROPDOWN 1 TIENDA ===============-->
             <li class="dropdown__item">
