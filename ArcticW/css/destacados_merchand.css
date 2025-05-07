@@ -8,6 +8,7 @@ main {
     justify-content: center;
 }
 
+
 .fondomov {
     background-image: url(../img/Fondo/Fondofijotienda.gif);
     background-size: cover;
@@ -85,9 +86,9 @@ main {
 }
 
 #destacados{
-    padding-top: 4em;
+    padding: 3em 0 2em 0;
     text-align: center;
     font-size: 30px;
-    color: red;    
+    color: red;
 }
 

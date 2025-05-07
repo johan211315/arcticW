@@ -74,7 +74,7 @@
         <!--=============== NAV MENU ===============-->
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
-            <li><a href="../php/index.php" class="nav__link">Home</a></li>
+            <li><a href="/index.php" class="nav__link">Home</a></li>
             <li><a href="/ArcticW//kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
             <!--=============== DROPDOWN 1 TIENDA ===============-->
             <li class="dropdown__item">
@@ -124,7 +124,7 @@
                   </ul>
                 </li>
               </ul>
-            </li> 
+            </li>
             <!--=============== DROPDOWN MENU CUENTA ===============-->
             <li class="dropdown__item">
               <div class="nav__link">
@@ -359,7 +359,7 @@
     <div class="destacpunt">
       <div class="destacpunt2">
         <div class="tln">
-          <h3>LIBROS DE HISTORIA/CULTURA</h3>
+          <h3>LLIBRES D'HISTÒRIA I CULTURA</h3>
         </div>
         <div class="puntoboton">
           <button>
@@ -1017,7 +1017,7 @@
     <div class="destacpunt">
       <div class="destacpunt2">
         <div class="tln">
-          <h3>LIBROS DE FANTASIA</h3>
+          <h3>LLIBRES DE FANTÀSIA</h3>
         </div>
         <div class="puntoboton">
           <button>
@@ -1663,7 +1663,7 @@
     <div class="destacpunt">
       <div class="destacpunt2">
         <div class="tln">
-          <h3>LIBROS DE ACTUALIDAD</h3>
+          <h3>LLIBRES DE L'ACTUALITAT</h3>
         </div>
         <div class="puntoboton">
           <button>
