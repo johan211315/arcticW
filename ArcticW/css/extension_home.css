@@ -68,6 +68,20 @@
 .body2 {
     box-sizing: border-box;
   }
+
+  .fondlocal {
+    background-color: rgba(36, 36, 36, 0.957);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  #titulocal {
+    text-align: center;
+    color: white;
+    padding-top: 1em;
+    font-size:xx-large;
+    text-transform: capitalize;
+  }
   
   .body2 {
     display: flex;
