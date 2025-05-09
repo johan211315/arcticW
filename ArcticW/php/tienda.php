@@ -384,7 +384,8 @@
              <a href="../php/product.php"> <div class="book books-1"></div> </a>
             </div>
           </div>
-          <hr />
+          <hr/>
+          
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
             Lo que el viento se llevo
           </p>
@@ -430,8 +431,8 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
-              ><span class="success"
+              <span class="default">Detalls</span
+              ></a><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
               ></span>
@@ -448,7 +449,7 @@
             </button>
           </div>
         </div>
-
+          
 
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
           <div class="container2">
@@ -494,7 +495,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -556,7 +557,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -618,7 +619,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -681,7 +682,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -743,7 +744,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -805,7 +806,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -867,7 +868,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -929,7 +930,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -991,7 +992,7 @@
             class="order"
             style="width: 80%; position: relative; top: -10px"
           >
-            <span class="default">Realitzar Comanda</span
+            <span class="default">Detalls</span
             ><span class="success"
               >Comanda Enviada<svg viewbox="0 0 12 10">
                 <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1076,7 +1077,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1138,7 +1139,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1200,7 +1201,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1262,7 +1263,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1325,7 +1326,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1387,7 +1388,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1449,7 +1450,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1511,7 +1512,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1573,7 +1574,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1635,7 +1636,7 @@
             class="order"
             style="width: 80%; position: relative; top: -10px"
           >
-            <span class="default">Realitzar Comanda</span
+            <span class="default">Detalls</span
             ><span class="success"
               >Comanda Enviada<svg viewbox="0 0 12 10">
                 <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1727,7 +1728,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1788,7 +1789,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1849,7 +1850,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1911,7 +1912,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1974,7 +1975,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -2036,7 +2037,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -2098,7 +2099,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -2160,7 +2161,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -2222,7 +2223,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -2284,7 +2285,7 @@
             class="order"
             style="width: 80%; position: relative; top: -10px"
           >
-            <span class="default">Realitzar Comanda</span
+            <span class="default">Detalls</span
             ><span class="success"
               >Comanda Enviada<svg viewbox="0 0 12 10">
                 <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
