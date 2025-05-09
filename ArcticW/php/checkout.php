@@ -1,4 +1,8 @@
 <?php include("../php/config.php"); ?>
+<?php
+session_start(); // Debe ser lo primero en el archivo
+include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estructura
+?>
 <!DOCTYPE html>
 <html lang="ca">
   <head>
@@ -157,7 +161,17 @@
             <!--=============== DROPDOWN MENU CUENTA ===============-->
             <li class="dropdown__item">
               <div class="nav__link">
-                El meu compte
+              <?php if(isset($_SESSION['usuario'])): ?>
+            <!-- Usuario logueado -->
+            <div class="usuario">
+                <?php echo $_SESSION['usuario']; ?>
+            </div>
+        <?php else: ?>
+            <!-- Usuario no logueado -->
+            <div class="usuario">
+                El teu usuari
+            </div>
+        <?php endif; ?>
                 <i class="ri-arrow-down-s-line dropdown__arrow"></i>
               </div>
               <ul class="dropdown__menu">
@@ -172,7 +186,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="dropdown__link">
+                  <a href="./configuracionphp/logout.php" class="dropdown__link">
                     <i class="ri-group-2-fill"></i> Canviar de compte
                   </a>
                 </li>
