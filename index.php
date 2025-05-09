@@ -164,6 +164,8 @@
     </div>
     </div>
     <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+      <div class="fondlocal">
+    <h2 id="titulocal">El nostre espai</h2>
     <div class="body2">
     <div class="container">
       <div class="panel active" style="background-image: url('./ArcticW/img/img/d35d4fb2-02f9-455b-aa42-c16c07559cbf.jpg')">
@@ -182,10 +184,11 @@
         <h3>Espai de treball</h3>
       </div>
       </div>
+      </div>
     </div>
     </div>
     <div class="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d705.4864711646541!2d2.286196297177343!3d41.59132873882419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2ses!4v1746032934895!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d705.4864711646541!2d2.286196297177343!3d41.59132873882419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2ses!4v1746032934895!5m2!1ses!2ses" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
     </div>
     <script src="./ArcticW/js/script-home.js"></script>
       
