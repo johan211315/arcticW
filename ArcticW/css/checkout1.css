@@ -1,0 +1,98 @@
+/* Contenedor general de sección */
+  .section .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  /* Columna izquierda (formulario) */
+
+  .section .col-md-7{
+    flex: 0 0 65%;
+    max-width: 65%;
+  }
+  
+  /* Columna derecha (pedido) */
+
+  .section .col-md-5{
+    flex: 0 0 35%;
+    max-width: 35%;
+  }
+  
+  /* Hacer que en pantallas pequeñas ambas columnas ocupen 100% */
+
+
+  @media (max-width1:767px) {
+    .section .col-md-7,
+    .section .col-md-5 {
+      flex: 0 0 100;
+      max-width: 100%;
+    }
+  }
+  
+  /* Espaciado interno de la tabla y tarjeta */
+
+  .pago {
+    background: #ffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border: none;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: red;
+  }
+  
+  .pago th,
+  .pago td {
+    padding: 12px 8px;
+  }
+  
+  /* Encabezado “Your Order” personalizado */
+
+  .pago thead th[colspan="2"]{
+   background: #f5f5f5;
+   font-size: 1.4em;
+   padding: 16px;
+   border-bottom: 2px solid #e0e0e0; 
+  }
+  
+  /* Filas de producto */
+  .pago tbody tr:nth-child(odd) {
+    background: #fafafa;
+  }
+  
+  /* Total destacado */
+  .pago .order-total {
+    color: #333;
+    font-size: 1.2em;
+  }
+  
+  /* Botón de enviar */
+  .primary-btn.order-submit {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  /* Radios y captions */
+  .payment-method .input-radio {
+    margin-bottom: 12px;
+  }
+  
+  .payment-method .input-radio .caption {
+    margin-left: 24px;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  /* Checkbox términos */
+  .input-checkbox {
+    margin-top: 15px;
+  }
+  
+  .input-checkbox label {
+    font-size: 0.9em;
+  }
+  
+  

@@ -15,10 +15,10 @@
 <body>
     <div class="container">
     <form action="../php/configuracionphp/login_usuario.php" method="post">
-            <label for="username">Username</label>
-            <input type="text" id="username" placeholder="Enter username" name="username" /><br />
-            <label for="password">Password</label>
-            <input type="password" id="password" placeholder="Password" name="password" /><br />
+            <label for="username">Usuari</label>
+            <input type="text" id="username" placeholder="Ingressa el teu usuari" name="username" /><br />
+            <label for="password">Contrasenya</label>
+            <input type="password" id="password" placeholder="Ingressa la teva Contrasenya" name="password" /><br />
             <button>Login</button>
         </form>
         <div class="ear-l"></div>

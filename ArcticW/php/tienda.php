@@ -74,7 +74,7 @@
         <!--=============== NAV MENU ===============-->
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
-            <li><a href="../php/index.php" class="nav__link">Home</a></li>
+            <li><a href="/index.php" class="nav__link">Home</a></li>
             <li><a href="/ArcticW//kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
             <!--=============== DROPDOWN 1 TIENDA ===============-->
             <li class="dropdown__item">
@@ -359,7 +359,7 @@
     <div class="destacpunt">
       <div class="destacpunt2">
         <div class="tln">
-          <h3>LIBROS DE ACTUALIDAD</h3>
+          <h3>LLIBRES D'HISTÒRIA I CULTURA</h3>
         </div>
         <div class="puntoboton">
           <button>
@@ -384,11 +384,12 @@
              <a href="../php/product.php"> <div class="book books-1"></div> </a>
             </div>
           </div>
-          <hr />
+          <hr/>
+          
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            Lo que el viento se llevo
           </p>
-          <p
+          <!-- <p
             style="
               font-weight: 100;
               font-size: 15px;
@@ -396,7 +397,7 @@
               height: 10px;
             "
           >
-          </p>
+          </p> -->
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>Є20</del
             ><button
@@ -430,8 +431,8 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
-              ><span class="success"
+              <span class="default">Detalls</span
+              ></a><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
               ></span>
@@ -448,7 +449,7 @@
             </button>
           </div>
         </div>
-
+          
 
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
           <div class="container2">
@@ -458,10 +459,10 @@
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            El libro de los 5 anillos
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+          
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -494,7 +495,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -520,10 +521,10 @@
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            Platon La Republica
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -556,7 +557,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -582,10 +583,10 @@
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            El arte de la Guerra
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+            
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -618,7 +619,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -644,10 +645,10 @@
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            La Vuelta al Mundo en 80 dias
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+            
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -681,7 +682,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -707,10 +708,10 @@
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            Mein Kampf
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+            
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -743,7 +744,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -769,10 +770,10 @@
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            Dr. Jekyll Mr. Hyde
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+            
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -805,7 +806,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -831,10 +832,10 @@
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            El reto de una Dama
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+            
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -867,7 +868,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -893,10 +894,10 @@
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            Dracula
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+            
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -929,7 +930,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -991,7 +992,7 @@
             class="order"
             style="width: 80%; position: relative; top: -10px"
           >
-            <span class="default">Realitzar Comanda</span
+            <span class="default">Detalls</span
             ><span class="success"
               >Comanda Enviada<svg viewbox="0 0 12 10">
                 <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1017,7 +1018,7 @@
     <div class="destacpunt">
       <div class="destacpunt2">
         <div class="tln">
-          <h3>LIBROS DE ACTUALIDAD</h3>
+          <h3>LLIBRES DE FANTÀSIA</h3>
         </div>
         <div class="puntoboton">
           <button>
@@ -1035,15 +1036,15 @@
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
           <div class="container2">
             <div class="box-out" style="width: 100%; justify-content: center">
-              <div class="book books-1"></div>
+              <div class="book books-11"></div>
             </div>
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            Señora Paris
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -1076,7 +1077,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1097,15 +1098,77 @@
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
           <div class="container2">
             <div class="box-out" style="width: 100%; justify-content: center">
-              <div class="book books-2"></div>
+              <div class="book books-12"></div>
             </div>
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            El bosque Magico
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+            
+          </p>
+          <p style="font-weight: 100; font-size: 15px; text-align: left">
+            <del>$7.00</del>
+            <button
+              class="product-old-price"
+              style="
+                margin-left: 15px;
+                width: 50px;
+                background-color: red;
+                border: 0px;
+                border-radius: 15px;
+              "
+            >
+              -5%
+            </button>
+          </p>
+          <p
+            style="
+              font-weight: bolder;
+              font-size: 25px;
+              text-align: left;
+              color: red;
+            "
+          >
+            21,75Є
+          </p>
+          <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
+          <div class="add-to-cart" style="margin-bottom: 50px">
+            <button
+              class="order"
+              style="width: 80%; position: relative; top: -10px"
+            >
+              <span class="default">Detalls</span
+              ><span class="success"
+                >Comanda Enviada<svg viewbox="0 0 12 10">
+                  <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
+              ></span>
+              <div class="box"></div>
+              <div class="truck">
+                <div class="back"></div>
+                <div class="front">
+                  <div class="window"></div>
+                </div>
+                <div class="light top"></div>
+                <div class="light bottom"></div>
+              </div>
+              <div class="lines"></div>
+            </button>
+          </div>
+        </div>
+        <div class="swiper-slide" style="overflow: hidden; height: 530px">
+          <div class="container2">
+            <div class="box-out" style="width: 100%; justify-content: center">
+              <div class="book books-13"></div>
+            </div>
+          </div>
+          <hr />
+          <p style="font-weight: bolder; font-size: 20px; text-align: left">
+            Las Vidas Dentro de tu Cabeza
+          </p>
+          <p style="font-weight: 100; font-size: 15px; text-align: left">
+
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -1138,7 +1201,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1159,15 +1222,15 @@
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
           <div class="container2">
             <div class="box-out" style="width: 100%; justify-content: center">
-              <div class="book books-3"></div>
+              <div class="book books-14"></div>
             </div>
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            Cruce de Caminos
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -1200,7 +1263,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1221,77 +1284,15 @@
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
           <div class="container2">
             <div class="box-out" style="width: 100%; justify-content: center">
-              <div class="book books-4"></div>
+              <div class="book books-15"></div>
             </div>
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            La Naranja Mecanica
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
-          </p>
-          <p style="font-weight: 100; font-size: 15px; text-align: left">
-            <del>$7.00</del
-            ><button
-              class="product-old-price"
-              style="
-                margin-left: 15px;
-                width: 50px;
-                background-color: red;
-                border: 0px;
-                border-radius: 15px;
-              "
-            >
-              -5%
-            </button>
-          </p>
-          <p
-            style="
-              font-weight: bolder;
-              font-size: 25px;
-              text-align: left;
-              color: red;
-            "
-          >
-            21,75Є
-          </p>
-          <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-          <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
-              class="order"
-              style="width: 80%; position: relative; top: -10px"
-            >
-              <span class="default">Realitzar Comanda</span
-              ><span class="success"
-                >Comanda Enviada<svg viewbox="0 0 12 10">
-                  <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
-              ></span>
-              <div class="box"></div>
-              <div class="truck">
-                <div class="back"></div>
-                <div class="front">
-                  <div class="window"></div>
-                </div>
-                <div class="light top"></div>
-                <div class="light bottom"></div>
-              </div>
-              <div class="lines"></div>
-            </button>
-          </div>
-        </div>
-        <div class="swiper-slide" style="overflow: hidden; height: 530px">
-          <div class="container2">
-            <div class="box-out" style="width: 100%; justify-content: center">
-              <div class="book books-5"></div>
-            </div>
-          </div>
-          <hr />
-          <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
-          </p>
-          <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+            
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -1325,7 +1326,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1346,15 +1347,15 @@
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
           <div class="container2">
             <div class="box-out" style="width: 100%; justify-content: center">
-              <div class="book books-6"></div>
+              <div class="book books-16"></div>
             </div>
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            Hasta que el verano se acabe
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+            
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -1387,7 +1388,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1408,15 +1409,15 @@
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
           <div class="container2">
             <div class="box-out" style="width: 100%; justify-content: center">
-              <div class="book books-7"></div>
+              <div class="book books-17"></div>
             </div>
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            Cada Historia Cuenta
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+            
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -1449,7 +1450,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1470,15 +1471,15 @@
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
           <div class="container2">
             <div class="box-out" style="width: 100%; justify-content: center">
-              <div class="book books-8"></div>
+              <div class="book books-18"></div>
             </div>
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            Diseño de Portada
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+            
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -1511,7 +1512,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1532,15 +1533,15 @@
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
           <div class="container2">
             <div class="box-out" style="width: 100%; justify-content: center">
-              <div class="book books-9"></div>
+              <div class="book books-19"></div>
             </div>
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            La Vuelta al Mundo en 80 dias
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+            
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -1573,7 +1574,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1599,10 +1600,10 @@
         </div>
         <hr />
         <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          Nombre del libro
+          
         </p>
         <p style="font-weight: 100; font-size: 15px; text-align: left">
-          Nombre autor
+
         </p>
         <p style="font-weight: 100; font-size: 15px; text-align: left">
           <del>$7.00</del
@@ -1635,7 +1636,7 @@
             class="order"
             style="width: 80%; position: relative; top: -10px"
           >
-            <span class="default">Realitzar Comanda</span
+            <span class="default">Detalls</span
             ><span class="success"
               >Comanda Enviada<svg viewbox="0 0 12 10">
                 <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1663,7 +1664,7 @@
     <div class="destacpunt">
       <div class="destacpunt2">
         <div class="tln">
-          <h3>LIBROS DE ACTUALIDAD</h3>
+          <h3>LLIBRES DE L'ACTUALITAT</h3>
         </div>
         <div class="puntoboton">
           <button>
@@ -1679,22 +1680,22 @@
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
           <div class="container2">
             <div class="box-out" style="width: 100%; justify-content: center">
-              <div class="book books-1"></div>
+              <div class="book books-13"></div>
             </div>
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            Las Vidas Dentro de tu Cabeza
           </p>
-          <p
+          <!-- <p
             style="
               font-weight: 100;
               font-size: 15px;
               text-align: left;
               height: 10px;
             "
-          >
-            Nombre autor
+          > -->
+  
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -1727,193 +1728,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
-              ><span class="success"
-                >Comanda Enviada<svg viewbox="0 0 12 10">
-                  <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
-              ></span>
-              <div class="box"></div>
-              <div class="truck">
-                <div class="back"></div>
-                <div class="front">
-                  <div class="window"></div>
-                </div>
-                <div class="light top"></div>
-                <div class="light bottom"></div>
-              </div>
-              <div class="lines"></div>
-            </button>
-          </div>
-        </div>
-        <div class="swiper-slide" style="overflow: hidden; height: 530px">
-          <div class="container2">
-            <div class="box-out" style="width: 100%; justify-content: center">
-              <div class="book books-2"></div>
-            </div>
-          </div>
-          <hr />
-          <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
-          </p>
-          <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
-          </p>
-          <p style="font-weight: 100; font-size: 15px; text-align: left">
-            <del>$7.00</del
-            ><button
-              class="product-old-price"
-              style="
-                margin-left: 15px;
-                width: 50px;
-                background-color: red;
-                border: 0px;
-                border-radius: 15px;
-              "
-            >
-              -5%
-            </button>
-          </p>
-          <p
-            style="
-              font-weight: bolder;
-              font-size: 25px;
-              text-align: left;
-              color: red;
-            "
-          >
-            21,75Є
-          </p>
-          <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-          <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
-              class="order"
-              style="width: 80%; position: relative; top: -10px"
-            >
-              <span class="default">Realitzar Comanda</span
-              ><span class="success"
-                >Comanda Enviada<svg viewbox="0 0 12 10">
-                  <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
-              ></span>
-              <div class="box"></div>
-              <div class="truck">
-                <div class="back"></div>
-                <div class="front">
-                  <div class="window"></div>
-                </div>
-                <div class="light top"></div>
-                <div class="light bottom"></div>
-              </div>
-              <div class="lines"></div>
-            </button>
-          </div>
-        </div>
-        <div class="swiper-slide" style="overflow: hidden; height: 530px">
-          <div class="container2">
-            <div class="box-out" style="width: 100%; justify-content: center">
-              <div class="book books-3"></div>
-            </div>
-          </div>
-          <hr />
-          <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
-          </p>
-          <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
-          </p>
-          <p style="font-weight: 100; font-size: 15px; text-align: left">
-            <del>$7.00</del
-            ><button
-              class="product-old-price"
-              style="
-                margin-left: 15px;
-                width: 50px;
-                background-color: red;
-                border: 0px;
-                border-radius: 15px;
-              "
-            >
-              -5%
-            </button>
-          </p>
-          <p
-            style="
-              font-weight: bolder;
-              font-size: 25px;
-              text-align: left;
-              color: red;
-            "
-          >
-            21,75Є
-          </p>
-          <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-          <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
-              class="order"
-              style="width: 80%; position: relative; top: -10px"
-            >
-              <span class="default">Realitzar Comanda</span
-              ><span class="success"
-                >Comanda Enviada<svg viewbox="0 0 12 10">
-                  <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
-              ></span>
-              <div class="box"></div>
-              <div class="truck">
-                <div class="back"></div>
-                <div class="front">
-                  <div class="window"></div>
-                </div>
-                <div class="light top"></div>
-                <div class="light bottom"></div>
-              </div>
-              <div class="lines"></div>
-            </button>
-          </div>
-        </div>
-        <div class="swiper-slide" style="overflow: hidden; height: 530px">
-          <div class="container2">
-            <div class="box-out" style="width: 100%; justify-content: center">
-              <div class="book books-4"></div>
-            </div>
-          </div>
-          <hr />
-          <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
-          </p>
-          <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
-          </p>
-          <p style="font-weight: 100; font-size: 15px; text-align: left">
-            <del>$7.00</del
-            ><button
-              class="product-old-price"
-              style="
-                margin-left: 15px;
-                width: 50px;
-                background-color: red;
-                border: 0px;
-                border-radius: 15px;
-              "
-            >
-              -5%
-            </button>
-          </p>
-          <p
-            style="
-              font-weight: bolder;
-              font-size: 25px;
-              text-align: left;
-              color: red;
-            "
-          >
-            21,75Є
-          </p>
-          <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-          <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
-              class="order"
-              style="width: 80%; position: relative; top: -10px"
-            >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -1939,10 +1754,194 @@
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+          La Vuelta al Mundo en 80 dias
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+                      </p>
+          <p style="font-weight: 100; font-size: 15px; text-align: left">
+            <del>$7.00</del
+            ><button
+              class="product-old-price"
+              style="
+                margin-left: 15px;
+                width: 50px;
+                background-color: red;
+                border: 0px;
+                border-radius: 15px;
+              "
+            >
+              -5%
+            </button>
+          </p>
+          <p
+            style="
+              font-weight: bolder;
+              font-size: 25px;
+              text-align: left;
+              color: red;
+            "
+          >
+            21,75Є
+          </p>
+          <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
+          <div class="add-to-cart" style="margin-bottom: 50px">
+            <button
+              class="order"
+              style="width: 80%; position: relative; top: -10px"
+            >
+              <span class="default">Detalls</span
+              ><span class="success"
+                >Comanda Enviada<svg viewbox="0 0 12 10">
+                  <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
+              ></span>
+              <div class="box"></div>
+              <div class="truck">
+                <div class="back"></div>
+                <div class="front">
+                  <div class="window"></div>
+                </div>
+                <div class="light top"></div>
+                <div class="light bottom"></div>
+              </div>
+              <div class="lines"></div>
+            </button>
+          </div>
+        </div>
+        <div class="swiper-slide" style="overflow: hidden; height: 530px">
+          <div class="container2">
+            <div class="box-out" style="width: 100%; justify-content: center">
+              <div class="book books-9"></div>
+            </div>
+          </div>
+          <hr />
+          <p style="font-weight: bolder; font-size: 20px; text-align: left">
+            Dracula
+          </p>
+          <p style="font-weight: 100; font-size: 15px; text-align: left">
+          </p>
+          <p style="font-weight: 100; font-size: 15px; text-align: left">
+            <del>$7.00</del
+            ><button
+              class="product-old-price"
+              style="
+                margin-left: 15px;
+                width: 50px;
+                background-color: red;
+                border: 0px;
+                border-radius: 15px;
+              "
+            >
+              -5%
+            </button>
+          </p>
+          <p
+            style="
+              font-weight: bolder;
+              font-size: 25px;
+              text-align: left;
+              color: red;
+            "
+          >
+            21,75Є
+          </p>
+          <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
+          <div class="add-to-cart" style="margin-bottom: 50px">
+            <button
+              class="order"
+              style="width: 80%; position: relative; top: -10px"
+            >
+              <span class="default">Detalls</span
+              ><span class="success"
+                >Comanda Enviada<svg viewbox="0 0 12 10">
+                  <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
+              ></span>
+              <div class="box"></div>
+              <div class="truck">
+                <div class="back"></div>
+                <div class="front">
+                  <div class="window"></div>
+                </div>
+                <div class="light top"></div>
+                <div class="light bottom"></div>
+              </div>
+              <div class="lines"></div>
+            </button>
+          </div>
+        </div>
+        <div class="swiper-slide" style="overflow: hidden; height: 530px">
+          <div class="container2">
+            <div class="box-out" style="width: 100%; justify-content: center">
+              <div class="book books-14"></div>
+            </div>
+          </div>
+          <hr />
+          <p style="font-weight: bolder; font-size: 20px; text-align: left">
+            Cruce de Caminos
+          </p>
+          <p style="font-weight: 100; font-size: 15px; text-align: left">
+            
+          </p>
+          <p style="font-weight: 100; font-size: 15px; text-align: left">
+            <del>$7.00</del
+            ><button
+              class="product-old-price"
+              style="
+                margin-left: 15px;
+                width: 50px;
+                background-color: red;
+                border: 0px;
+                border-radius: 15px;
+              "
+            >
+              -5%
+            </button>
+          </p>
+          <p
+            style="
+              font-weight: bolder;
+              font-size: 25px;
+              text-align: left;
+              color: red;
+            "
+          >
+            21,75Є
+          </p>
+          <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
+          <div class="add-to-cart" style="margin-bottom: 50px">
+            <button
+              class="order"
+              style="width: 80%; position: relative; top: -10px"
+            >
+              <span class="default">Detalls</span
+              ><span class="success"
+                >Comanda Enviada<svg viewbox="0 0 12 10">
+                  <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
+              ></span>
+              <div class="box"></div>
+              <div class="truck">
+                <div class="back"></div>
+                <div class="front">
+                  <div class="window"></div>
+                </div>
+                <div class="light top"></div>
+                <div class="light bottom"></div>
+              </div>
+              <div class="lines"></div>
+            </button>
+          </div>
+        </div>
+        <div class="swiper-slide" style="overflow: hidden; height: 530px">
+          <div class="container2">
+            <div class="box-out" style="width: 100%; justify-content: center">
+              <div class="book books-18 "></div>
+            </div>
+          </div>
+          <hr />
+          <p style="font-weight: bolder; font-size: 20px; text-align: left">
+            Diseño de Portada
+          </p>
+          <p style="font-weight: 100; font-size: 15px; text-align: left">
+            
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -1976,7 +1975,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -2002,10 +2001,10 @@
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            Mein Kampf
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -2038,7 +2037,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -2064,10 +2063,10 @@
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            Dr. Jekyll Mr. Hyde
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -2100,7 +2099,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -2126,10 +2125,10 @@
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            El retrato de una Dama
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+            
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -2162,7 +2161,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -2183,15 +2182,15 @@
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
           <div class="container2">
             <div class="box-out" style="width: 100%; justify-content: center">
-              <div class="book books-9"></div>
+              <div class="book books-15"></div>
             </div>
           </div>
           <hr />
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Nombre del libro
+            La Naranja Mecanica
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
-            Nombre autor
+            
           </p>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
             <del>$7.00</del
@@ -2224,7 +2223,7 @@
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Realitzar Comanda</span
+              <span class="default">Detalls</span
               ><span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -2286,7 +2285,7 @@
             class="order"
             style="width: 80%; position: relative; top: -10px"
           >
-            <span class="default">Realitzar Comanda</span
+            <span class="default">Detalls</span
             ><span class="success"
               >Comanda Enviada<svg viewbox="0 0 12 10">
                 <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
@@ -2308,7 +2307,7 @@
       <div class="swiper-button-next" style="color: rgb(0, 0, 0)"></div>
       <div class="swiper-button-prev" style="color: rgb(0, 0, 0)"></div>
     </div>
-<!-- SEPARADOR TRIPLE TIENDA -->
+<!-- SEPARADOR TRIPLE TIENDA
 <div class="separ"></div>
     <div class="destacpunt">
       <div class="destacpunt2">
@@ -2324,7 +2323,7 @@
       </div>
     </div>
     <!-- Contenedor del carrusel -->
-    <div class="swiper-container" style="overflow: hidden">
+    <!-- <div class="swiper-container" style="overflow: hidden">
       <div class="swiper-wrapper">
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
           <div class="container2">
@@ -2372,7 +2371,7 @@
             21,75Є
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-          <div class="add-to-cart" style="margin-bottom: 50px">
+          <!-- <div class="add-to-cart" style="margin-bottom: 50px">
             <button
               class="order"
               style="width: 80%; position: relative; top: -10px"
@@ -2434,7 +2433,7 @@
             21,75Є
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-          <div class="add-to-cart" style="margin-bottom: 50px">
+          <!-- <div class="add-to-cart" style="margin-bottom: 50px">
             <button
               class="order"
               style="width: 80%; position: relative; top: -10px"
@@ -2496,7 +2495,7 @@
             21,75Є
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-          <div class="add-to-cart" style="margin-bottom: 50px">
+          <!-- <div class="add-to-cart" style="margin-bottom: 50px">
             <button
               class="order"
               style="width: 80%; position: relative; top: -10px"
@@ -2557,8 +2556,8 @@
           >
             21,75Є
           </p>
-          <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-          <div class="add-to-cart" style="margin-bottom: 50px">
+          CARRITO DE COMPRAS CSS / JavaScript	 -->
+          <!-- <div class="add-to-cart" style="margin-bottom: 50px">
             <button
               class="order"
               style="width: 80%; position: relative; top: -10px"
@@ -2578,8 +2577,8 @@
                 <div class="light bottom"></div>
               </div>
               <div class="lines"></div>
-            </button>
-          </div>
+            </button> -->
+          <!-- </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
           <div class="container2">
@@ -2618,10 +2617,10 @@
             "
           >
             21,75Є
-          </p>
+          </p> -->
 
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-          <div class="add-to-cart" style="margin-bottom: 50px">
+          <!-- <div class="add-to-cart" style="margin-bottom: 50px">
             <button
               class="order"
               style="width: 80%; position: relative; top: -10px"
@@ -2669,8 +2668,9 @@
                 border-radius: 15px;
               "
             >
-              -5%
-            </button>
+              -5% -->
+            <!-- </button>
+
           </p>
           <p
             style="
@@ -2683,7 +2683,7 @@
             21,75Є
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-          <div class="add-to-cart" style="margin-bottom: 50px">
+          <!-- <div class="add-to-cart" style="margin-bottom: 50px">
             <button
               class="order"
               style="width: 80%; position: relative; top: -10px"
@@ -2730,8 +2730,8 @@
                 border: 0px;
                 border-radius: 15px;
               "
-            >
-              -5%
+            > --> 
+              <!-- -5%
             </button>
           </p>
           <p
@@ -2745,7 +2745,7 @@
             21,75Є
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-          <div class="add-to-cart" style="margin-bottom: 50px">
+          <!-- <div class="add-to-cart" style="margin-bottom: 50px">
             <button
               class="order"
               style="width: 80%; position: relative; top: -10px"
@@ -2807,7 +2807,7 @@
             21,75Є
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-          <div class="add-to-cart" style="margin-bottom: 50px">
+          <!-- <div class="add-to-cart" style="margin-bottom: 50px">
             <button
               class="order"
               style="width: 80%; position: relative; top: -10px"
@@ -2869,8 +2869,8 @@
             21,75Є
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-          <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+          <!-- <div class="add-to-cart" style="margin-bottom: 50px"> -->
+            <!-- <button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -2929,9 +2929,9 @@
           "
         >
           21,75Є
-        </p>
+        </p> 
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-        <div class="add-to-cart" style="margin-bottom: 50px">
+        <!-- <div class="add-to-cart" style="margin-bottom: 50px">
           <button
             class="order"
             style="width: 80%; position: relative; top: -10px"
@@ -2953,7 +2953,7 @@
             <div class="lines"></div>
           </button>
         </div>
-      </div>
+      </div> -->
       <!-- Flechas de navegación -->
       <div class="swiper-button-next" style="color: rgb(0, 0, 0)"></div>
       <div class="swiper-button-prev" style="color: rgb(0, 0, 0)"></div>
@@ -2981,7 +2981,7 @@
                   <a href="#"><i class="fa fa-facebook"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="ri-twitter-x-line"></i></a>
+                  <a href="#"><i class="ri-twitter-line"></i></a>
                 </li>
                 <li>
                   <a href="#"><i class="fa fa-instagram"></i></a>
@@ -3064,6 +3064,12 @@
                   <li>
                     <a href="../html/terminos.html">Termes i Condicions</a>
                   </li>
+                  <li>
+                    <a href="##">FAQs</a>
+                  </li>
+                  <li>
+                    <a href="##">Resenyes</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -3105,7 +3111,7 @@
           </div>
         </div>
         <div class="faq-buttons">
-          <button onclick="sendFAQ('Com et dius?')">Com et dius?</button>
+          <button onclick="sendFAQ('Com et dius?')">Com et dius?</button>9
           <button onclick="sendFAQ('Què pots fer?')">Què pots fer?</button>
           <button onclick="sendFAQ('Quina hora és?')">Quina hora és?</button>
           <button onclick="sendFAQ('Com funciona el procés de devolucions?')">
