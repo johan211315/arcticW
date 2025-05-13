@@ -67,6 +67,7 @@ include("../php/carrito.php");
         <ul class="nav__list">
           <li><a href="/index.php" class="nav__link">Home</a></li>
           <li><a href="/ArcticW//kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
+          <li class="nav-item"><a class="nav__link" href="../biblioteca/biblioteca.html">Biblioteca</a></li>
           <!--=============== DROPDOWN 1 TIENDA ===============-->
           <li class="dropdown__item">
             <div class="nav__link">
