@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipbook con dFlip</title>
+    
+    <!-- Cargar el CSS de dFlip -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/dflip@1.2.0/dist/dflip.min.css">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #flipbook-container {
+            width: 80%;
+            margin: 0 auto;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Visualizador Flipbook con dFlip</h1>
+
+    <!-- Input para la ruta del archivo PDF -->
+    <input type="text" id="pdf-path" value="book.pdf" placeholder="book" style="width: 80%; margin: 20px;">
+    
+    <!-- Botón para cargar el PDF -->
+    <button onclick="loadFlipbook()">Cargar PDF</button>
+
+    <!-- Contenedor para el flipbook -->
+    <div id="flipbook-container"></div>
+
+    <!-- Cargar jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Cargar el JS de dFlip -->
+    <script src="https://cdn.jsdelivr.net/npm/dflip@1.2.0/dist/dflip.min.js"></script>
+
+    <script>
+        function loadFlipbook() {
+            // Obtener la ruta del archivo PDF desde el input
+            const pdfUrl = document.getElementById('pdf-path').value;
+
+            // Verificar si la ruta del PDF es válida
+            if (pdfUrl.trim() !== '') {
+                // Crear el flipbook con dFlip
+                $('#flipbook-container').dFlip({
+                    pdf: pdfUrl, // Usar la ruta proporcionada en el input
+                    size: 'cover', // Tamaño del flipbook
+                    pageControl: true, // Mostrar el control de páginas
+                    autoPlay: false, // Desactivar auto play
+                    fullscreen: true // Habilitar pantalla completa
+                });
+            } else {
+                alert('Por favor, introduce la ruta de un archivo PDF válido.');
+            }
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
