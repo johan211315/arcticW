@@ -52,6 +52,7 @@ include './ArcticW/php/configuracionphp/configuracion.php'; // Ajusta la ruta se
             <li><a href="/index.php" class="nav__link">Home</a></li>
             <li><a href="/ArcticW/html/privacidad.html" class="nav__link">Sobre nosaltres</a></li>
             <li><a href="/ArcticW/kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
+            <li class="nav-item"><a class="nav__link" href="./ArcticW/biblioteca/biblioteca.html">Biblioteca</a></li>
             <!--=============== DROPDOWN 1 TIENDA ===============-->
             <li class="dropdown__item">
               <div class="nav__link">
@@ -85,6 +86,11 @@ include './ArcticW/php/configuracionphp/configuracion.php'; // Ajusta la ruta se
                 <li>
                   <a href="/ArcticW/php/register.php" class="dropdown__link">
                     <i class="ri-user-shared-fill"></i> Registrar-se
+                  </a>
+                </li>
+                <li>
+                  <a href="/ArcticW/php/perfil.php" class="dropdown__link">
+                    <i class="ri-user-2-line"></i> Perfil
                   </a>
                 </li>
                 <li>

@@ -1,0 +1,26 @@
+.cambusr {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.perfil {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 4em;
+}
+
+.row2 {
+    display: flex;
+    flex-flow: space-between wrap;
+    justify-content: center;
+
+}
+
+.cambuser {
+    padding: 0.5em;
+}
+
+.cambpasw {
+    padding: 0.5em;
+}
