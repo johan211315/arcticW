@@ -60,3 +60,83 @@
     margin: 0.3em;
     color: aliceblue;
 }
+
+.body2 {
+    box-sizing: border-box;
+  }
+
+  .fondlocal {
+    background-color: rgba(36, 36, 36, 0.957);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  #titulocal {
+    text-align: center;
+    color: white;
+    padding-top: 1em;
+    font-size:xx-large;
+    text-transform: capitalize;
+  }
+  
+  .body2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    width: 90vw;
+  }
+  
+  .panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    height: 80vh;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    -webkit-transition: all 700ms ease-in;
+  }
+  
+  .panel h3 {
+    font-size: 24px;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+    padding: 1em;
+  }
+  
+  .panel.active {
+    flex: 5;
+    opacity: 1;
+  }
+  
+  .panel.active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+  }
+
+  .map {
+    text-align: center;
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      width: 100vw;
+    }
+  
+    .panel:nth-of-type(4),
+    .panel:nth-of-type(5) {
+      display: none;
+    }
+  }

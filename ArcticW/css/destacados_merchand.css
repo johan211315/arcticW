@@ -9,6 +9,11 @@ main {
 }
 
 
+.fondomov {
+    background-image: url(../img/Fondo/Fondofijotienda.gif);
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 
 .autores2 {
@@ -19,6 +24,7 @@ main {
     margin: 5%;
     margin-top: 2%;
     padding: 1em;
+    background-color: rgba(255, 255, 255, 0.249);
 }
 
 .autores2 h2{
@@ -30,6 +36,8 @@ main {
     margin: 10px;
     box-shadow: 0 5px 10px 0 rgba( 0 , 0 , 0 , 0.5);
     flex: 30%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
 }
 
 .clase1:not(:hover) {
@@ -78,9 +86,9 @@ main {
 }
 
 #destacados{
-    padding-top: 4em;
+    padding: 3em 0 2em 0;
     text-align: center;
     font-size: 30px;
-    color: red;    
+    color: red;
 }
 
