@@ -427,12 +427,12 @@
 
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=1"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
-              <span class="default">Detalls</span
-              ></a><span class="success"
+              <span class="default">Detalls</span>
+              <span class="success"
                 >Comanda Enviada<svg viewbox="0 0 12 10">
                   <polyline points="1.5 6 4.5 9 10.5 1"></polyline></svg
               ></span>
@@ -447,6 +447,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
           
@@ -461,6 +462,7 @@
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
             El libro de los 5 anillos
           </p>
+          </a>
           <p style="font-weight: 100; font-size: 15px; text-align: left">
           
           </p>
@@ -491,7 +493,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=2"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -511,6 +513,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -553,7 +556,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=3"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -573,6 +576,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -615,7 +619,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=4"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -635,6 +639,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -678,7 +683,7 @@
 
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+             <a href="/ArcticW/php/dinamico/comprar.php?id=5"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -698,6 +703,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -740,7 +746,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=7"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -760,6 +766,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -802,7 +809,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=8"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -822,6 +829,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -864,7 +872,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=9"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -884,6 +892,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -926,7 +935,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=10"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -946,6 +955,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         < class="swiper-slide" style="overflow: hidden; height: 530px" >
@@ -988,7 +998,7 @@
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
-          <button
+          <a href="/ArcticW/php/dinamico/comprar.php?id=10"><button
             class="order"
             style="width: 80%; position: relative; top: -10px"
           >
@@ -1008,6 +1018,7 @@
             </div>
             <div class="lines"></div>
           </button>
+          </a>
         </div>
       </div>
       <!-- Flechas de navegación -->
@@ -1073,7 +1084,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=13"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -1093,6 +1104,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -1135,7 +1147,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=15"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -1155,6 +1167,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -1197,7 +1210,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=16"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -1217,6 +1230,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -1259,7 +1273,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=17"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -1279,6 +1293,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -1322,7 +1337,7 @@
 
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=18"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -1342,6 +1357,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -1384,7 +1400,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=14"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -1404,6 +1420,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -1446,7 +1463,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=6"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -1466,6 +1483,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -1508,7 +1526,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=12"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -1528,6 +1546,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -1570,7 +1589,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=5"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -1590,6 +1609,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         < class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -1724,7 +1744,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=16"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -1744,6 +1764,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -1785,7 +1806,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=5"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -1805,6 +1826,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -1846,7 +1868,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=10"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -1866,6 +1888,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -1908,7 +1931,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=17"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -1928,6 +1951,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -1971,7 +1995,7 @@
 
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=12"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -1991,6 +2015,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -2033,7 +2058,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=7"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -2053,6 +2078,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -2095,7 +2121,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=8"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -2115,6 +2141,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -2157,7 +2184,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=9"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -2177,6 +2204,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
@@ -2219,7 +2247,7 @@
           </p>
           <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
           <div class="add-to-cart" style="margin-bottom: 50px">
-            <button
+            <a href="/ArcticW/php/dinamico/comprar.php?id=18"><button
               class="order"
               style="width: 80%; position: relative; top: -10px"
             >
@@ -2239,6 +2267,7 @@
               </div>
               <div class="lines"></div>
             </button>
+            </a>
           </div>
         </div>
         < class="swiper-slide" style="overflow: hidden; height: 530px" >
