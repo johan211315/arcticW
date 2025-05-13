@@ -29,6 +29,33 @@ if(mysqli_num_rows($result) > 0){
     ';
     exit;
 }
+// Después de la conexión a la base de datos
+register_shutdown_function(function() use ($conexion) {
+    if ($conexion && !$conexion->connect_error) {
+        $conexion->close();
+    }
+});
 
+// Prevenir sesiones no iniciadas correctamente
+ini_set('session.use_strict_mode', 1);
 mysqli_close($conexion);
+
+// Ejemplo en tu archivo de login (validar_login.php)
+session_start();
+
+// Suponiendo que ya validaste el usuario y contraseña
+$usuario = $_POST['usuario'];
+
+// Consulta a la base de datos
+$query = "SELECT nombre FROM usuarios WHERE usuario = ?";
+$stmt = $conexion->prepare($query);
+$stmt->bind_param("s", $usuario);
+$stmt->execute();
+$resultado = $stmt->get_result();
+
+if ($resultado->num_rows === 1) {
+    $fila = $resultado->fetch_assoc();
+    $_SESSION['nombre_usuario'] = $fila['nombre']; // Almacenar en sesión
+    header("Location: perfil.php");
+}
 ?>
