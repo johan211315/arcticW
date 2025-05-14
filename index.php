@@ -50,7 +50,7 @@ include './ArcticW/php/configuracionphp/configuracion.php'; // Ajusta la ruta se
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li><a href="/index.php" class="nav__link">Home</a></li>
-            <li><a href="/ArcticW/html/privacidad.html" class="nav__link">Sobre nosaltres</a></li>
+            <li><a href="#atribhomeid" class="nav__link">Sobre nosaltres</a></li>
             <li><a href="/ArcticW/kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
             <li class="nav-item"><a class="nav__link" href="./ArcticW/biblioteca/biblioteca.html">Biblioteca</a></li>
             <!--=============== DROPDOWN 1 TIENDA ===============-->
@@ -162,7 +162,7 @@ include './ArcticW/php/configuracionphp/configuracion.php'; // Ajusta la ruta se
 <br>
 <br>
 <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-    <div class="atribhome">
+    <div class="atribhome" id="atribhomeid">
       <div class="pershom">
         <img src="/ArcticW/img/img/jojan.jpg" alt="Johan Aricapa" >
         <h4>Johan Aricapa</h4>
