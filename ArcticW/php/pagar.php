@@ -9,7 +9,7 @@ $totalFormateado = number_format($total, 2, '.', '');
 ?>
 <!DOCTYPE html>
 <html lang="ca">
-<!-- <script src="https://www.paypal.com/sdk/js?client-id=AZFSxcrMxR-PtFRB5tkWX481YXzKLV0xFkehxXjcGMAEdhisb72_ATCPlRC-fBW5I2VRP3bw1Nfi7Wuf&currency=EUR"></script> -->
+<script src="https://www.paypal.com/sdk/js?client-id=AZFSxcrMxR-PtFRB5tkWX481YXzKLV0xFkehxXjcGMAEdhisb72_ATCPlRC-fBW5I2VRP3bw1Nfi7Wuf&currency=EUR"></script>
 
 <head>
     <meta charset="utf-8" />
@@ -295,14 +295,37 @@ $totalFormateado = number_format($total, 2, '.', '');
                     uperezoscar@gmail.com
                 </a>
             </p>
-            <!-- <div class="text-end">
+            <div class="text-end">
                 <div id="paypal-button-container"></div>
 
                 <script>
-                    paypal.Buttons().render('#paypal-button-container');
-                </script> -->
+                    paypal.Buttons({
+                        style: {
+                            shape: 'pill',
+                            label: 'pay'
+                        },
+                        createOrder: function(data, actions) {
+                            return actions.order.create({
+                                purchase_units: [{
+                                    amount: {
+                                        value: <?= number_format($total, 2, '.', '') ?>
+                                    }
+                                }]
+                            });
+                        },
+                        onApprove: function(data, actions) {
+                            actions.order.capture().then(function(detalles) {
+                                console.log(detalles);
+                            });
+                        },
+                        onCancel: function(data) {
+                            alert("Pago cancelado");
+                        }
+                    }).render('#paypal-button-container');
+                </script>
+
+            </div>
         </div>
-    </div>
     </div>
 
 
