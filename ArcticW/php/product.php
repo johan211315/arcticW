@@ -314,7 +314,7 @@ include("../php/carrito.php");
               </div>
               <div>
                 <h3 class="product-price" name="precio" value="11.00">
-                  $7.00 <del class="product-old-price">$11.00</del>
+                  Є7.00 <del class="product-old-price">Є11.00</del>
                   <span style="font-size: 20px">-36%</span>
                 </h3>
               </div>
@@ -354,7 +354,7 @@ include("../php/carrito.php");
                 </div>
                 <form action="" method="post">
                   <input type="hidden" name="nombre" id="nombre" value="Cien años de Soledad">
-                  <input type="hidden" name="precio" id="precio" value="11.00">
+                  <input type="hidden" name="precio" id="precio" value="7.00">
                   <input type="hidden" name="tipo" id="tipo" value="Ebook">
                   <input type="hidden" name="cantidad" id="cantidad" value="1">
 
@@ -736,7 +736,7 @@ include("../php/carrito.php");
                 <a href="#">lo que el viento se llevo</a>
               </h3>
               <h4 class="product-price">
-                $7.00 <del class="product-old-price">$10.00</del>
+                Є7.00 <del class="product-old-price">Є10.00</del>
               </h4>
               <div class="product-rating"></div>
             </div>
@@ -762,7 +762,7 @@ include("../php/carrito.php");
                 <a href="#">El libro de los 5 anillos</a>
               </h3>
               <h4 class="product-price">
-                $7.00 <del class="product-old-price">$10.00</del>
+                Є7.00 <del class="product-old-price">Є10.00</del>
               </h4>
               <div class="product-rating"></div>
             </div>
@@ -788,7 +788,7 @@ include("../php/carrito.php");
                 <a href="#">Platon La republica</a>
               </h3>
               <h4 class="product-price">
-                $7.00 <del class="product-old-price">$10.00</del>
+                Є7.00 <del class="product-old-price">Є10.00</del>
               </h4>
               <div class="product-rating"></div>
             </div>
@@ -814,7 +814,7 @@ include("../php/carrito.php");
                 <a href="#">El arte de la guerra</a>
               </h3>
               <h4 class="product-price">
-                $8.00 <del class="product-old-price">$10.00</del>
+                Є8.00 <del class="product-old-price">Є10.00</del>
               </h4>
               <div class="product-rating"></div>
             </div>

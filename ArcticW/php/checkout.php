@@ -374,7 +374,7 @@ if (isset($_GET['remove'])) {
               </div>
               <small id="emailhelp" class="form-text text-muted">Los producos se enviarán a este correo</small>
             </div>
-            <button class="btn btn-primary btn-lg btn-block" type="submit" value="proceder" name="btnAccion" style="background-color:red; border:none">
+            <button class="btn btn-primary btn-lg btn-block" type="submit" value="proceder" name="btnAccion" style="background-color:red; border:none" href="pagar.php">
               Proceder a pagar >>
             </button>
           </form>

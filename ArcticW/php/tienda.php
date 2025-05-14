@@ -182,7 +182,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
   <!-- /NAVIGATION -->
 
   <!--Slider de imagenes-->
-  <!-- <!--Slider de imagenes-->
+  <!--Slider de imagenes-->
   <div class="marina">
     <div class="slider">
       <div class="slides">
