@@ -3,30 +3,29 @@
     padding: 0;
 }
 
-
+.arreglachapuzas {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: column wrap;
+    background-image: url("../img/merch/GIFMERCHREBAJA.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6em;
+}
 
 #merch {
     display: flex;
     justify-content: center;
-    position: relative;
-    background-image: url(../img/merch/gif\ atardecer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+    flex-flow: column wrap;
 
-}
-
-
-#merch img{
-    width: 1000px;
-}
-
-#merch img{
-    width: 1000px;
 }
 
 #merch p{
     color: white;
-    position: absolute;
     bottom: 350px;
     font-size: 15px;
     text-align: center;
@@ -34,7 +33,6 @@
 
 #merch h3{
     color: white;
-    position: absolute;
     bottom: 300px;
     font-size: 40px;
     text-align: center;
@@ -42,7 +40,6 @@
 
 #merch h2{
     color: white;
-    position: absolute;
     bottom: 240px;
     font-size: 50px;
     text-align: center;
@@ -51,7 +48,6 @@
 #merch button{
     background-color: white;
     color: red;
-    position: absolute;
     bottom: 190px;
     border-style: none;
     border-radius: 20px;
