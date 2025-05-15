@@ -67,6 +67,7 @@ include("../php/carrito.php");
         <ul class="nav__list">
           <li><a href="/index.php" class="nav__link">Home</a></li>
           <li><a href="/ArcticW//kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
+          <li><a href="/ArcticW/biblioteca/biblioteca.html" class="nav__link">Biblioteca</a></li>
           <!--=============== DROPDOWN 1 TIENDA ===============-->
           <li class="dropdown__item">
             <div class="nav__link">
@@ -1036,7 +1037,7 @@ include("../php/carrito.php");
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="../js/button.js"></script>
   <script src="../js/asistente.js"></script>
-  
+
 </body>
 
 </html>
