@@ -3,19 +3,6 @@
     include("../php/plantillasphp/top.php");
     include("../php/configuracionphp/conexionpr.php")
     ?>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-
-
-
-
 
     <?php include("../php/plantillasphp/pie.php") ?>
     </body>

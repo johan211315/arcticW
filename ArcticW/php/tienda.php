@@ -58,126 +58,126 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
 
 <body>
   <!-- HEADER -->
-    <header class="header">
-      <nav class="nav container">
-        <div class="nav__data">
-          <a href="#" class="nav__logo">
-            <img
-              src="../img/SELLO (CIRCULAR).png"
-              alt="Logo"
-              width="50px" />Artic Wolves
-          </a>
-          <div class="nav__toggle" id="nav-toggle">
-            <i class="ri-menu-line nav__burger"></i>
-            <i class="ri-close-line nav__close"></i>
-          </div>
+  <header class="header">
+    <nav class="nav container">
+      <div class="nav__data">
+        <a href="#" class="nav__logo">
+          <img
+            src="../img/SELLO (CIRCULAR).png"
+            alt="Logo"
+            width="50px" />Artic Wolves
+        </a>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line nav__burger"></i>
+          <i class="ri-close-line nav__close"></i>
         </div>
-        <!--=============== NAV MENU ===============-->
-        <div class="nav__menu" id="nav-menu">
-          <ul class="nav__list">
-            <li><a href="/index.php" class="nav__link">Home</a></li>
-            <li><a href="/ArcticW//kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
-            <li><a href="/ArcticW/biblioteca/biblioteca.html" class="nav__link">Biblioteca</a></li>
-            <!--=============== DROPDOWN 1 TIENDA ===============-->
-            <li class="dropdown__item">
-              <div class="nav__link">
-                <a href="../php/tienda.php"></a>Botiga
-                <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-              </div>
-              <ul class="dropdown__menu">
-                <!--=============== DROPDOWN LLIBRES  ===============-->
-                <li class="dropdown__subitem">
-                  <div class="dropdown__link">
-                    <i class="ri-book-marked-line"></i><a href="../html/categorias.html" style="color: white">Categories</a><i class="ri-add-line dropdown__add"></i>
-                  </div>
-                  <ul class="dropdown__submenu"></ul>
-                </li>
-                <li class="dropdown__subitem">
-                  <div class="dropdown__link">
-                    <a href="merch.php" style="color: white">Merchandising</a>
-                    <i class="ri-add-line dropdown__add"></i>
-                  </div>
-                  <ul class="dropdown__submenu">
-                    <li>
-                      <a href="#" class="dropdown__sublink">
-                        <i class="ri-shirt-line"></i> Samarretas
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" class="dropdown__sublink">
-                        <i class="ri-shirt-line"></i> Tases
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" class="dropdown__sublink">
-                        <i class="ri-shirt-line"></i> Stickers
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" class="dropdown__sublink">
-                        <i class="ri-shirt-line"></i> Posters
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <!--=============== DROPDOWN MENU CUENTA ===============-->
-            <li class="dropdown__item">
-              <div class="nav__link">
-                <?php if (isset($_SESSION['usuario'])): ?>
-                  <!-- Usuario logueado -->
-                  <div class="usuario">
-                    <?php echo $_SESSION['usuario']; ?>
-                  </div>
-                <?php else: ?>
-                  <!-- Usuario no logueado -->
-                  <div class="usuario">
-                    El teu usuari
-                  </div>
-                <?php endif; ?>
-                <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-              </div>
-              <ul class="dropdown__menu">
-                <li>
-                  <a href="../php/login.php" class="dropdown__link">
-                    <i class="ri-user-2-line"></i> Inici Sessió
-                  </a>
-                </li>
-                <li>
-                  <a href="../php/register.php" class="dropdown__link">
-                    <i class="ri-user-shared-fill"></i> Registrar-se
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="dropdown__link">
-                    <i class="ri-group-2-fill"></i> Canviar de compte
-                  </a>
-                </li>
-                <li>
-                  <a href="./configuracionphp/logout.php" class="dropdown__link">
-                    <i class="ri-user-unfollow-line"></i> Tanca sessió
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <!--=============== APARTADO CARRITO ===============-->
-            <li>
-              <a href="checkout.php" class="nav__link"><i class="ri-shopping-cart-2-line"></i></a>
-            </li>
-            <!--=============== APARTADO BUSQUEDA ===============-->
-            <li class="nav__link">
-              <div class="search-container">
-                <input type="text" placeholder="Buscar" />
-                <div class="btn">
-                  <i class="ri-search-line"></i>
+      </div>
+      <!--=============== NAV MENU ===============-->
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="/index.php" class="nav__link">Home</a></li>
+          <li><a href="/ArcticW//kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
+          <li><a href="/ArcticW/biblioteca/biblioteca.html" class="nav__link">Biblioteca</a></li>
+          <!--=============== DROPDOWN 1 TIENDA ===============-->
+          <li class="dropdown__item">
+            <div class="nav__link">
+              <a href="../php/tienda.php"></a>Botiga
+              <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+            <ul class="dropdown__menu">
+              <!--=============== DROPDOWN LLIBRES  ===============-->
+              <li class="dropdown__subitem">
+                <div class="dropdown__link">
+                  <i class="ri-book-marked-line"></i><a href="../html/categorias.html" style="color: white">Categories</a><i class="ri-add-line dropdown__add"></i>
                 </div>
+                <ul class="dropdown__submenu"></ul>
+              </li>
+              <li class="dropdown__subitem">
+                <div class="dropdown__link">
+                  <a href="merch.php" style="color: white">Merchandising</a>
+                  <i class="ri-add-line dropdown__add"></i>
+                </div>
+                <ul class="dropdown__submenu">
+                  <li>
+                    <a href="#" class="dropdown__sublink">
+                      <i class="ri-shirt-line"></i> Samarretas
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown__sublink">
+                      <i class="ri-shirt-line"></i> Tases
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown__sublink">
+                      <i class="ri-shirt-line"></i> Stickers
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="dropdown__sublink">
+                      <i class="ri-shirt-line"></i> Posters
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <!--=============== DROPDOWN MENU CUENTA ===============-->
+          <li class="dropdown__item">
+            <div class="nav__link">
+              <?php if (isset($_SESSION['usuario'])): ?>
+                <!-- Usuario logueado -->
+                <div class="usuario">
+                  <?php echo $_SESSION['usuario']; ?>
+                </div>
+              <?php else: ?>
+                <!-- Usuario no logueado -->
+                <div class="usuario">
+                  El teu usuari
+                </div>
+              <?php endif; ?>
+              <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+            </div>
+            <ul class="dropdown__menu">
+              <li>
+                <a href="../php/login.php" class="dropdown__link">
+                  <i class="ri-user-2-line"></i> Inici Sessió
+                </a>
+              </li>
+              <li>
+                <a href="../php/register.php" class="dropdown__link">
+                  <i class="ri-user-shared-fill"></i> Registrar-se
+                </a>
+              </li>
+              <li>
+                <a href="#" class="dropdown__link">
+                  <i class="ri-group-2-fill"></i> Canviar de compte
+                </a>
+              </li>
+              <li>
+                <a href="./configuracionphp/logout.php" class="dropdown__link">
+                  <i class="ri-user-unfollow-line"></i> Tanca sessió
+                </a>
+              </li>
+            </ul>
+          </li>
+          <!--=============== APARTADO CARRITO ===============-->
+          <li>
+            <a href="checkout.php" class="nav__link"><i class="ri-shopping-cart-2-line"></i></a>
+          </li>
+          <!--=============== APARTADO BUSQUEDA ===============-->
+          <li class="nav__link">
+            <div class="search-container">
+              <input type="text" placeholder="Buscar" />
+              <div class="btn">
+                <i class="ri-search-line"></i>
               </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
   <!-- /NAVIGATION -->
   <!-- NAVIGATION -->
   <!-- /NAVIGATION -->
@@ -394,7 +394,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
         <hr />
 
         <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          Lo que el viento se llevo
+          100 años de soledad
         </p>
         <!-- <p
             style="
@@ -459,9 +459,12 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
           </div>
         </div>
         <hr />
-        <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          El libro de los 5 anillos
-        </p>
+
+        <a href="http://localhost/ArcticW/php/dinamico.php?id=5">
+          <p style="font-weight: bolder; font-size: 20px; text-align: left">
+            El libro de los 5 anillos
+          </p>
+        </a>
         <p style="font-weight: 100; font-size: 15px; text-align: left">
 
         </p>

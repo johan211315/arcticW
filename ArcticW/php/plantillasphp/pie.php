@@ -2,6 +2,448 @@
     include_once("../php/carrito.php");
     ?>
     <!-- FOOTER -->
+    <!-- Product tab -->
+    <div class="col-md-12">
+        <div id="product-tab">
+            <!-- product tab nav -->
+            <ul class="tab-nav">
+                <li class="active">
+                    <a data-toggle="tab" href="#tab1">Descripció</a>
+                </li>
+                <li><a data-toggle="tab" href="#tab2">Detalls</a></li>
+                <li><a data-toggle="tab" href="#tab3">Opinions</a></li>
+            </ul>
+            <!-- /product tab nav -->
+
+            <!-- product tab content -->
+            <div class="tab-content">
+                <!-- tab1  -->
+                <div id="tab1" class="tab-pane fade in active">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p><?php echo nl2br(htmlspecialchars($libro['descripcion'])); ?></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /tab1  -->
+
+                <!-- tab2  -->
+                <div id="tab2" class="tab-pane fade in">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>
+                                Idioma: Español <br />
+                                496 páginas <br />
+                                ISBN-10: 8497592204 <br />
+                                ISBN-13: 978-8497592208 <br />
+                                Classificació als més venuts d'arctic wolves: nº4 a
+                                Llibres
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /tab2  -->
+
+                <!-- tab3  -->
+                <div id="tab3" class="tab-pane fade in">
+                    <div class="row">
+                        <!-- Rating -->
+                        <div class="col-md-3">
+                            <div id="rating">
+                                <div class="rating-avg">
+                                    <span>4.5</span>
+                                    <div class="rating-stars">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                </div>
+                                <ul class="rating">
+                                    <li>
+                                        <div class="rating-stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="rating-progress">
+                                            <div style="width: 80%"></div>
+                                        </div>
+                                        <span class="sum">3</span>
+                                    </li>
+                                    <li>
+                                        <div class="rating-stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <div class="rating-progress">
+                                            <div style="width: 60%"></div>
+                                        </div>
+                                        <span class="sum">2</span>
+                                    </li>
+                                    <li>
+                                        <div class="rating-stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <div class="rating-progress">
+                                            <div></div>
+                                        </div>
+                                        <span class="sum">0</span>
+                                    </li>
+                                    <li>
+                                        <div class="rating-stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <div class="rating-progress">
+                                            <div></div>
+                                        </div>
+                                        <span class="sum">0</span>
+                                    </li>
+                                    <li>
+                                        <div class="rating-stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <div class="rating-progress">
+                                            <div></div>
+                                        </div>
+                                        <span class="sum">0</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- /Rating -->
+
+                        <!-- Reviews -->
+                        <div class="col-md-6">
+                            <div id="reviews">
+                                <ul class="reviews">
+                                    <li>
+                                        <div class="review-heading">
+                                            <h5 class="name">Sonia</h5>
+                                            <p class="date">05/02/2025, 18:00pm</p>
+                                            <div class="review-rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o empty"></i>
+                                            </div>
+                                        </div>
+                                        <div class="review-body">
+                                            <p>
+                                                Excelente obra, llena no solo de cotidianidad
+                                                colombiana, sino también de realidades de toda
+                                                Latinoamérica. Lo leí por primera vez con 19
+                                                años, en esta segunda oportunidad 15 años más
+                                                tarde, es impresionante el impacto del
+                                                entendimiento.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="review-heading">
+                                            <h5 class="name">Carlos</h5>
+                                            <p class="date">04/02/2025, 14:00pm</p>
+                                            <div class="review-rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o empty"></i>
+                                            </div>
+                                        </div>
+                                        <div class="review-body">
+                                            <p>
+                                                Fue muy grato recordar la gran experiencia al
+                                                retomar el libro y volver a encontrar la esencia
+                                                del Realismo Mágico
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="review-heading">
+                                            <h5 class="name">Antony</h5>
+                                            <p class="date">02/02/2025 20:00pm</p>
+                                            <div class="review-rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o empty"></i>
+                                            </div>
+                                        </div>
+                                        <div class="review-body">
+                                            <p>
+                                                Encontrarme de nuevo con Cien Años de Soledad,
+                                                después de 3 lecturas previas, ha permitido
+                                                despertar en mi ser la alegría del amor y la
+                                                tristeza de la soledad. Difícil expresar con
+                                                palabras la sensación que tengo, pero fue como
+                                                si leyera por primera vez tan magistral obra y
+                                                al mismo tiempo rescatar del recuerdo imágenes
+                                                ya almacenadas. Inolvidable Gabriel García
+                                                Márquez
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="reviews-pagination">
+                                    <li class="active">1</li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li>
+                                        <a href="#"><i class="fa fa-angle-right"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- /Reviews -->
+
+                        <!-- Review Form -->
+                        <div class="col-md-3">
+                            <div id="review-form">
+                                <form class="review-form">
+                                    <input
+                                        class="input"
+                                        type="text"
+                                        placeholder="Your Name" />
+                                    <input
+                                        class="input"
+                                        type="email"
+                                        placeholder="Your Email" />
+                                    <textarea
+                                        class="input"
+                                        placeholder="Your Review"></textarea>
+                                    <div class="input-rating">
+                                        <span>Your Rating: </span>
+                                        <div class="stars">
+                                            <input
+                                                id="star5"
+                                                name="rating"
+                                                value="5"
+                                                type="radio" /><label for="star5"></label>
+                                            <input
+                                                id="star4"
+                                                name="rating"
+                                                value="4"
+                                                type="radio" /><label for="star4"></label>
+                                            <input
+                                                id="star3"
+                                                name="rating"
+                                                value="3"
+                                                type="radio" /><label for="star3"></label>
+                                            <input
+                                                id="star2"
+                                                name="rating"
+                                                value="2"
+                                                type="radio" /><label for="star2"></label>
+                                            <input
+                                                id="star1"
+                                                name="rating"
+                                                value="1"
+                                                type="radio" /><label for="star1"></label>
+                                        </div>
+                                    </div>
+                                    <button class="primary-btn">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- /Review Form -->
+                    </div>
+                </div>
+                <!-- /tab3  -->
+            </div>
+            <!-- /product tab content  -->
+        </div>
+    </div>
+    <!-- /product tab -->
+    </div>
+    <!-- /row -->
+    </div>
+    <!-- /container -->
+    </div>
+    <!-- /SECTION -->
+
+    <!-- Section -->
+    <div class="section">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title text-center">
+                        <h3 class="title">Productes relacionats</h3>
+                    </div>
+                </div>
+
+                <!-- /product -->
+                <div class="col-md-3 col-xs-6">
+                    <div class="product">
+                        <div class="container2">
+                            <div class="box-out">
+                                <div class="book books-1"></div>
+                            </div>
+                        </div>
+                        <div class="product-body">
+                            <p class="product-category">Romanç</p>
+                            <h3 class="product-name">
+                                <a href="#">lo que el viento se llevo</a>
+                            </h3>
+                            <h4 class="product-price">
+                                Є7.00 <del class="product-old-price">Є10.00</del>
+                            </h4>
+                            <div class="product-rating"></div>
+                        </div>
+                        <div class="add-to-cart">
+                            <button class="add-to-cart-btn">
+                                <i class="fa fa-shopping-cart"></i> Afegeix a la cistella
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- /product -->
+                <!-- /product -->
+                <div class="col-md-3 col-xs-6">
+                    <div class="product">
+                        <div class="container2">
+                            <div class="box-out">
+                                <div class="book books-2"></div>
+                            </div>
+                        </div>
+                        <div class="product-body">
+                            <p class="product-category">Estrategia</p>
+                            <h3 class="product-name">
+                                <a href="#">El libro de los 5 anillos</a>
+                            </h3>
+                            <h4 class="product-price">
+                                Є7.00 <del class="product-old-price">Є10.00</del>
+                            </h4>
+                            <div class="product-rating"></div>
+                        </div>
+                        <div class="add-to-cart">
+                            <button class="add-to-cart-btn">
+                                <i class="fa fa-shopping-cart"></i> Afegeix a la cistella
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- /product -->
+                <!-- /product -->
+                <div class="col-md-3 col-xs-6">
+                    <div class="product">
+                        <div class="container2">
+                            <div class="box-out">
+                                <div class="book books-3"></div>
+                            </div>
+                        </div>
+                        <div class="product-body">
+                            <p class="product-category">Filosofia</p>
+                            <h3 class="product-name">
+                                <a href="#">Platon La republica</a>
+                            </h3>
+                            <h4 class="product-price">
+                                Є7.00 <del class="product-old-price">Є10.00</del>
+                            </h4>
+                            <div class="product-rating"></div>
+                        </div>
+                        <div class="add-to-cart">
+                            <button class="add-to-cart-btn">
+                                <i class="fa fa-shopping-cart"></i> Afegeix a la cistella
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- /product -->
+                <!-- /product -->
+                <div class="col-md-3 col-xs-6">
+                    <div class="product">
+                        <div class="container2">
+                            <div class="box-out">
+                                <div class="book books-4"></div>
+                            </div>
+                        </div>
+                        <div class="product-body">
+                            <p class="product-category">Militar</p>
+                            <h3 class="product-name">
+                                <a href="#">El arte de la guerra</a>
+                            </h3>
+                            <h4 class="product-price">
+                                Є8.00 <del class="product-old-price">Є10.00</del>
+                            </h4>
+                            <div class="product-rating"></div>
+                        </div>
+                        <div class="add-to-cart">
+                            <button class="add-to-cart-btn">
+                                <i class="fa fa-shopping-cart"></i> Afegeix a la cistella
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- /product -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /Section -->
+
+    <!-- NEWSLETTER -->
+    <div id="newsletter" class="section">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="newsletter">
+                        <p>Uneix-te al nostre canal de <strong>DISCORD</strong></p>
+                        <div class="discord">
+                            <a href="https://discord.gg/ydbRaVq5"><img
+                                    src="../img/discord.png"
+                                    alt="Discord"
+                                    width="750px"
+                                    class="discord_img" /></a>
+                        </div>
+                        <ul class="newsletter-follow">
+                            <li>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="ri-twitter-line"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="ri-tiktok-line"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /NEWSLETTER -->
     <footer id="footer">
         <!-- top footer -->
         <div class="section">
@@ -157,6 +599,17 @@
         <!-- /bottom footer -->
     </footer>
     <!-- /FOOTER -->
+    <!-- jQuery Plugins -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/nouislider.min.js"></script>
+    <script src="../js/jquery.zoom.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/navbar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../js/button.js"></script>
+    <script src="../js/asistente.js"></script>
     </body>
 
     </html>
