@@ -315,7 +315,7 @@ $totalFormateado = number_format($total, 2, '.', '');
                         },
                         onApprove: function(data, actions) {
                             actions.order.capture().then(function(detalles) {
-                                console.log(detalles);
+                                window.location.href = "/ArcticW/biblioteca/biblioteca.html"
                             });
                         },
                         onCancel: function(data) {
@@ -327,25 +327,6 @@ $totalFormateado = number_format($total, 2, '.', '');
             </div>
         </div>
     </div>
-
-
-
-    <br>
-    <br>
-    <br>
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- FOOTER -->
     <footer id="footer">
         <!-- top footer -->

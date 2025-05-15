@@ -336,8 +336,6 @@ include("../php/carrito.php");
                   <select class="input-select">
                     <option name="tipo" value="PDF">PDF</option>
                     <option name="tipo" value="11.00">Ebook</option>
-                    <option name="tipo" value="Audiollibre">Audiollibre</option>
-                    <option name="tipo" value="Ebook + Audiollibre">Ebook + audiollibre</option>
                   </select>
                 </label>
               </div>
@@ -348,8 +346,6 @@ include("../php/carrito.php");
                   Qty
                   <div class="input-number">
                     <input type="number" name="cantidad" value="1" min="1" />
-                    <span class="qty-up">+</span>
-                    <span class="qty-down">-</span>
                   </div>
                 </div>
                 <form action="" method="post">
@@ -1040,6 +1036,7 @@ include("../php/carrito.php");
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="../js/button.js"></script>
   <script src="../js/asistente.js"></script>
+  
 </body>
 
 </html>
