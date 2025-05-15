@@ -3,6 +3,7 @@
 include('config.php');
 ?>
 
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -121,9 +122,11 @@ if (isset($_GET['id'])) {
             <li><a href="/ArcticW/kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
             <!--=============== DROPDOWN 1 TIENDA ===============-->
             <li class="dropdown__item">
+              <a href="/ArcticW/php/tienda.php">
               <div class="nav__link">
                 Botiga <i class="ri-arrow-down-s-line dropdown__arrow"></i>
               </div>
+              </a>
               <ul class="dropdown__menu">
                 <!--=============== DROPDOWN LLIBRES  ===============-->
                 <li class="dropdown__subitem">
