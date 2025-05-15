@@ -77,7 +77,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
         <ul class="nav__list">
           <li><a href="/index.php" class="nav__link">Home</a></li>
           <li><a href="/ArcticW//kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
-          <li class="nav-item"><a class="nav__link" href="../biblioteca/biblioteca.html">Biblioteca</a></li>
+          <li><a href="/ArcticW/biblioteca/biblioteca.html" class="nav__link">Biblioteca</a></li>
           <!--=============== DROPDOWN 1 TIENDA ===============-->
           <li class="dropdown__item">
             <div class="nav__link">
@@ -183,7 +183,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
   <!-- /NAVIGATION -->
 
   <!--Slider de imagenes-->
-  <!-- <!--Slider de imagenes-->
+  <!--Slider de imagenes-->
   <div class="marina">
     <div class="slider">
       <div class="slides">
@@ -394,7 +394,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
         <hr />
 
         <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          Lo que el viento se llevo
+          100 años de soledad
         </p>
         <!-- <p
             style="
@@ -459,9 +459,12 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
           </div>
         </div>
         <hr />
-        <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          El libro de los 5 anillos
-        </p>
+
+        <a href="http://localhost/ArcticW/php/dinamico.php?id=5">
+          <p style="font-weight: bolder; font-size: 20px; text-align: left">
+            El libro de los 5 anillos
+          </p>
+        </a>
         <p style="font-weight: 100; font-size: 15px; text-align: left">
 
         </p>

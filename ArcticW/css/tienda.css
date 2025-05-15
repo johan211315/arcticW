@@ -19,6 +19,8 @@
 .section7 p{
     font-size: 30px;
     color: red;
+    text-align: center;
+    justify-content: center;
 }
 
 .destacpunt {

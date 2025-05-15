@@ -67,7 +67,7 @@ include("../php/carrito.php");
         <ul class="nav__list">
           <li><a href="/index.php" class="nav__link">Home</a></li>
           <li><a href="/ArcticW//kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
-          <li class="nav-item"><a class="nav__link" href="../biblioteca/biblioteca.html">Biblioteca</a></li>
+          <li><a href="/ArcticW/biblioteca/biblioteca.html" class="nav__link">Biblioteca</a></li>
           <!--=============== DROPDOWN 1 TIENDA ===============-->
           <li class="dropdown__item">
             <div class="nav__link">
@@ -315,7 +315,7 @@ include("../php/carrito.php");
               </div>
               <div>
                 <h3 class="product-price" name="precio" value="11.00">
-                  $7.00 <del class="product-old-price">$11.00</del>
+                  Є7.00 <del class="product-old-price">Є11.00</del>
                   <span style="font-size: 20px">-36%</span>
                 </h3>
               </div>
@@ -337,8 +337,6 @@ include("../php/carrito.php");
                   <select class="input-select">
                     <option name="tipo" value="PDF">PDF</option>
                     <option name="tipo" value="11.00">Ebook</option>
-                    <option name="tipo" value="Audiollibre">Audiollibre</option>
-                    <option name="tipo" value="Ebook + Audiollibre">Ebook + audiollibre</option>
                   </select>
                 </label>
               </div>
@@ -349,13 +347,11 @@ include("../php/carrito.php");
                   Qty
                   <div class="input-number">
                     <input type="number" name="cantidad" value="1" min="1" />
-                    <span class="qty-up">+</span>
-                    <span class="qty-down">-</span>
                   </div>
                 </div>
                 <form action="" method="post">
                   <input type="hidden" name="nombre" id="nombre" value="Cien años de Soledad">
-                  <input type="hidden" name="precio" id="precio" value="11.00">
+                  <input type="hidden" name="precio" id="precio" value="7.00">
                   <input type="hidden" name="tipo" id="tipo" value="Ebook">
                   <input type="hidden" name="cantidad" id="cantidad" value="1">
 
@@ -737,7 +733,7 @@ include("../php/carrito.php");
                 <a href="#">lo que el viento se llevo</a>
               </h3>
               <h4 class="product-price">
-                $7.00 <del class="product-old-price">$10.00</del>
+                Є7.00 <del class="product-old-price">Є10.00</del>
               </h4>
               <div class="product-rating"></div>
             </div>
@@ -763,7 +759,7 @@ include("../php/carrito.php");
                 <a href="#">El libro de los 5 anillos</a>
               </h3>
               <h4 class="product-price">
-                $7.00 <del class="product-old-price">$10.00</del>
+                Є7.00 <del class="product-old-price">Є10.00</del>
               </h4>
               <div class="product-rating"></div>
             </div>
@@ -789,7 +785,7 @@ include("../php/carrito.php");
                 <a href="#">Platon La republica</a>
               </h3>
               <h4 class="product-price">
-                $7.00 <del class="product-old-price">$10.00</del>
+                Є7.00 <del class="product-old-price">Є10.00</del>
               </h4>
               <div class="product-rating"></div>
             </div>
@@ -815,7 +811,7 @@ include("../php/carrito.php");
                 <a href="#">El arte de la guerra</a>
               </h3>
               <h4 class="product-price">
-                $8.00 <del class="product-old-price">$10.00</del>
+                Є8.00 <del class="product-old-price">Є10.00</del>
               </h4>
               <div class="product-rating"></div>
             </div>
@@ -1041,6 +1037,7 @@ include("../php/carrito.php");
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="../js/button.js"></script>
   <script src="../js/asistente.js"></script>
+
 </body>
 
 </html>

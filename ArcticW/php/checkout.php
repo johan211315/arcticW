@@ -108,7 +108,7 @@ if (isset($_GET['remove'])) {
         <ul class="nav__list">
           <li><a href="/index.php" class="nav__link">Home</a></li>
           <li><a href="/ArcticW/kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
-          <li class="nav-item"><a class="nav__link" href="../biblioteca/biblioteca.html">Biblioteca</a></li>
+          <li><a href="/ArcticW/biblioteca/biblioteca.html" class="nav__link">Biblioteca</a></li>
           <!--=============== DROPDOWN 1 TIENDA ===============-->
           <li class="dropdown__item">
             <div class="nav__link">
@@ -375,7 +375,7 @@ if (isset($_GET['remove'])) {
               </div>
               <small id="emailhelp" class="form-text text-muted">Los producos se enviarán a este correo</small>
             </div>
-            <button class="btn btn-primary btn-lg btn-block" type="submit" value="proceder" name="btnAccion" style="background-color:red; border:none">
+            <button class="btn btn-primary btn-lg btn-block" type="submit" value="proceder" name="btnAccion" style="background-color:red; border:none" href="pagar.php">
               Proceder a pagar >>
             </button>
           </form>
