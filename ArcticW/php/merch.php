@@ -76,6 +76,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
         <ul class="nav__list">
           <li><a href="/index.php" class="nav__link">Home</a></li>
           <li><a href="/ArcticW/kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
+          <li><a href="/ArcticW/biblioteca/biblioteca.html" class="nav__link">Biblioteca</a></li>
           <!--=============== DROPDOWN 1 TIENDA ===============-->
           <li class="dropdown__item">
             <div class="nav__link">
@@ -123,17 +124,17 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
           <!--=============== DROPDOWN MENU CUENTA ===============-->
           <li class="dropdown__item">
             <div class="nav__link">
-            <?php if(isset($_SESSION['usuario'])): ?>
-            <!-- Usuario logueado -->
-            <div class="usuario">
-                <?php echo $_SESSION['usuario']; ?>
-            </div>
-        <?php else: ?>
-            <!-- Usuario no logueado -->
-            <div class="usuario">
-                El teu usuari
-            </div>
-        <?php endif; ?>
+              <?php if (isset($_SESSION['usuario'])): ?>
+                <!-- Usuario logueado -->
+                <div class="usuario">
+                  <?php echo $_SESSION['usuario']; ?>
+                </div>
+              <?php else: ?>
+                <!-- Usuario no logueado -->
+                <div class="usuario">
+                  El teu usuari
+                </div>
+              <?php endif; ?>
               <i class="ri-arrow-down-s-line dropdown__arrow"></i>
             </div>
             <ul class="dropdown__menu">

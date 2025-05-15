@@ -1,15 +1,10 @@
-<?php include("../php/config.php");
-include("../php/carrito.php");
-?>
+<?php include("../php/config.php"); ?>
 <?php
-require '../php/configuracionphp/conexion.php'; ?>
-<?php
+session_start(); // Debe ser lo primero en el archivo
 include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estructura
-$totalFormateado = number_format($total, 2, '.', '');
 ?>
 <!DOCTYPE html>
 <html lang="ca">
-<script src="https://www.paypal.com/sdk/js?client-id=AZFSxcrMxR-PtFRB5tkWX481YXzKLV0xFkehxXjcGMAEdhisb72_ATCPlRC-fBW5I2VRP3bw1Nfi7Wuf&currency=EUR"></script>
 
 <head>
     <meta charset="utf-8" />
@@ -183,151 +178,14 @@ $totalFormateado = number_format($total, 2, '.', '');
             </div>
         </nav>
     </header>
-    <!-- /NAVIGATION -->
-    <!-- NAVIGATION -->
-    <!-- /NAVIGATION -->
-    <!-- BREADCRUMB -->
-    <div id="breadcrumb" class="section">
-        <!-- container -->
-        <div class="container">
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-12">
-                    <ul class="breadcrumb-tree">
-                        <li><a href="#">Botiga</a></li>
-                        <li><a href="#">Llibres</a></li>
-                        <li><a href="#">Novela</a></li>
-                        <li class="active">100 años de soledad</li>
-                    </ul>
-                </div>
-            </div>
-            <!-- /row -->
-        </div>
-        <!-- /container -->
-    </div>
-    <!-- /BREADCRUMB -->
-
-    <?php
+    <br>
+    <br>
 
 
-    if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_SESSION['carrito'])) {
-        // 1) Recoger datos
-        $SID    = session_id();
-        $correo = isset($_POST['email']) ? trim($_POST['email']) : '';
+    <br>
+    <br>
+    <br>
 
-        // 2) Calcular total
-        $total = 0;
-        foreach ($_SESSION['carrito'] as $producto) {
-            $total += $producto['precio'] * $producto['cantidad'];
-        }
-
-        // 3) Insertar la venta
-        $sql = "
-        INSERT INTO `tblventas`
-          (`ID`, `clavetransaccion`, `paypaldatos`, `fecha`, `correo`, `total`, `status`)
-        VALUES
-          (NULL, :clavetransaccion, '', NOW(), :correo, :total, 'pendiente')
-    ";
-        $stmt = $pdo->prepare($sql);
-        $stmt->bindParam(':clavetransaccion', $SID);
-        $stmt->bindParam(':correo',           $correo);
-        $stmt->bindParam(':total',            $total);
-        $stmt->execute();
-
-        // 4) Obtener ID de la venta recién insertada (si te hace falta)
-        $idVenta = $pdo->lastInsertId();
-
-        // 5) Mostrar resultado al usuario
-        //echo "<h3>Total de la compra: €" . number_format($total, 2) . "</h3>";
-    }
-    ?>
-    <link
-
-        rel="stylesheet" />
-    <style>
-        .hero {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: #fff;
-            border-radius: 1rem;
-            padding: 2rem;
-            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-            margin: 2rem 0;
-        }
-
-        .hero h1 {
-            font-weight: 700;
-            letter-spacing: 1px;
-        }
-
-        .hero .amount {
-            font-size: 2.5rem;
-            font-weight: 600;
-        }
-
-        .hero .note {
-            opacity: 0.85;
-        }
-
-        .hero .contact {
-            color: #ffeb3b;
-            text-decoration: underline;
-        }
-    </style>
-
-    <div class="container">
-        <div class="hero">
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <h1 class="display-5">¡Paso Final!</h1>
-                <img src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_111x69.jpg"
-                    alt="PayPal" height="50">
-            </div>
-            <p class="lead note">
-                Estás a punto de pagar con PayPal la cantidad de:
-            </p>
-            <p class="amount">
-                <?php echo number_format($total, 2); ?> €
-            </p>
-            <hr class="border-light">
-            <p class="note">
-                Los productos podrán ser descargados una vez que se procese el pago.
-                <br>
-                <strong>Para aclaraciones:</strong>
-                <a href="mailto:uperezoscar@gmail.com" class="contact">
-                    uperezoscar@gmail.com
-                </a>
-            </p>
-            <div class="text-end">
-                <div id="paypal-button-container"></div>
-
-                <script>
-                    paypal.Buttons({
-                        style: {
-                            shape: 'pill',
-                            label: 'pay'
-                        },
-                        createOrder: function(data, actions) {
-                            return actions.order.create({
-                                purchase_units: [{
-                                    amount: {
-                                        value: <?= number_format($total, 2, '.', '') ?>
-                                    }
-                                }]
-                            });
-                        },
-                        onApprove: function(data, actions) {
-                            actions.order.capture().then(function(detalles) {
-                                window.location.href = "/ArcticW/biblioteca/biblioteca.html"
-                            });
-                        },
-                        onCancel: function(data) {
-                            alert("Pago cancelado");
-                        }
-                    }).render('#paypal-button-container');
-                </script>
-
-            </div>
-        </div>
-    </div>
     <!-- FOOTER -->
     <footer id="footer">
         <!-- top footer -->
@@ -349,7 +207,7 @@ $totalFormateado = number_format($total, 2, '.', '');
                                     <a href="#"><i class="fa fa-phone"></i>+34-610-6987-88</a>
                                 </li>
                                 <li>
-                                    <a href="#"><i class="fa fa-envelope-o"></i>arcticwolves@gmail.com</a>
+                                    <a href="#"><i class="fa fa-envelope-o"></i>ArcticWeditorial@gmail.com</a>
                                 </li>
                             </ul>
                         </div>
@@ -384,6 +242,12 @@ $totalFormateado = number_format($total, 2, '.', '');
                                 <li>
                                     <a href="../html/terminos.html">Termes i Condicions</a>
                                 </li>
+                                <li>
+                                    <a href="##">FAQs</a>
+                                </li>
+                                <li>
+                                    <a href="##">Resenyes</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -393,7 +257,7 @@ $totalFormateado = number_format($total, 2, '.', '');
                             <h3 class="footer-title">Servei</h3>
                             <ul class="footer-links">
                                 <li><a href="#">Compte</a></li>
-                                <li><a href="#">Cistella</a></li>
+                                <li><a href="#">Carro</a></li>
                                 <li><a href="#">Ajuda</a></li>
                             </ul>
                         </div>
@@ -404,8 +268,13 @@ $totalFormateado = number_format($total, 2, '.', '');
             <!-- /container -->
         </div>
         <!-- /top footer -->
-
-        <button class="assistant-btn" onclick="toggleAssistant()">🐺</button>
+        <!-- Boton de asistente iniicio -->
+        <button
+            class="assistant-btn"
+            onclick="toggleAssistant()"
+            style="z-index: 999">
+            🐺
+        </button>
 
         <div class="assistant-container" id="assistant">
             <div class="tope">
@@ -419,7 +288,7 @@ $totalFormateado = number_format($total, 2, '.', '');
                 </div>
             </div>
             <div class="faq-buttons">
-                <button onclick="sendFAQ('Com et dius?')">Com et dius?</button>
+                <button onclick="sendFAQ('Com et dius?')">Com et dius?</button>9
                 <button onclick="sendFAQ('Què pots fer?')">Què pots fer?</button>
                 <button onclick="sendFAQ('Quina hora és?')">Quina hora és?</button>
                 <button onclick="sendFAQ('Com funciona el procés de devolucions?')">
@@ -437,6 +306,8 @@ $totalFormateado = number_format($total, 2, '.', '');
                 </button>
             </div>
         </div>
+
+        <!-- Final boton asistente  -->
 
         <!-- bottom footer -->
         <div id="bottom-footer" class="section">
@@ -493,13 +364,10 @@ $totalFormateado = number_format($total, 2, '.', '');
     <script src="../js/jquery.zoom.min.js"></script>
     <script src="../js/main.js"></script>
     <script src="../js/navbar.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="../js/button.js"></script>
+    <script src="../js/banner.js"></script>
+    <script src="../js/swiper.slide.js"></script>
     <script src="../js/asistente.js"></script>
-    <script
-        src="https://www.paypal.com/sdk/js?client-id=TU_CLIENT_ID&currency=EUR"
-        data-sdk-integration-source="button-factory">
-    </script>
+    <script src="../js/button.js"></script>
 </body>
 
 </html>

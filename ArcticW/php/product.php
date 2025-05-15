@@ -67,6 +67,7 @@ include("../php/carrito.php");
         <ul class="nav__list">
           <li><a href="/index.php" class="nav__link">Home</a></li>
           <li><a href="/ArcticW//kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
+          <li><a href="/ArcticW/biblioteca/biblioteca.html" class="nav__link">Biblioteca</a></li>
           <!--=============== DROPDOWN 1 TIENDA ===============-->
           <li class="dropdown__item">
             <div class="nav__link">
@@ -336,8 +337,6 @@ include("../php/carrito.php");
                   <select class="input-select">
                     <option name="tipo" value="PDF">PDF</option>
                     <option name="tipo" value="11.00">Ebook</option>
-                    <option name="tipo" value="Audiollibre">Audiollibre</option>
-                    <option name="tipo" value="Ebook + Audiollibre">Ebook + audiollibre</option>
                   </select>
                 </label>
               </div>
@@ -348,8 +347,6 @@ include("../php/carrito.php");
                   Qty
                   <div class="input-number">
                     <input type="number" name="cantidad" value="1" min="1" />
-                    <span class="qty-up">+</span>
-                    <span class="qty-down">-</span>
                   </div>
                 </div>
                 <form action="" method="post">
@@ -1040,6 +1037,7 @@ include("../php/carrito.php");
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="../js/button.js"></script>
   <script src="../js/asistente.js"></script>
+
 </body>
 
 </html>
