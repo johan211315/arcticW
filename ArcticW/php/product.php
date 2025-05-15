@@ -851,7 +851,7 @@ include("../php/carrito.php");
                 <a href="#"><i class="fa fa-facebook"></i></a>
               </li>
               <li>
-                <a href="#"><i class="ri-twitter-x-line"></i></a>
+                <a href="#"><i class="ri-twitter-line"></i></a>
               </li>
               <li>
                 <a href="#"><i class="fa fa-instagram"></i></a>
