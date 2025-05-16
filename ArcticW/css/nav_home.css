@@ -261,6 +261,10 @@ a {
   .nav__link {
     padding-inline: 1rem;
   }
+    .ftexto{
+width: 100%;
+margin-top: 2em;
+}
 }
 
 @media screen and (min-width: 1118px) {
@@ -285,6 +289,7 @@ a {
     justify-content:space-between;
     column-gap: 3rem;
   }
+
   .nav__link {
     height: 100%;
     padding: 0;

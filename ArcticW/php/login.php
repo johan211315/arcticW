@@ -14,12 +14,14 @@
 
 <body>
     <div class="container">
-    <form action="../php/configuracionphp/login_usuario.php" method="post">
+        <form action="../php/configuracionphp/login_usuario.php" method="post">
             <label for="username">Usuari</label>
             <input type="text" id="username" placeholder="Ingressa el teu usuari" name="username" /><br />
             <label for="password">Contrasenya</label>
             <input type="password" id="password" placeholder="Ingressa la teva Contrasenya" name="password" /><br />
+            <span><a href="#" style="color: black;">¿Has oblidat la teva contrasenya?</a></span>
             <button>Login</button>
+
         </form>
         <div class="ear-l"></div>
         <div class="ear-r"></div>

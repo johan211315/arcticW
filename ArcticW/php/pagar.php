@@ -5,7 +5,11 @@ include("../php/carrito.php");
 require '../php/configuracionphp/conexion.php'; ?>
 <?php
 include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estructura
+$total = 1234.5678;
 $totalFormateado = number_format($total, 2, '.', '');
+echo $totalFormateado; // 1234.57
+?>
+
 ?>
 <!DOCTYPE html>
 <html lang="ca">
