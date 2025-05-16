@@ -23,7 +23,7 @@ $datos_usuario = mysqli_fetch_assoc($result);
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>Electro - HTML Ecommerce Template</title>
+    <title>Perfil</title>
 
     <!-- Google font -->
     <link
