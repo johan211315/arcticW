@@ -190,6 +190,10 @@ if (isset($_GET['remove'])) {
                     </a>
                   </li>
                 </ul>
+                <div class="dropdown__link">
+                  <a href="../planes de pago/plans.html" style="color: white">Subscripció</a>
+                  <i class="ri-add-line dropdown__add"></i>
+                </div>
               </li>
             </ul>
           </li>
