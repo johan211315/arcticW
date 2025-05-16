@@ -86,7 +86,7 @@ $totalFormateado = number_format($total, 2, '.', '');
                     <!--=============== DROPDOWN 1 TIENDA ===============-->
                     <li class="dropdown__item">
                         <div class="nav__link">
-                            <a href="../php/tienda.php"></a>Botiga
+                            <a href="#"></a>Botiga
                             <i class="ri-arrow-down-s-line dropdown__arrow"></i>
                         </div>
                         <ul class="dropdown__menu">
