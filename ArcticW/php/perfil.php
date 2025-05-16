@@ -200,6 +200,11 @@ $datos_usuario = mysqli_fetch_assoc($result);
                   </a>
                 </li>
                 <li>
+                  <a href="./perfil.php" class="dropdown__link">
+                    <i class="ri-user-2-line"></i> Perfil
+                  </a>
+                </li>
+                <li>
                   <a href="./configuracionphp/logout.php" class="dropdown__link">
                     <i class="ri-group-2-fill"></i> Canviar de compte
                   </a>
