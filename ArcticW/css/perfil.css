@@ -1,6 +1,5 @@
-.cambusr {
+.cambuser {
     display: flex;
-    justify-content: center;
     flex-flow: column wrap;
 }
 
@@ -23,4 +22,17 @@
 
 .cambpasw {
     padding: 0.5em;
+}
+
+.perfil input{
+    padding: 1em;
+    border-radius: 5%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.perfil button {
+    padding: 1em;
+     color: crimson;
+     border-radius: 5%;
 }

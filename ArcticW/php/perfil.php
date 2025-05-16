@@ -93,7 +93,7 @@ $datos_usuario = mysqli_fetch_assoc($result);
                 <li class="dropdown__subitem">
                   <div class="dropdown__link">
                     <i class="ri-book-marked-line"></i
-                    ><a href="../html/categorias.html" style="color: white"
+                    ><a href="#" style="color: white"
                       >Categories</a
                     ><i class="ri-add-line dropdown__add"></i>
                   </div>
@@ -169,6 +169,10 @@ $datos_usuario = mysqli_fetch_assoc($result);
                       </a>
                     </li>
                   </ul>
+                  <div class="dropdown__link">
+                  <a href="../planes de pago/plans.html" style="color: white">Subscripció</a>
+                  <i class="ri-add-line dropdown__add"></i>
+                </div>
                 </li>
               </ul>
             </li>
@@ -210,7 +214,7 @@ $datos_usuario = mysqli_fetch_assoc($result);
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="dropdown__link">
+                  <a href="./configuracionphp/logout.php" class="dropdown__link">
                     <i class="ri-user-unfollow-line"></i> Tanca sessió
                   </a>
                 </li>

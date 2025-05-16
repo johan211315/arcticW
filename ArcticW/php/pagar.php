@@ -90,7 +90,7 @@ echo $totalFormateado; // 1234.57
                     <!--=============== DROPDOWN 1 TIENDA ===============-->
                     <li class="dropdown__item">
                         <div class="nav__link">
-                            <a href="../php/tienda.php"></a>Botiga
+                            <a href="#"></a>Botiga
                             <i class="ri-arrow-down-s-line dropdown__arrow"></i>
                         </div>
                         <ul class="dropdown__menu">
@@ -128,6 +128,10 @@ echo $totalFormateado; // 1234.57
                                         </a>
                                     </li>
                                 </ul>
+                                <div class="dropdown__link">
+                                    <a href="../planes de pago/plans.html" style="color: white">Subscripció</a>
+                                    <i class="ri-add-line dropdown__add"></i>
+                            </div>
                             </li>
                         </ul>
                     </li>
