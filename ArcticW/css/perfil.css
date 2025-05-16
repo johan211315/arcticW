@@ -30,3 +30,9 @@
     margin-left: 1em;
     margin-right: 1em;
 }
+
+.perfil button {
+    padding: 1em;
+     color: crimson;
+     border-radius: 5%;
+}

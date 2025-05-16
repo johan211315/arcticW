@@ -214,7 +214,7 @@ $datos_usuario = mysqli_fetch_assoc($result);
                   </a>
                 </li>
                 <li>
-                  <a href="#" class="dropdown__link">
+                  <a href="./configuracionphp/logout.php" class="dropdown__link">
                     <i class="ri-user-unfollow-line"></i> Tanca sessió
                   </a>
                 </li>
