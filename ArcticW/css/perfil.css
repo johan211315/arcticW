@@ -1,3 +1,7 @@
+.row2 {
+    justify-content: center;
+}
+
 .cambuser {
     display: flex;
     flex-flow: column wrap;
@@ -6,7 +10,10 @@
 .perfil {
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
-    padding: 4em;
+    padding: 5em;
+}
+.info-perfil p {
+    font-size: large;
 }
 
 .row2 {
@@ -35,4 +42,11 @@
     padding: 1em;
      color: crimson;
      border-radius: 5%;
+}
+
+.perfil button:hover {
+    padding: 1em;
+     color: rgb(255, 255, 255);
+     border-radius: 5%;
+     color: black;
 }
