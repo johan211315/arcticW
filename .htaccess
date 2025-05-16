@@ -1,0 +1,31 @@
+# Activar motor de reescritura
+RewriteEngine On
+
+# Bloquear intentos de path traversal (../ o codificados)
+RewriteCond %{THE_REQUEST} (\.\./|\%2e\%2e) [NC]
+RewriteRule ^.*$ - [F,L]
+
+# Permitir archivos seguros: documentos, estilos, scripts, imágenes, iconos, fuentes, vídeos
+<FilesMatch "\.(php|html|css|js|jpe?g|png|gif|webp|svg|ico|mp4|webm|ogg|avi|mov|woff2?|ttf|eot)$">
+    Require all granted
+</FilesMatch>
+
+# Bloquear todos los demás archivos
+<FilesMatch "^(?!.*\.(php|html|css|js|jpe?g|png|gif|webp|svg|ico|mp4|webm|ogg|avi|mov|woff2?|ttf|eot)$).*$">
+    Require all denied
+</FilesMatch>
+
+# Bloquear archivos ocultos como .env, .git, .htaccess
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
+
+# Permitir CORS para medios e iconos que puedan cargarse desde otros dominios
+<IfModule mod_headers.c>
+    <FilesMatch "\.(gif|mp4|webm|ogg|avi|mov|svg|ico|woff2?|ttf|eot|png|jpg|webp)$">
+        Header set Access-Control-Allow-Origin "*"
+    </FilesMatch>
+</IfModule>
+
+# Redirigir error 403 (Forbidden) al index.php
+ErrorDocument 403 /index.php
