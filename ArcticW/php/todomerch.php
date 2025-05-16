@@ -112,6 +112,11 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
                   </li>
                 </ul>
               </li>
+              <div class="dropdown__link">
+                  <a href="../planes de pago/plans.html" style="color: white">Subscripció</a>
+                  <i class="ri-add-line dropdown__add"></i>
+                </div>
+              </li>
             </ul>
           </li>
           <!--=============== DROPDOWN MENU CUENTA ===============-->
