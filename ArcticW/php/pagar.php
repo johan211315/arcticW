@@ -155,6 +155,11 @@ $totalFormateado = number_format($total, 2, '.', '');
                                 </a>
                             </li>
                             <li>
+                                <a href="./perfil.php" class="dropdown__link">
+                                    <i class="ri-user-2-line"></i> Perfil
+                                </a>
+                            </li>
+                            <li>
                                 <a href="#" class="dropdown__link">
                                     <i class="ri-group-2-fill"></i> Canviar de compte
                                 </a>
