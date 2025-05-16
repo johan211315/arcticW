@@ -20,7 +20,7 @@ echo $totalFormateado; // 1234.57
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Electro - HTML Ecommerce Template</title>
+    <title>Pagament</title>
 
     <!-- Google font -->
     <link
