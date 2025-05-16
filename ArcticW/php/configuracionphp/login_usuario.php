@@ -6,18 +6,20 @@ include 'configuracion.php';
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-// Encriptar la contraseña ingresada usando SHA1
+// Encriptar la contraseña ingresada usando SHA1 (aunque se recomienda usar bcrypt en lugar de SHA1)
 $password_encripted = hash('sha1', $password);
 
-// Realizar la consulta para verificar el usuario y la contraseña
-$query = "SELECT * FROM usuarios WHERE usuario='$username' AND contrasena='$password_encripted'";
-$result = mysqli_query($conexion, $query);
+// Usar consulta preparada para evitar inyección SQL
+$stmt = $conexion->prepare("SELECT * FROM usuarios WHERE usuario = ? AND contrasena = ?");
+$stmt->bind_param("ss", $username, $password_encripted);
+$stmt->execute();
+$result = $stmt->get_result();
 
-if(mysqli_num_rows($result) > 0){
+if ($result->num_rows > 0) {
     // Si se encuentra el usuario, se inicia la sesión
-    $datos_usuario = mysqli_fetch_assoc($result);
+    $datos_usuario = $result->fetch_assoc();
     $_SESSION['usuario'] = $datos_usuario['usuario'];
-    header("location: ../../../index.php");
+    header("Location: ../../../index.php");
     exit;
 } else {
     // Si no coincide el usuario o la contraseña, se muestra un mensaje de error
@@ -29,33 +31,10 @@ if(mysqli_num_rows($result) > 0){
     ';
     exit;
 }
-// Después de la conexión a la base de datos
-register_shutdown_function(function() use ($conexion) {
+
+// Cerrar conexión al finalizar
+register_shutdown_function(function () use ($conexion) {
     if ($conexion && !$conexion->connect_error) {
         $conexion->close();
     }
 });
-
-// Prevenir sesiones no iniciadas correctamente
-ini_set('session.use_strict_mode', 1);
-mysqli_close($conexion);
-
-// Ejemplo en tu archivo de login (validar_login.php)
-session_start();
-
-// Suponiendo que ya validaste el usuario y contraseña
-$usuario = $_POST['usuario'];
-
-// Consulta a la base de datos
-$query = "SELECT nombre FROM usuarios WHERE usuario = ?";
-$stmt = $conexion->prepare($query);
-$stmt->bind_param("s", $usuario);
-$stmt->execute();
-$resultado = $stmt->get_result();
-
-if ($resultado->num_rows === 1) {
-    $fila = $resultado->fetch_assoc();
-    $_SESSION['nombre_usuario'] = $fila['nombre']; // Almacenar en sesión
-    header("Location: perfil.php");
-}
-?>

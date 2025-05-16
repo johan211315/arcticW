@@ -24,7 +24,6 @@
                 <input type="text" placeholder="Correu electronic" name="correo">
                 <input type="password" id="confirm-password" placeholder="Contrasenya" name="pass">
                 <input type="submit" value="Crear un compte nou" name="ingresar" style="background-color: bluef;">
-                <span><a href="#">¿Has oblidat la teva contrasenya?</a></span>
                 <div class="border"></div>
                 <button><a href="#">Tens compte? Inicia Sessió</a></button>
             </form>
