@@ -465,7 +465,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
         </div>
         <hr />
 
-        <a href="http://localhost/ArcticW/php/dinamico.php?id=5">
+        <a href="http://localhost/ArcticW/php/dinamico.php?id=2">
           <p style="font-weight: bolder; font-size: 20px; text-align: left">
             El libro de los 5 anillos
           </p>
@@ -523,9 +523,11 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
           </div>
         </div>
         <hr />
-        <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          Platon La Republica
-        </p>
+        <a href="http://localhost/ArcticW/php/dinamico.php?id=3">
+          <p style="font-weight: bolder; font-size: 20px; text-align: left">
+            Platon la república
+          </p>
+        </a>
         <p style="font-weight: 100; font-size: 15px; text-align: left">
 
         </p>
@@ -579,9 +581,11 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
           </div>
         </div>
         <hr />
-        <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          El arte de la Guerra
-        </p>
+        <a href="http://localhost/ArcticW/php/dinamico.php?id=4">
+          <p style="font-weight: bolder; font-size: 20px; text-align: left">
+            El arte de la Guerra
+          </p>
+        </a>
         <p style="font-weight: 100; font-size: 15px; text-align: left">
 
         </p>
@@ -635,9 +639,11 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
           </div>
         </div>
         <hr />
-        <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          La Vuelta al Mundo en 80 dias
-        </p>
+        <a href="http://localhost/ArcticW/php/dinamico.php?id=5">
+          <p style="font-weight: bolder; font-size: 20px; text-align: left">
+            La vuelta al mundo en 80 dias
+          </p>
+        </a>
         <p style="font-weight: 100; font-size: 15px; text-align: left">
 
         </p>
@@ -692,9 +698,11 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
           </div>
         </div>
         <hr />
-        <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          Mein Kampf
-        </p>
+        <a href="http://localhost/ArcticW/php/dinamico.php?id=7">
+          <p style="font-weight: bolder; font-size: 20px; text-align: left">
+            Mein Kampf
+          </p>
+        </a>
         <p style="font-weight: 100; font-size: 15px; text-align: left">
 
         </p>
@@ -748,9 +756,11 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
           </div>
         </div>
         <hr />
-        <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          Dr. Jekyll Mr. Hyde
-        </p>
+        <a href="http://localhost/ArcticW/php/dinamico.php?id=8">
+          <p style="font-weight: bolder; font-size: 20px; text-align: left">
+            Dr. Jekyll Mr.Hyde
+          </p>
+        </a>
         <p style="font-weight: 100; font-size: 15px; text-align: left">
 
         </p>
@@ -804,9 +814,11 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
           </div>
         </div>
         <hr />
-        <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          El reto de una Dama
-        </p>
+        <a href="http://localhost/ArcticW/php/dinamico.php?id=9">
+          <p style="font-weight: bolder; font-size: 20px; text-align: left">
+            El retrato de una dama
+          </p>
+        </a>
         <p style="font-weight: 100; font-size: 15px; text-align: left">
 
         </p>
@@ -860,9 +872,11 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
           </div>
         </div>
         <hr />
-        <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          Dracula
-        </p>
+        <a href="http://localhost/ArcticW/php/dinamico.php?id=10">
+          <p style="font-weight: bolder; font-size: 20px; text-align: left">
+            Dracula
+          </p>
+        </a>
         <p style="font-weight: 100; font-size: 15px; text-align: left">
 
         </p>

@@ -283,7 +283,7 @@ if (isset($_GET['remove'])) {
     <?php if (empty($_SESSION['carrito'])): ?>
       <div class="alert alert-warning">No hi ha productes al carretó</div>
     <?php else: ?>
-      <table class="table table-bordered">
+      <table class="table table-bordered" style="width: 100%;">
         <thead>
           <tr>
             <th>PRODUCTE</th>
@@ -373,7 +373,7 @@ if (isset($_GET['remove'])) {
         <tr>
           <td colspan="5"></td>
           <form action="pagar.php" method="post">
-            <div class="alert alert-success" style="width: 100vh; margin-left: 4em;">
+            <div class="alert alert-success" style="width: 100%; margin-left: 4em;">
               <div class="form-group">
                 <label for="my-input">Correo de contacto:</label>
                 <input id="email" name="email" class="form-control" type=email" placeholder="Por favor escribe tu correo" required>
