@@ -291,10 +291,10 @@ $datos_usuario = mysqli_fetch_assoc($result);
                     <!-- Formulario para cambiar contraseña -->
                     <div class="cambpasw">
                     <form action="./configuracionphp/cambiar_contrasena.php" method="POST">
-                        <h4>Cambiar contraseña</h4>
+                        <h4>Cambiar contrasenya</h4>
                         <input type="password" name="password" placeholder="Contraseña actual" required>
                         <input type="password" name="new_password" placeholder="Nueva contraseña" required>
-                        <button type="submit">Actualizar contraseña</button>
+                        <button type="submit">Actualitzar contrasenya</button>
                     </form>
                     </div>
                     </div>
