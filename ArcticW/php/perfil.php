@@ -408,7 +408,7 @@ $datos_usuario = mysqli_fetch_assoc($result);
               <div class="footer">
                 <h3 class="footer-title">Informació</h3>
                 <ul class="footer-links">
-                  <li><a href="../html/nosotros.html">Sobre Nosaltres</a></li>
+                  <li><a href="../../index.php#atribhomeid">Sobre Nosaltres</a></li>
                   <li><a href="../html/client.html">Atenció al client</a></li>
                   <li>
                     <a href="../html/privacidad.html"
