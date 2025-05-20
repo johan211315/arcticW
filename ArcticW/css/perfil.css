@@ -47,14 +47,15 @@ section {
 }
 
 .perfil button {
-    padding: 0.5em;
-     color: crimson;
+    padding: 1em 0.5em 1em 0.5em;
+     background-color: crimson;
      border-radius: 5%;
+     color: white;
+     text-size-adjust: bold;
 }
 
 .perfil button:hover {
-    padding: 1em;
-     color: rgb(255, 255, 255);
-     border-radius: 5%;
-     color: black;
+     background-color: rgb(255, 255, 255);
+     color: crimson;
+     text-transform:bold;
 }
