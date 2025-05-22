@@ -117,9 +117,6 @@ if (isset($_GET['remove'])) {
             <ul class="dropdown__menu">
               <!--=============== DROPDOWN LLIBRES  ===============-->
               <li class="dropdown__subitem">
-                <div class="dropdown__link">
-                  <i class="ri-book-marked-line"></i><a href="#" style="color: white">Categories</a><i class="ri-add-line dropdown__add"></i>
-                </div>
                 <!--<ul class="dropdown__submenu">
 						  <li>
 							<a href="#" class="dropdown__sublink">

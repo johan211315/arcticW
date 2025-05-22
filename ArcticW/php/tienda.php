@@ -87,9 +87,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
             <ul class="dropdown__menu">
               <!--=============== DROPDOWN LLIBRES  ===============-->
               <li class="dropdown__subitem">
-                <div class="dropdown__link">
-                  <i class="ri-book-marked-line"></i><a href="#" style="color: white">Categories</a><i class="ri-add-line dropdown__add"></i>
-                </div>
+               
                 <ul class="dropdown__submenu"></ul>
               </li>
               <li class="dropdown__subitem">
