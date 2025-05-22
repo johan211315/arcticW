@@ -432,7 +432,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          9.99Є
         </p>
 
 
@@ -495,7 +495,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          5.99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -553,7 +553,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          7.99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -611,7 +611,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          8.99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -669,7 +669,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          6.99Є
         </p>
 
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
@@ -728,7 +728,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          10.99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -786,7 +786,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          5.49Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -844,7 +844,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          6.49Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -902,7 +902,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          8.49Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -958,7 +958,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
             text-align: left;
             color: red;
           ">
-          21,75Є
+          6.99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -1037,7 +1037,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          4,99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -1094,7 +1094,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          8,99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -1150,7 +1150,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          6.99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -1206,7 +1206,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          7.99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -1262,7 +1262,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          6.99Є
         </p>
 
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
@@ -1319,7 +1319,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          7.99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -1375,7 +1375,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          6,99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -1431,7 +1431,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          6,99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -1487,7 +1487,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          6,99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -1543,7 +1543,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
             text-align: left;
             color: red;
           ">
-          21,75Є
+          6.99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -1629,7 +1629,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          6.99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -1684,7 +1684,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          6.99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -1739,7 +1739,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          5.99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -1795,7 +1795,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          6.99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -1851,7 +1851,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          6.99Є
         </p>
 
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
@@ -1908,7 +1908,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          5.99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -1964,7 +1964,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          5.99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -2020,7 +2020,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          5.99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -2076,7 +2076,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          21,75Є
+          5.99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
@@ -2132,7 +2132,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
             text-align: left;
             color: red;
           ">
-          21,75Є
+          5.99Є
         </p>
         <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
         <div class="add-to-cart" style="margin-bottom: 50px">
