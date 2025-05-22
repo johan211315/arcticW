@@ -65,7 +65,7 @@ if (isset($_SESSION['idusuario'])) {
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li><a href="/index.php" class="nav__link">Home</a></li>
-            <li><a href="/ArcticW/html/privacidad.html" class="nav__link">Sobre nosaltres</a></li>
+            <li><a href="../../index.php#atribhomeid">Sobre Nosaltres</a></li>
             <li><a href="/ArcticW/kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
             <!--=============== DROPDOWN 1 TIENDA ===============-->
             <li class="dropdown__item">

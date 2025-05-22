@@ -274,27 +274,27 @@ $datos_usuario = mysqli_fetch_assoc($result);
     <!-- Sección de información -->
                     <div class="perfil">
                     <div class="info-perfil">
-                        <p>Nombre de usuario: <?php echo $datos_usuario['usuario']; ?></p>
-                        <p>Correo electrónico: <?php echo $datos_usuario['correo']; ?></p>
+                        <p>Nom d'usuari: <?php echo $datos_usuario['usuario']; ?></p>
+                        <p>Correu electronic: <?php echo $datos_usuario['correo']; ?></p>
                     </div>
 
                     <!-- Formulario para cambiar nombre de usuario -->
                     <div class="cambuser">
                     <form action="./configuracionphp/cambiar_usuario.php" method="POST">
-                        <h4>Cambiar nombre de usuario</h4>
+                        <h4>Cambiar el nom d'usuari</h4>
                         <input type="text" name="new_username" placeholder="Nuevo nombre de usuario" required>
                         <input type="password" name="password" placeholder="Contraseña actual" required>
-                        <button type="submit">Actualizar usuario</button>
+                        <button type="submit">Actualitzar usuari</button>
                     </form>
                     </div>
 
                     <!-- Formulario para cambiar contraseña -->
                     <div class="cambpasw">
                     <form action="./configuracionphp/cambiar_contrasena.php" method="POST">
-                        <h4>Cambiar contraseña</h4>
+                        <h4>Cambiar contrasenya</h4>
                         <input type="password" name="password" placeholder="Contraseña actual" required>
                         <input type="password" name="new_password" placeholder="Nueva contraseña" required>
-                        <button type="submit">Actualizar contraseña</button>
+                        <button type="submit">Actualitzar contrasenya</button>
                     </form>
                     </div>
                     </div>
@@ -408,7 +408,7 @@ $datos_usuario = mysqli_fetch_assoc($result);
               <div class="footer">
                 <h3 class="footer-title">Informació</h3>
                 <ul class="footer-links">
-                  <li><a href="../html/nosotros.html">Sobre Nosaltres</a></li>
+                  <li><a href="../../index.php#atribhomeid">Sobre Nosaltres</a></li>
                   <li><a href="../html/client.html">Atenció al client</a></li>
                   <li>
                     <a href="../html/privacidad.html"
