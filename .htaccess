@@ -5,6 +5,11 @@ RewriteEngine On
 RewriteCond %{THE_REQUEST} (\.\./|\%2e\%2e) [NC]
 RewriteRule ^.*$ - [F,L]
 
+# Redirección opcional para URLs amigables (descomenta si usas URLs como /producto/3)
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^producto/([0-9]+)$ producto.php?id=$1 [QSA,L]
+
 # Permitir archivos seguros: documentos, estilos, scripts, imágenes, iconos, fuentes, vídeos
 <FilesMatch "\.(php|html|css|js|jpe?g|png|gif|webp|svg|ico|mp4|webm|ogg|avi|mov|woff2?|ttf|eot)$">
     Require all granted
@@ -22,7 +27,7 @@ RewriteRule ^.*$ - [F,L]
 
 # Permitir CORS para medios e iconos que puedan cargarse desde otros dominios
 <IfModule mod_headers.c>
-    <FilesMatch "\.(gif|mp4|webm|ogg|avi|mov|svg|ico|woff2?|ttf|eot|png|jpg|webp)$">
+    <FilesMatch "\.(gif|mp4|webm|ogg|avi|mov|svg|ico|woff2?|ttf|eot|png|jpe?g|webp)$">
         Header set Access-Control-Allow-Origin "*"
     </FilesMatch>
 </IfModule>

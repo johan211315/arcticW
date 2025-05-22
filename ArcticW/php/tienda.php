@@ -413,7 +413,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
           >
           </p> -->
         <p style="font-weight: 100; font-size: 15px; text-align: left">
-          <del>Є20</del><button
+          <del>Є11</del><button
             class="product-old-price"
             style="
                 margin-left: 15px;
@@ -432,7 +432,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               text-align: left;
               color: red;
             ">
-          9.99Є
+          7Є
         </p>
 
 

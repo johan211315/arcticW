@@ -182,7 +182,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
     <h1 class="section-title">Botiga de Merchandising</h1>
     <div class="products-grid">
       <div class="product-item">
-        <p>AW-01</p><img src="..\img\merch/AW-CAMISETANEGRA-CARA01.PNG" alt="Camiseta" /><br><br>
+        <p>AW-01</p><img src="..\img\merch/AW-CAMISETANEGRA-CARA01.png" alt="Camiseta" /><br><br>
         <p>25€</p><button><a href="../macbook-cart/checkropa.html">
             <p>Comprar</p>
           </a></button>
