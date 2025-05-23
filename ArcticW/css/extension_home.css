@@ -140,3 +140,144 @@
       display: none;
     }
   }
+
+
+  @media screen and (max-width: 1118px) {
+    .atribhome {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+      gap: 1em;
+      padding: 2em;
+      margin-top: 2em;
+    }
+  
+  
+    .pershom {
+      background-color: rgba(34, 34, 35, 0.199);
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      padding: 1em;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(0, 0, 0, 0.5);
+      transition: 0.5s ease;
+      text-align: center;
+    }
+  
+  
+    .pershom:hover {
+      background-color: rgb(33, 32, 32);
+    }
+  
+  
+    .pershom img {
+      width: 100%;
+      opacity: 50%;
+      transition: 1s ease;
+      border-radius: 5px;
+    }
+  
+  
+    .pershom img:hover {
+      opacity: 100%;
+      transform: scale(1.03);
+    }
+  
+  
+    .pershom h4 {
+      color: rgb(215, 215, 215);
+      font-size: large;
+      margin: 0.5em;
+    }
+    .pershom p {
+      margin: 0.3em;
+      color: aliceblue;
+    }
+
+    .atribhome {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1em;
+      padding: 2em;
+      margin-top: 4em;
+    }
+  
+  
+    .pershom {
+      background-color: rgba(34, 34, 35, 0.199);
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      padding: 1em;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), -5px -5px 10px rgba(0, 0, 0, 0.5);
+      transition: 0.5s ease;
+      text-align: center;
+    }
+  
+  
+    .pershom:hover {
+      background-color: rgb(33, 32, 32);
+    }
+  
+  
+    .pershom img {
+      width: 100%;
+      opacity: 50%;
+      transition: 1s ease;
+      border-radius: 5px;
+    }
+  
+  
+    .pershom img:hover {
+      opacity: 100%;
+      transform: scale(1.03);
+    }
+  
+  
+    .pershom h4 {
+      color: rgb(215, 215, 215);
+      font-size: large;
+      margin: 0.5em;
+    }
+  
+  
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+      gap: 1em;
+      width: 100%;
+      padding: 1em;
+      box-sizing: border-box;
+    }
+  
+  
+    .panel {
+      height: 40vh; /* Ajuste para 2 filas visibles */
+      opacity: 0.5;
+      border-radius: 20px;
+      transition: all 0.7s ease-in;
+      cursor: pointer;
+    }
+  
+  
+    .panel.active {
+      flex: unset; /* Elimina el flex si queda de antes */
+      opacity: 1;
+    }
+  
+  
+    .panel h3 {
+      font-size: 20px;
+      opacity: 1;
+      padding: 0.5em;
+    }
+  
+  
+    .panel.active h3 {
+      opacity: 1;
+      transition: opacity 0.3s ease-in 0.4s;
+    }
+  }
+  
+  
+  
+
+  
+  

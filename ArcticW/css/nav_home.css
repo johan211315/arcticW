@@ -119,6 +119,39 @@ a {
 @media screen and (max-width: 1118px) {
   :root {
     --normal-font-size: 1.3rem;
+    .ftexto{
+      display: none;
+      }
+      
+      .ftitulo{
+        display: none;
+      }
+      
+      .fsubtitulo{
+      display: none;
+       
+      }
+      
+      .ftexto{
+      display: none;
+      }
+      
+      .social-icons{
+      display: none;
+      }
+      
+      .social-icons a{
+       display: none;
+      }
+      .titulo2{
+        position: absolute;
+        top: 27em;
+        font-family: "playfair display";
+        font-size: 20px;
+        color: #ac0b0b;
+        margin-top: 50px;
+        left: 2.5em;
+    }
   }
 
 
@@ -263,9 +296,30 @@ a {
     padding-inline: 1rem;
   }
     .ftexto{
-width: 100%;
-margin-top: 2em;
+display: none;
 }
+
+.ftitulo{
+  display: none;
+}
+
+.fsubtitulo{
+display: none;
+ 
+}
+
+.ftexto{
+display: none;
+}
+
+.social-icons{
+display: none;
+}
+
+.social-icons a{
+ display: none;
+}
+
 }
 
 @media screen and (min-width: 1118px) {

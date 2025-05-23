@@ -250,7 +250,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
             <div class="btn-right"><i class="bx bx-chevron-right"></i></div>
           </div>
-          <p>Més venuts gener</p>
+          <p class="ntitulo">Més venuts gener</p>
         </section>
         <section class="section7">
           <div class="container-carousel">
@@ -272,7 +272,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
             <div class="btn-right"><i class="bx bx-chevron-right"></i></div>
           </div>
-          <p>Més venuts febrer</p>
+          <p class="ntitulo">Més venuts febrer</p>
         </section>
         <section class="section7">
           <div class="container-carousel">
@@ -293,7 +293,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
             <div class="btn-right"><i class="bx bx-chevron-right"></i></div>
           </div>
-          <p>Més venuts març</p>
+          <p class="ntitulo">Més venuts març</p>
           <script src="../js/carrusel-tienda.js"></script>
         </section>
         <section class="section7">
@@ -316,7 +316,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
             <div class="btn-right"><i class="bx bx-chevron-right"></i></div>
           </div>
-          <p>Més venuts abril</p>
+          <p class="ntitulo">Més venuts abril</p>
         </section>
         <section class="section7">
           <div class="container-carousel">
@@ -338,7 +338,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
             <div class="btn-right"><i class="bx bx-chevron-right"></i></div>
           </div>
-          <p>Més venuts maig</p>
+          <p class="ntitulo">Més venuts maig</p>
         </section>
         <section class="section7">
           <div class="container-carousel">
@@ -359,7 +359,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
             <div class="btn-left"><i class="bx bx-chevron-left"></i></div>
             <div class="btn-right"><i class="bx bx-chevron-right"></i></div>
           </div>
-          <p>Més venuts juny</p>
+          <p class="ntitulo">Més venuts juny</p>
           <script src="../js/carrusel-tienda.js"></script>
         </section>
       </article>
@@ -400,7 +400,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
         </div>
         <hr />
 
-        <p style="font-weight: bolder; font-size: 20px; text-align: left">
+        <p class="ntitulo" style="font-weight: bolder; font-size: 20px; text-align: left">
           100 años de soledad
         </p>
         <!-- <p
@@ -1571,594 +1571,8 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
     <div class="swiper-button-prev"></div>
   </div>
 
-  <!-- SEPARADOR DE DOBLE TIENDA-->
-  <div class="separ"></div>
-  <div class="destacpunt">
-    <div class="destacpunt2">
-      <div class="tln">
-        <h3>LLIBRES DE L'ACTUALITAT</h3>
-      </div>
-      <div class="puntoboton">
-        <button>
-          <p>Ver todo</p>
-        </button>
-        <a class="trespuntitos" href="#"> ︙ </a>
-      </div>
-    </div>
-  </div>
-  <!-- Contenedor del carrusel -->
-  <div class="swiper-container" style="overflow: hidden">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide" style="overflow: hidden; height: 530px">
-        <div class="container2">
-          <div class="box-out" style="width: 100%; justify-content: center">
-            <div class="book books-13"></div>
-          </div>
-        </div>
-        <hr />
-        <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          Las Vidas Dentro de tu Cabeza
-        </p>
-        <!-- <p
-            style="
-              font-weight: 100;
-              font-size: 15px;
-              text-align: left;
-              height: 10px;
-            "
-          > -->
-
-        </p>
-        <p style="font-weight: 100; font-size: 15px; text-align: left">
-          <del>$7.00</del><button
-            class="product-old-price"
-            style="
-                margin-left: 15px;
-                width: 50px;
-                background-color: red;
-                border: 0px;
-                border-radius: 15px;
-              ">
-            -5%
-          </button>
-        </p>
-        <p
-          style="
-              font-weight: bolder;
-              font-size: 25px;
-              text-align: left;
-              color: red;
-            ">
-          6.99Є
-        </p>
-        <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-        <div class="add-to-cart" style="margin-bottom: 50px">
-          <button
-            class="order"
-            style="width: 80%; position: relative; top: -10px">
-            <span class="default">Detalls</span><span class="success">Comanda Enviada<svg viewbox="0 0 12 10">
-                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
-              </svg></span>
-            <div class="box"></div>
-            <div class="truck">
-              <div class="back"></div>
-              <div class="front">
-                <div class="window"></div>
-              </div>
-              <div class="light top"></div>
-              <div class="light bottom"></div>
-            </div>
-            <div class="lines"></div>
-          </button>
-        </div>
-      </div>
-      <div class="swiper-slide" style="overflow: hidden; height: 530px">
-        <div class="container2">
-          <div class="box-out" style="width: 100%; justify-content: center">
-            <div class="book books-5"></div>
-          </div>
-        </div>
-        <hr />
-        <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          La Vuelta al Mundo en 80 dias
-        </p>
-        <p style="font-weight: 100; font-size: 15px; text-align: left">
-        </p>
-        <p style="font-weight: 100; font-size: 15px; text-align: left">
-          <del>$7.00</del><button
-            class="product-old-price"
-            style="
-                margin-left: 15px;
-                width: 50px;
-                background-color: red;
-                border: 0px;
-                border-radius: 15px;
-              ">
-            -5%
-          </button>
-        </p>
-        <p
-          style="
-              font-weight: bolder;
-              font-size: 25px;
-              text-align: left;
-              color: red;
-            ">
-          6.99Є
-        </p>
-        <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-        <div class="add-to-cart" style="margin-bottom: 50px">
-          <button
-            class="order"
-            style="width: 80%; position: relative; top: -10px">
-            <span class="default">Detalls</span><span class="success">Comanda Enviada<svg viewbox="0 0 12 10">
-                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
-              </svg></span>
-            <div class="box"></div>
-            <div class="truck">
-              <div class="back"></div>
-              <div class="front">
-                <div class="window"></div>
-              </div>
-              <div class="light top"></div>
-              <div class="light bottom"></div>
-            </div>
-            <div class="lines"></div>
-          </button>
-        </div>
-      </div>
-      <div class="swiper-slide" style="overflow: hidden; height: 530px">
-        <div class="container2">
-          <div class="box-out" style="width: 100%; justify-content: center">
-            <div class="book books-9"></div>
-          </div>
-        </div>
-        <hr />
-        <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          Dracula
-        </p>
-        <p style="font-weight: 100; font-size: 15px; text-align: left">
-        </p>
-        <p style="font-weight: 100; font-size: 15px; text-align: left">
-          <del>$7.00</del><button
-            class="product-old-price"
-            style="
-                margin-left: 15px;
-                width: 50px;
-                background-color: red;
-                border: 0px;
-                border-radius: 15px;
-              ">
-            -5%
-          </button>
-        </p>
-        <p
-          style="
-              font-weight: bolder;
-              font-size: 25px;
-              text-align: left;
-              color: red;
-            ">
-          5.99Є
-        </p>
-        <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-        <div class="add-to-cart" style="margin-bottom: 50px">
-          <button
-            class="order"
-            style="width: 80%; position: relative; top: -10px">
-            <span class="default">Detalls</span><span class="success">Comanda Enviada<svg viewbox="0 0 12 10">
-                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
-              </svg></span>
-            <div class="box"></div>
-            <div class="truck">
-              <div class="back"></div>
-              <div class="front">
-                <div class="window"></div>
-              </div>
-              <div class="light top"></div>
-              <div class="light bottom"></div>
-            </div>
-            <div class="lines"></div>
-          </button>
-        </div>
-      </div>
-      <div class="swiper-slide" style="overflow: hidden; height: 530px">
-        <div class="container2">
-          <div class="box-out" style="width: 100%; justify-content: center">
-            <div class="book books-14"></div>
-          </div>
-        </div>
-        <hr />
-        <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          Cruce de Caminos
-        </p>
-        <p style="font-weight: 100; font-size: 15px; text-align: left">
-
-        </p>
-        <p style="font-weight: 100; font-size: 15px; text-align: left">
-          <del>$7.00</del><button
-            class="product-old-price"
-            style="
-                margin-left: 15px;
-                width: 50px;
-                background-color: red;
-                border: 0px;
-                border-radius: 15px;
-              ">
-            -5%
-          </button>
-        </p>
-        <p
-          style="
-              font-weight: bolder;
-              font-size: 25px;
-              text-align: left;
-              color: red;
-            ">
-          6.99Є
-        </p>
-        <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-        <div class="add-to-cart" style="margin-bottom: 50px">
-          <button
-            class="order"
-            style="width: 80%; position: relative; top: -10px">
-            <span class="default">Detalls</span><span class="success">Comanda Enviada<svg viewbox="0 0 12 10">
-                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
-              </svg></span>
-            <div class="box"></div>
-            <div class="truck">
-              <div class="back"></div>
-              <div class="front">
-                <div class="window"></div>
-              </div>
-              <div class="light top"></div>
-              <div class="light bottom"></div>
-            </div>
-            <div class="lines"></div>
-          </button>
-        </div>
-      </div>
-      <div class="swiper-slide" style="overflow: hidden; height: 530px">
-        <div class="container2">
-          <div class="box-out" style="width: 100%; justify-content: center">
-            <div class="book books-18 "></div>
-          </div>
-        </div>
-        <hr />
-        <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          Diseño de Portada
-        </p>
-        <p style="font-weight: 100; font-size: 15px; text-align: left">
-
-        </p>
-        <p style="font-weight: 100; font-size: 15px; text-align: left">
-          <del>$7.00</del><button
-            class="product-old-price"
-            style="
-                margin-left: 15px;
-                width: 50px;
-                background-color: red;
-                border: 0px;
-                border-radius: 15px;
-              ">
-            -5%
-          </button>
-        </p>
-        <p
-          style="
-              font-weight: bolder;
-              font-size: 25px;
-              text-align: left;
-              color: red;
-            ">
-          6.99Є
-        </p>
-
-        <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-        <div class="add-to-cart" style="margin-bottom: 50px">
-          <button
-            class="order"
-            style="width: 80%; position: relative; top: -10px">
-            <span class="default">Detalls</span><span class="success">Comanda Enviada<svg viewbox="0 0 12 10">
-                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
-              </svg></span>
-            <div class="box"></div>
-            <div class="truck">
-              <div class="back"></div>
-              <div class="front">
-                <div class="window"></div>
-              </div>
-              <div class="light top"></div>
-              <div class="light bottom"></div>
-            </div>
-            <div class="lines"></div>
-          </button>
-        </div>
-      </div>
-      <div class="swiper-slide" style="overflow: hidden; height: 530px">
-        <div class="container2">
-          <div class="box-out" style="width: 100%; justify-content: center">
-            <div class="book books-6"></div>
-          </div>
-        </div>
-        <hr />
-        <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          Mein Kampf
-        </p>
-        <p style="font-weight: 100; font-size: 15px; text-align: left">
-
-        </p>
-        <p style="font-weight: 100; font-size: 15px; text-align: left">
-          <del>$7.00</del><button
-            class="product-old-price"
-            style="
-                margin-left: 15px;
-                width: 50px;
-                background-color: red;
-                border: 0px;
-                border-radius: 15px;
-              ">
-            -5%
-          </button>
-        </p>
-        <p
-          style="
-              font-weight: bolder;
-              font-size: 25px;
-              text-align: left;
-              color: red;
-            ">
-          5.99Є
-        </p>
-        <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-        <div class="add-to-cart" style="margin-bottom: 50px">
-          <button
-            class="order"
-            style="width: 80%; position: relative; top: -10px">
-            <span class="default">Detalls</span><span class="success">Comanda Enviada<svg viewbox="0 0 12 10">
-                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
-              </svg></span>
-            <div class="box"></div>
-            <div class="truck">
-              <div class="back"></div>
-              <div class="front">
-                <div class="window"></div>
-              </div>
-              <div class="light top"></div>
-              <div class="light bottom"></div>
-            </div>
-            <div class="lines"></div>
-          </button>
-        </div>
-      </div>
-      <div class="swiper-slide" style="overflow: hidden; height: 530px">
-        <div class="container2">
-          <div class="box-out" style="width: 100%; justify-content: center">
-            <div class="book books-7"></div>
-          </div>
-        </div>
-        <hr />
-        <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          Dr. Jekyll Mr. Hyde
-        </p>
-        <p style="font-weight: 100; font-size: 15px; text-align: left">
-
-        </p>
-        <p style="font-weight: 100; font-size: 15px; text-align: left">
-          <del>$7.00</del><button
-            class="product-old-price"
-            style="
-                margin-left: 15px;
-                width: 50px;
-                background-color: red;
-                border: 0px;
-                border-radius: 15px;
-              ">
-            -5%
-          </button>
-        </p>
-        <p
-          style="
-              font-weight: bolder;
-              font-size: 25px;
-              text-align: left;
-              color: red;
-            ">
-          5.99Є
-        </p>
-        <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-        <div class="add-to-cart" style="margin-bottom: 50px">
-          <button
-            class="order"
-            style="width: 80%; position: relative; top: -10px">
-            <span class="default">Detalls</span><span class="success">Comanda Enviada<svg viewbox="0 0 12 10">
-                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
-              </svg></span>
-            <div class="box"></div>
-            <div class="truck">
-              <div class="back"></div>
-              <div class="front">
-                <div class="window"></div>
-              </div>
-              <div class="light top"></div>
-              <div class="light bottom"></div>
-            </div>
-            <div class="lines"></div>
-          </button>
-        </div>
-      </div>
-      <div class="swiper-slide" style="overflow: hidden; height: 530px">
-        <div class="container2">
-          <div class="box-out" style="width: 100%; justify-content: center">
-            <div class="book books-8"></div>
-          </div>
-        </div>
-        <hr />
-        <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          El retrato de una Dama
-        </p>
-        <p style="font-weight: 100; font-size: 15px; text-align: left">
-
-        </p>
-        <p style="font-weight: 100; font-size: 15px; text-align: left">
-          <del>$7.00</del><button
-            class="product-old-price"
-            style="
-                margin-left: 15px;
-                width: 50px;
-                background-color: red;
-                border: 0px;
-                border-radius: 15px;
-              ">
-            -5%
-          </button>
-        </p>
-        <p
-          style="
-              font-weight: bolder;
-              font-size: 25px;
-              text-align: left;
-              color: red;
-            ">
-          5.99Є
-        </p>
-        <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-        <div class="add-to-cart" style="margin-bottom: 50px">
-          <button
-            class="order"
-            style="width: 80%; position: relative; top: -10px">
-            <span class="default">Detalls</span><span class="success">Comanda Enviada<svg viewbox="0 0 12 10">
-                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
-              </svg></span>
-            <div class="box"></div>
-            <div class="truck">
-              <div class="back"></div>
-              <div class="front">
-                <div class="window"></div>
-              </div>
-              <div class="light top"></div>
-              <div class="light bottom"></div>
-            </div>
-            <div class="lines"></div>
-          </button>
-        </div>
-      </div>
-      <div class="swiper-slide" style="overflow: hidden; height: 530px">
-        <div class="container2">
-          <div class="box-out" style="width: 100%; justify-content: center">
-            <div class="book books-15"></div>
-          </div>
-        </div>
-        <hr />
-        <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          La Naranja Mecanica
-        </p>
-        <p style="font-weight: 100; font-size: 15px; text-align: left">
-
-        </p>
-        <p style="font-weight: 100; font-size: 15px; text-align: left">
-          <del>$7.00</del><button
-            class="product-old-price"
-            style="
-                margin-left: 15px;
-                width: 50px;
-                background-color: red;
-                border: 0px;
-                border-radius: 15px;
-              ">
-            -5%
-          </button>
-        </p>
-        <p
-          style="
-              font-weight: bolder;
-              font-size: 25px;
-              text-align: left;
-              color: red;
-            ">
-          5.99Є
-        </p>
-        <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-        <div class="add-to-cart" style="margin-bottom: 50px">
-          <button
-            class="order"
-            style="width: 80%; position: relative; top: -10px">
-            <span class="default">Detalls</span><span class="success">Comanda Enviada<svg viewbox="0 0 12 10">
-                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
-              </svg></span>
-            <div class="box"></div>
-            <div class="truck">
-              <div class="back"></div>
-              <div class="front">
-                <div class="window"></div>
-              </div>
-              <div class="light top"></div>
-              <div class="light bottom"></div>
-            </div>
-            <div class="lines"></div>
-          </button>
-        </div>
-      </div>
-      < class="swiper-slide" style="overflow: hidden; height: 530px">
-        <div class="container2">
-          <div class="box-out" style="width: 100%; justify-content: center">
-            <div class="book books-10"></div>
-          </div>
-        </div>
-        <hr />
-        <p style="font-weight: bolder; font-size: 20px; text-align: left">
-          Nombre del libro
-        </p>
-        <p style="font-weight: 100; font-size: 15px; text-align: left">
-          Nombre autor
-        </p>
-        <p style="font-weight: 100; font-size: 15px; text-align: left">
-          <del>$7.00</del><button
-            class="product-old-price"
-            style="
-              margin-left: 15px;
-              width: 50px;
-              background-color: red;
-              border: 0px;
-              border-radius: 15px;
-            ">
-            -5%
-          </button>
-        </p>
-        <p
-          style="
-            font-weight: bolder;
-            font-size: 25px;
-            text-align: left;
-            color: red;
-          ">
-          5.99Є
-        </p>
-        <!-- CARRITO DE COMPRAS CSS / JavaScript	 -->
-        <div class="add-to-cart" style="margin-bottom: 50px">
-          <button
-            class="order"
-            style="width: 80%; position: relative; top: -10px">
-            <span class="default">Detalls</span><span class="success">Comanda Enviada<svg viewbox="0 0 12 10">
-                <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
-              </svg></span>
-            <div class="box"></div>
-            <div class="truck">
-              <div class="back"></div>
-              <div class="front">
-                <div class="window"></div>
-              </div>
-              <div class="light top"></div>
-              <div class="light bottom"></div>
-            </div>
-            <div class="lines"></div>
-          </button>
-        </div>
-    </div>
-    <!-- Flechas de navegación -->
-    <div class="swiper-button-next" style="color: rgb(0, 0, 0)"></div>
-    <div class="swiper-button-prev" style="color: rgb(0, 0, 0)"></div>
-  </div>
+ 
+ 
   <!-- SEPARADOR TRIPLE TIENDA
 <div class="separ"></div>
     <div class="destacpunt">
@@ -2174,7 +1588,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
         </div>
       </div>
     </div>
-    <!-- Contenedor del carrusel -->
+    Contenedor del carrusel -->
   <!-- <div class="swiper-container" style="overflow: hidden">
       <div class="swiper-wrapper">
         <div class="swiper-slide" style="overflow: hidden; height: 530px">
