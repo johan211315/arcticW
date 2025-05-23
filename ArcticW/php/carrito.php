@@ -1,6 +1,7 @@
 <?php
 session_start();
 $mensaje = "";
+
 if (isset($_POST['btnaccion'])) {
     switch ($_POST['btnaccion']) {
         case 'agregar':
@@ -28,29 +29,23 @@ if (isset($_POST['btnaccion'])) {
 
             // Si todas las validaciones son correctas
             if (empty($mensaje)) {
+                $producto = array(
+                    'nombre' => $nombre,
+                    'precio' => $precio,
+                    'tipo' => $tipo,
+                    'cantidad' => $cantidad,
+                );
+
                 if (!isset($_SESSION['carrito'])) {
-                    $producto = array(
-                        'nombre' => $nombre,
-                        'precio' => $precio,
-                        'tipo' => $tipo,
-                        'cantidad' => $cantidad,
-                    );
                     $_SESSION['carrito'][0] = $producto;
                 } else {
                     $numeroproductos = count($_SESSION['carrito']);
-                    $producto = array(
-                        'nombre' => $nombre,
-                        'precio' => $precio,
-                        'tipo' => $tipo,
-                        'cantidad' => $cantidad,
-                    );
                     $_SESSION['carrito'][$numeroproductos] = $producto;
                 }
-
-                // Ya no se muestra el contenido de la sesión
-                // $mensaje = print_r($_SESSION, true);
             }
-
             break;
     }
 }
+?>
+
+
