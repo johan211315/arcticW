@@ -175,8 +175,8 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
           <!--=============== APARTADO BUSQUEDA ===============-->
           <li class="nav__link">
             <div class="search-container">
-              <input type="text" placeholder="Buscar" />
-              <div class="btn">
+              <input id="searchInput" type="text" placeholder="Buscar" />
+              <div id="searchButton" class="btn">
                 <i class="ri-search-line"></i>
               </div>
             </div>
@@ -3031,6 +3031,18 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
   <script src="../js/swiper.slide.js"></script>
   <script src="../js/asistente.js"></script>
   <script src="../js/button.js"></script>
+  <script> const searchInput = document.getElementById("searchInput"); 
+  const searchButton = document.getElementById("searchButton"); 
+  function filtrarContenido() { const texto = searchInput.value.toLowerCase(); 
+  const elementos = document.querySelectorAll(".searchable"); 
+  elementos.forEach(el => { const contenido = el.textContent.toLowerCase(); 
+    if (contenido.includes(texto)) { el.style.display = "block"; } 
+    else { el.style.display = "none"; } }); } 
+  // Buscar al hacer clic 
+  searchButton.addEventListener("click", filtrarContenido); 
+  // Buscar mientras se escribe 
+  searchInput.addEventListener("input", filtrarContenido); 
+  </script>
 </body>
 
 </html>
