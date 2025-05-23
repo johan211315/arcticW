@@ -49,7 +49,7 @@ if (isset($_SESSION['idusuario'])) {
     <header class="header">
       <nav class="nav container">
         <div class="nav__data">
-          <a href="#" class="nav__logo">
+          <a href="../../index.php" class="nav__logo">
             <img
               src="/ArcticW/img/SELLO (CIRCULAR).png"
               alt="Logo"
