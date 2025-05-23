@@ -53,7 +53,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
   <header class="header">
     <nav class="nav container">
       <div class="nav__data">
-        <a href="#" class="nav__logo">
+        <a href="../../index.php" class="nav__logo">
           <img
             src="../img/SELLO (CIRCULAR).png"
             alt="Logo"
