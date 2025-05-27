@@ -377,7 +377,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
       </div>
       <div class="puntoboton">
         <button>
-          <p>Veure tot</p>
+          <p>Ver todo</p>
         </button>
         <a class="trespuntitos" href="#"> ︙ </a>
       </div>
@@ -995,7 +995,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
       </div>
       <div class="puntoboton">
         <button>
-          <p>Veure tot</p>
+          <p>Ver todo</p>
         </button>
         <a class="trespuntitos" href="#"> ︙ </a>
       </div>
@@ -1582,7 +1582,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
       </div>
       <div class="puntoboton">
         <button>
-          <p>Veure tot</p>
+          <p>Ver todo</p>
         </button>
         <a class="trespuntitos" href="#"> ︙ </a>
       </div>
@@ -2865,7 +2865,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
               <p></p>
               <ul class="footer-links">
                 <li>
-                  <a href="https://maps.app.goo.gl/oop5xCGA1AdF4o9r9"><i class="fa fa-map-marker"></i>Carrer del Pallars, 4,
+                  <a href="#"><i class="fa fa-map-marker"></i>Carrer del Pallars, 4,
                     Can Bassa, Granollers</a>
                 </li>
                 <li>
@@ -3034,34 +3034,45 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
   <script src="../js/asistente.js"></script>
   <script src="../js/button.js"></script>
   <script>
+// Función para realizar la búsqueda
 function performSearch() {
     const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
-    const elementsToSearch = document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li, td, a');
-    let firstMatch = null;
+    const elementsToSearch = document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li, td, a'); // Ajusta los selectores según tu contenido
+    
+    // Remover resaltado anterior
+    document.querySelectorAll('.highlight').forEach(el => {
+        el.outerHTML = el.innerHTML;
+    });
 
     if (!searchTerm) return;
 
+    let firstMatch = null;
+
     elementsToSearch.forEach(element => {
-        const elementText = element.textContent.toLowerCase();
-        
-        if (elementText.includes(searchTerm) && !firstMatch) {
-            firstMatch = element;
+        const elementText = element.textContent;
+        const elementTextLower = element.textContent.toLowerCase();
+
+        if (elementTextLower.includes(searchTerm)) {
+            // Resaltar coincidencia
+            
+            
+            // Guardar primera coincidencia para scroll
+            if (!firstMatch) {
+                firstMatch = element;
+            }
         }
     });
 
+    // Scroll a la primera coincidencia
     if (firstMatch) {
-        // Calcular posición para centrar
-        const elementPosition = firstMatch.getBoundingClientRect().top + window.pageYOffset;
-        const offsetPosition = elementPosition - (window.innerHeight / 2);
-        
-        window.scrollTo({
-            top: offsetPosition,
-            behavior: 'smooth'
+        firstMatch.scrollIntoView({
+            behavior: 'smooth',
+            block: 'nearest'
         });
     }
 }
 
-// Eventos (mantenemos los mismos)
+// Event Listeners
 document.getElementById('searchButton').addEventListener('click', performSearch);
 document.getElementById('searchInput').addEventListener('input', performSearch);
 document.getElementById('searchInput').addEventListener('keypress', (e) => {
