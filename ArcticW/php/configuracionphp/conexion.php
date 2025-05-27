@@ -11,6 +11,6 @@ try {
     echo "<script> alert('conectado...')</script>";
 } catch (PDOException $e) {
 
-    echo "<script> alert('Error..'</script>";
+    echo "<script> alert('Error..')</script>";
 }
 ?>

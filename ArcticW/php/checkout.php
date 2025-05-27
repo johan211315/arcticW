@@ -117,9 +117,6 @@ if (isset($_GET['remove'])) {
             <ul class="dropdown__menu">
               <!--=============== DROPDOWN LLIBRES  ===============-->
               <li class="dropdown__subitem">
-                <div class="dropdown__link">
-                  <i class="ri-book-marked-line"></i><a href="#" style="color: white">Categories</a><i class="ri-add-line dropdown__add"></i>
-                </div>
                 <!--<ul class="dropdown__submenu">
 						  <li>
 							<a href="#" class="dropdown__sublink">
@@ -191,7 +188,7 @@ if (isset($_GET['remove'])) {
                   </li>
                 </ul>
                 <div class="dropdown__link">
-                  <a href="../planes de pago/plans.html" style="color: white">Subscripció</a>
+                  <a href="../planes de pago/plans.php" style="color: white">Subscripció</a>
                   <i class="ri-add-line dropdown__add"></i>
                 </div>
               </li>

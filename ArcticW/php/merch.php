@@ -86,9 +86,6 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
             <ul class="dropdown__menu">
               <!--=============== DROPDOWN LLIBRES  ===============-->
               <li class="dropdown__subitem">
-                <div class="dropdown__link">
-                  <i class="ri-book-marked-line"></i><a href="#" style="color: white">Categories</a><i class="ri-add-line dropdown__add"></i>
-                </div>
                 <ul class="dropdown__submenu"></ul>
               </li>
               <li class="dropdown__subitem">
@@ -119,7 +116,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
                     </li> -->
                 </ul>
                 <div class="dropdown__link">
-                  <a href="../planes de pago/plans.html" style="color: white">Subscripció</a>
+                  <a href="../planes de pago/plans.php" style="color: white">Subscripció</a>
                   <i class="ri-add-line dropdown__add"></i>
                 </div>
               </li>
@@ -192,9 +189,9 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
 
   <!-- BREADCRUMB
     <div id="breadcrumb" class="section">
-      <!-- container -->
+    container -->
   <!-- <div class="container">
-        <!-- row -->
+        row -->
   <!-- <div class="row">
           <div class="col-md-12">
             <ul class="breadcrumb-tree">
@@ -209,7 +206,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
   <!-- </div> -->
   <!-- /container -->
   <!-- </div> -->
-  --> -->
+ 
   <!-- /BREADCRUMB -->
 
   <!-- Apartado Merch -->

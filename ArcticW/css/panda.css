@@ -6,10 +6,12 @@
 }
 
 body {
-    background-color: #000000;
-    background-repeat: no-repeat;
+    background-image: url(/ArcticW/img/Fondo/fondo_login.jpg);
     background-size: cover;
-    background-position: -500px center; /* Fondo movido hacia la izquierda */
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 

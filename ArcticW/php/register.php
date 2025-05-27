@@ -25,7 +25,7 @@
                 <input type="password" id="confirm-password" placeholder="Contrasenya" name="pass">
                 <input type="submit" value="Crear un compte nou" name="ingresar" style="background-color: bluef;">
                 <div class="border"></div>
-                <button><a href="#">Tens compte? Inicia Sessió</a></button>
+                <button><a href="/ArcticW/php/login.php">Tens compte? Inicia Sessió</a></button>
             </form>
             <p class="create-page">
                 <a href="#"></a> Termes i condicions de Arctic Wolves®, drets reservats. Visita els nostres termes<br>

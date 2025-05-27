@@ -4,6 +4,8 @@
     background-attachment: fixed;
 }
 
+
+
 .autores2 {
     background-color: (201, 201, 201);
     z-index: 10;
@@ -84,3 +86,14 @@
     color: grey;
     text-decoration: none;
 }
+
+@media screen and (max-width: 1118px) {
+
+    .section7 p{
+        font-size: 20px;
+        color: rgb(255, 0, 0);
+        text-align: center;
+        justify-content: center;
+    }
+    
+    }
