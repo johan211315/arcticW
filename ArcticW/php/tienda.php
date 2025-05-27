@@ -3033,18 +3033,41 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
   <script src="../js/swiper.slide.js"></script>
   <script src="../js/asistente.js"></script>
   <script src="../js/button.js"></script>
-  <script> const searchInput = document.getElementById("searchInput"); 
-  const searchButton = document.getElementById("searchButton"); 
-  function filtrarContenido() { const texto = searchInput.value.toLowerCase(); 
-  const elementos = document.querySelectorAll(".searchable"); 
-  elementos.forEach(el => { const contenido = el.textContent.toLowerCase(); 
-    if (contenido.includes(texto)) { el.style.display = "block"; } 
-    else { el.style.display = "none"; } }); } 
-  // Buscar al hacer clic 
-  searchButton.addEventListener("click", filtrarContenido); 
-  // Buscar mientras se escribe 
-  searchInput.addEventListener("input", filtrarContenido); 
-  </script>
+  <script>
+function performSearch() {
+    const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
+    const elementsToSearch = document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li, td, a');
+    let firstMatch = null;
+
+    if (!searchTerm) return;
+
+    elementsToSearch.forEach(element => {
+        const elementText = element.textContent.toLowerCase();
+        
+        if (elementText.includes(searchTerm) && !firstMatch) {
+            firstMatch = element;
+        }
+    });
+
+    if (firstMatch) {
+        // Calcular posición para centrar
+        const elementPosition = firstMatch.getBoundingClientRect().top + window.pageYOffset;
+        const offsetPosition = elementPosition - (window.innerHeight / 2);
+        
+        window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+        });
+    }
+}
+
+// Eventos (mantenemos los mismos)
+document.getElementById('searchButton').addEventListener('click', performSearch);
+document.getElementById('searchInput').addEventListener('input', performSearch);
+document.getElementById('searchInput').addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') performSearch();
+});
+</script>
 </body>
 
 </html>
