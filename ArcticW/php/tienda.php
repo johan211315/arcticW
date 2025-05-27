@@ -377,7 +377,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
       </div>
       <div class="puntoboton">
         <button>
-          <p>Ver todo</p>
+          <p>Veure tot</p>
         </button>
         <a class="trespuntitos" href="#"> ︙ </a>
       </div>
@@ -995,7 +995,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
       </div>
       <div class="puntoboton">
         <button>
-          <p>Ver todo</p>
+          <p>Veure tot</p>
         </button>
         <a class="trespuntitos" href="#"> ︙ </a>
       </div>
@@ -1582,7 +1582,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
       </div>
       <div class="puntoboton">
         <button>
-          <p>Ver todo</p>
+          <p>Veure tot</p>
         </button>
         <a class="trespuntitos" href="#"> ︙ </a>
       </div>
