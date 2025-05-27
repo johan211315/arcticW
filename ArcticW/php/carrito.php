@@ -46,6 +46,3 @@ if (isset($_POST['btnaccion'])) {
             break;
     }
 }
-?>
-
-

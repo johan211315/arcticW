@@ -50,8 +50,7 @@
 
 <?php
 session_start();
-include 'configuracion.php';
-
+include '../php/configuracionphp/configuracion.php';
 // Verificar si el formulario fue enviado
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Recibir los datos del formulario

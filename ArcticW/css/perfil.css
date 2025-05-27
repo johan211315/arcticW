@@ -1,61 +1,126 @@
+/* Layout base */
 section {
     display: flex;
     justify-content: center;
+    padding: 1em;
+    flex-wrap: wrap;
 }
 
+/* Fila de contenido */
 .row2 {
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1em;
+    width: 100%;
+    max-width: 1200px;
 }
 
+/* Contenedor de usuario */
 .cambuser {
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
+    padding: 0.5em;
+    margin: 0.5em;
+    flex: 1;
+    min-width: 280px;
 }
 
+/* Contenedor de contraseña */
+.cambpasw {
+    padding: 0.5em;
+    margin: 0.5em;
+    flex: 1;
+    min-width: 280px;
+}
+
+/* Perfil */
 .perfil {
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
-    padding: 5em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1em;
 }
+
+/* Información del perfil */
 .info-perfil p {
     font-size: large;
 }
 
-.row2 {
-    display: flex;
-    flex-flow: space-between wrap;
-    justify-content: center;
-
-}
-
-.cambuser {
-    padding: 0.5em;
-}
-.cambuser *{
-    margin: 0.5em;
-}
-
-.cambpasw {
-    padding: 0.5em;
-}
-
-.perfil input{
+/* Inputs */
+.perfil input {
     padding: 1em;
-    border-radius: 5%;
-    margin-left: 1em;
-    margin-right: 1em;
+    border-radius: 5px;
+    margin: 0.5em 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
+/* Botón */
 .perfil button {
-    padding: 1em 0.5em 1em 0.5em;
-     background-color: crimson;
-     border-radius: 5%;
-     color: white;
-     text-size-adjust: bold;
+    padding: 1em;
+    background-color: crimson;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
 
 .perfil button:hover {
-     background-color: rgb(255, 255, 255);
-     color: crimson;
-     text-transform:bold;
+    background-color: white;
+    color: crimson;
+    border: 1px solid crimson;
+}
+
+/* --- Responsive Design --- */
+
+/* Pantallas menores a 768px (tablets y móviles) */
+@media (max-width: 768px) {
+    .row2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cambuser, .cambpasw {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .perfil {
+        padding: 1.5em;
+    }
+
+    .perfil input, .perfil button {
+        font-size: 1em;
+    }
+}
+
+/* Pantallas muy pequeñas (<= 480px) */
+@media (max-width: 480px) {
+    .perfil {
+        padding: 1em;
+        width: 80%;
+    }
+
+    .perfil input, .perfil button {
+        padding: 0.75em;
+        font-size: 0.95em;
+    }
+    .perfil input {
+    padding: 1em;
+    border-radius: 5px;
+    margin: 0.5em 0;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.row{
+    margin-left: -45px;
+}
+
 }

@@ -58,7 +58,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
 
 <body>
   <!-- HEADER -->
-  <header class="header">
+   <header class="header">
     <nav class="nav container">
       <div class="nav__data">
         <a href="../../index.php" class="nav__logo">
@@ -76,18 +76,17 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list">
           <li><a href="/index.php" class="nav__link">Home</a></li>
-          <li><a href="/ArcticW//kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
+          <li><a href="/ArcticW/kids/pruebakids/lesik/kids.html" class="nav__link">Nens</a></li>
           <li><a href="/ArcticW/biblioteca/biblioteca.html" class="nav__link">Biblioteca</a></li>
           <!--=============== DROPDOWN 1 TIENDA ===============-->
           <li class="dropdown__item">
             <div class="nav__link">
-              <a href="../php/tienda.php"></a>Botiga
+              <a href="/ArcticW/php/tienda.php"></a>Botiga
               <i class="ri-arrow-down-s-line dropdown__arrow"></i>
             </div>
             <ul class="dropdown__menu">
               <!--=============== DROPDOWN LLIBRES  ===============-->
               <li class="dropdown__subitem">
-               
                 <ul class="dropdown__submenu"></ul>
               </li>
               <li class="dropdown__subitem">
@@ -97,28 +96,28 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
                 </div>
                 <ul class="dropdown__submenu">
                   <li>
-                    <a href="#" class="dropdown__sublink">
-                      <i class="ri-shirt-line"></i> Samarretas
+                    <a href="../php/todomerch.php" class="dropdown__sublink">
+                      <i class="ri-shirt-line"></i> Ver Todo
                     </a>
-                  </li>
-                  <li>
-                    <a href="#" class="dropdown__sublink">
-                      <i class="ri-shirt-line"></i> Tases
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="dropdown__sublink">
-                      <i class="ri-shirt-line"></i> Stickers
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" class="dropdown__sublink">
-                      <i class="ri-shirt-line"></i> Posters
-                    </a>
-                  </li>
+                    <!-- </li>
+                    <li>
+                      <a href="" class="dropdown__sublink">
+                        <i class="ri-shirt-line"></i> Tases
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" class="dropdown__sublink">
+                        <i class="ri-shirt-line"></i> Stickers
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown__sublink">
+                        <i class="ri-shirt-line"></i> Posters
+                      </a>
+                    </li> -->
                 </ul>
                 <div class="dropdown__link">
-                  <a href="../planes de pago/plans.html" style="color: white">Subscripció</a>
+                  <a href="../planes de pago/plans.php" style="color: white">Subscripció</a>
                   <i class="ri-add-line dropdown__add"></i>
                 </div>
               </li>
@@ -142,12 +141,12 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
             </div>
             <ul class="dropdown__menu">
               <li>
-                <a href="../php/login.php" class="dropdown__link">
+                <a href="login.php" class="dropdown__link">
                   <i class="ri-user-2-line"></i> Inici Sessió
                 </a>
               </li>
               <li>
-                <a href="../php/register.php" class="dropdown__link">
+                <a href="register.php" class="dropdown__link">
                   <i class="ri-user-shared-fill"></i> Registrar-se
                 </a>
               </li>
@@ -175,8 +174,8 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
           <!--=============== APARTADO BUSQUEDA ===============-->
           <li class="nav__link">
             <div class="search-container">
-              <input id="searchInput" type="text" placeholder="Buscar" />
-              <div id="searchButton" class="btn">
+              <input type="text" placeholder="Buscar" />
+              <div class="btn">
                 <i class="ri-search-line"></i>
               </div>
             </div>
@@ -2294,10 +2293,10 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
             <div class="footer">
               <h3 class="footer-title">Apartats</h3>
               <ul class="footer-links">
-                <li><a href="#">Botiga</a></li>
-                <li><a href="#">Llibres</a></li>
-                <li><a href="#">Merch</a></li>
-                <li><a href="#">Premium</a></li>
+                <li><a href="/ArcticW/php/tienda.php">Botiga</a></li>
+                <li><a href="/ArcticW/biblioteca/biblioteca.html">Llibres</a></li>
+                <li><a href="/ArcticW/php/merch.php">Merch</a></li>
+                <li><a href="/ArcticW/planes de pago/plans.php">Premium</a></li>
               </ul>
             </div>
           </div>
