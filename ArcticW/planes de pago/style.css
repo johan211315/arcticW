@@ -23,7 +23,7 @@ body {
 
 h1 {
   font-size: 4rem;
-  color: #000000;
+  color: #fff;
   position: absolute;
   left: 50%;
   top: 20%;
@@ -158,4 +158,30 @@ h1 {
 
 .links a:hover {
   color: #ddd;
+
+  .notificacion {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4caf50;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+  z-index: 1000;
+}
+
+.notificacion.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.oculto {
+  display: none;
+}
+
 }

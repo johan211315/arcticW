@@ -58,7 +58,7 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
 
 <body>
   <!-- HEADER -->
-   <header class="header">
+  <header class="header">
     <nav class="nav container">
       <div class="nav__data">
         <a href="../../index.php" class="nav__logo">
@@ -151,10 +151,10 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
                 </a>
               </li>
               <li>
-                  <a href="./perfil.php" class="dropdown__link">
-                    <i class="ri-user-2-line"></i> Perfil
-                  </a>
-                </li>
+                <a href="./perfil.php" class="dropdown__link">
+                  <i class="ri-user-2-line"></i> Perfil
+                </a>
+              </li>
               <li>
                 <a href="#" class="dropdown__link">
                   <i class="ri-group-2-fill"></i> Canviar de compte
@@ -461,15 +461,15 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
       <div class="swiper-slide" style="overflow: hidden; height: 530px">
         <div class="container2">
           <div class="box-out" style="width: 100%; justify-content: center">
-            <div class="book books-2"></div>
+            <a href="/ArcticW/php/5anillos.php">
+              <div class="book books-2"></div>
+            </a>
           </div>
         </div>
         <hr />
-
-        <a href="http://localhost/ArcticW/php/dinamico.php?id=2">
-          <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            El libro de los 5 anillos
-          </p>
+        <p style="font-weight: bolder; font-size: 20px; text-align: left">
+          El libro de los 5 anillos
+        </p>
         </a>
         <p style="font-weight: 100; font-size: 15px; text-align: left">
 
@@ -520,14 +520,16 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
       <div class="swiper-slide" style="overflow: hidden; height: 530px">
         <div class="container2">
           <div class="box-out" style="width: 100%; justify-content: center">
-            <div class="book books-3"></div>
+            <a href="/ArcticW/php/platon.php">
+              <div class="book books-3"></div>
+            </a>
           </div>
         </div>
         <hr />
-        <a href="http://localhost/ArcticW/php/dinamico.php?id=3">
-          <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            Platon la república
-          </p>
+
+        <p style="font-weight: bolder; font-size: 20px; text-align: left">
+          Platon la república
+        </p>
         </a>
         <p style="font-weight: 100; font-size: 15px; text-align: left">
 
@@ -578,14 +580,16 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
       <div class="swiper-slide" style="overflow: hidden; height: 530px">
         <div class="container2">
           <div class="box-out" style="width: 100%; justify-content: center">
-            <div class="book books-4"></div>
+            <a href="/ArcticW/php/guerra.php">
+              <div class="book books-4"></div>
+            </a>
           </div>
         </div>
         <hr />
-        <a href="http://localhost/ArcticW/php/dinamico.php?id=4">
-          <p style="font-weight: bolder; font-size: 20px; text-align: left">
-            El arte de la Guerra
-          </p>
+
+        <p style="font-weight: bolder; font-size: 20px; text-align: left">
+          El arte de la Guerra
+        </p>
         </a>
         <p style="font-weight: 100; font-size: 15px; text-align: left">
 
@@ -1570,8 +1574,8 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
     <div class="swiper-button-prev"></div>
   </div>
 
- 
- 
+
+
   <!-- SEPARADOR TRIPLE TIENDA
 <div class="separ"></div>
     <div class="destacpunt">
@@ -2445,40 +2449,40 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
   <script src="../js/asistente.js"></script>
   <script src="../js/button.js"></script>
   <script>
-function performSearch() {
-    const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
-    const elementsToSearch = document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li, td, a');
-    let firstMatch = null;
+    function performSearch() {
+      const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
+      const elementsToSearch = document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li, td, a');
+      let firstMatch = null;
 
-    if (!searchTerm) return;
+      if (!searchTerm) return;
 
-    elementsToSearch.forEach(element => {
+      elementsToSearch.forEach(element => {
         const elementText = element.textContent.toLowerCase();
-        
-        if (elementText.includes(searchTerm) && !firstMatch) {
-            firstMatch = element;
-        }
-    });
 
-    if (firstMatch) {
+        if (elementText.includes(searchTerm) && !firstMatch) {
+          firstMatch = element;
+        }
+      });
+
+      if (firstMatch) {
         // Calcular posición para centrar
         const elementPosition = firstMatch.getBoundingClientRect().top + window.pageYOffset;
         const offsetPosition = elementPosition - (window.innerHeight / 2);
-        
-        window.scrollTo({
-            top: offsetPosition,
-            behavior: 'smooth'
-        });
-    }
-}
 
-// Eventos (mantenemos los mismos)
-document.getElementById('searchButton').addEventListener('click', performSearch);
-document.getElementById('searchInput').addEventListener('input', performSearch);
-document.getElementById('searchInput').addEventListener('keypress', (e) => {
-    if (e.key === 'Enter') performSearch();
-});
-</script>
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
+    }
+
+    // Eventos (mantenemos los mismos)
+    document.getElementById('searchButton').addEventListener('click', performSearch);
+    document.getElementById('searchInput').addEventListener('input', performSearch);
+    document.getElementById('searchInput').addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') performSearch();
+    });
+  </script>
 </body>
 
 </html>
