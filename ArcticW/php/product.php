@@ -888,7 +888,7 @@ include("../php/carrito.php");
               <p></p>
               <ul class="footer-links">
                 <li>
-                  <a href="#"><i class="fa fa-map-marker"></i>Carrer del Pallars, 4,
+                  <a href="https://maps.app.goo.gl/oop5xCGA1AdF4o9r9"><i class="fa fa-map-marker"></i>Carrer del Pallars, 4,
                     Can Bassa, Granollers</a>
                 </li>
                 <li>

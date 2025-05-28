@@ -361,8 +361,10 @@ $datos_usuario = mysqli_fetch_assoc($result);
                 <p></p>
                 <ul class="footer-links">
                   <li>
-                    <a href="#"><i class="fa fa-map-marker"></i>Carrer del Pallars, 4,
-                      Can Bassa, Granollers</a>
+                    <a href="#"
+                      ><i class="fa fa-map-marker"></i>Carrer del Pallars, 4,
+                      Can Bassa, Granollers</a
+                    >
                   </li>
                   <li>
                     <a href="#"><i class="fa fa-phone"></i>+34-610-6987-88</a>
