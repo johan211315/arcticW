@@ -493,40 +493,40 @@ include './configuracionphp/configuracion.php'; // Ajusta la ruta según tu estr
   <script src="../js/button.js"></script>
   <script src="../js/asistente.js"></script>
   <script>
-function performSearch() {
-    const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
-    const elementsToSearch = document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li, td, a');
-    let firstMatch = null;
+    function performSearch() {
+      const searchTerm = document.getElementById('searchInput').value.trim().toLowerCase();
+      const elementsToSearch = document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, li, td, a');
+      let firstMatch = null;
 
-    if (!searchTerm) return;
+      if (!searchTerm) return;
 
-    elementsToSearch.forEach(element => {
+      elementsToSearch.forEach(element => {
         const elementText = element.textContent.toLowerCase();
-        
-        if (elementText.includes(searchTerm) && !firstMatch) {
-            firstMatch = element;
-        }
-    });
 
-    if (firstMatch) {
+        if (elementText.includes(searchTerm) && !firstMatch) {
+          firstMatch = element;
+        }
+      });
+
+      if (firstMatch) {
         // Calcular posición para centrar
         const elementPosition = firstMatch.getBoundingClientRect().top + window.pageYOffset;
         const offsetPosition = elementPosition - (window.innerHeight / 2);
-        
-        window.scrollTo({
-            top: offsetPosition,
-            behavior: 'smooth'
-        });
-    }
-}
 
-// Eventos (mantenemos los mismos)
-document.getElementById('searchButton').addEventListener('click', performSearch);
-document.getElementById('searchInput').addEventListener('input', performSearch);
-document.getElementById('searchInput').addEventListener('keypress', (e) => {
-    if (e.key === 'Enter') performSearch();
-});
-</script>
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
+    }
+
+    // Eventos (mantenemos los mismos)
+    document.getElementById('searchButton').addEventListener('click', performSearch);
+    document.getElementById('searchInput').addEventListener('input', performSearch);
+    document.getElementById('searchInput').addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') performSearch();
+    });
+  </script>
 </body>
 
 </html>
